@@ -11,9 +11,9 @@ Sistema de gerenciamento de medicamentos para idosos.
 ## Integrantes
 
 * Marcos Paulo Silva Costa
-* Nome completo do aluno 2
+* Pedro Henriques Ângelo Andrade Barros
 * Guilherme Lima de Freitas
-* Eduarda Cristina Ramos da Silva
+* Nome completo do aluno 4
 * Alysson Roberto Cordeiro
 
 ## Orientador
