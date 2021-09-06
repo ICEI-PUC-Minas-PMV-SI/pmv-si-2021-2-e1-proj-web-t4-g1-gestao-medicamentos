@@ -4,7 +4,7 @@
 
 `DISCIPLINA: Projeto - Aplicações Web`
 
-`SEMESTRE: 2º`
+`SEMESTRE: 1º`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
