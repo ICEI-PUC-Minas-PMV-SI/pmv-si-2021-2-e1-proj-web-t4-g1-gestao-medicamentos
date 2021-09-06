@@ -18,7 +18,7 @@ Sistema de gerenciamento de medicamentos para idosos.
 
 ## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 # Planejamento
 
