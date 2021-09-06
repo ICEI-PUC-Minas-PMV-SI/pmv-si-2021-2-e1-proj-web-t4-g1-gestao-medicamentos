@@ -1,4 +1,4 @@
-# Título do Projeto
+# Gestão Medicamentos
 
 `CURSO: Sistemas de Informação`
 
@@ -6,14 +6,14 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Sistema de gerenciamento de medicamentos para idosos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Pedro Henriques Ângelo Andrade Barros
+* Marcos Paulo Silva Costa
+* Nome completo do aluno 2
 * Guilherme Lima de Freitas
-* Eduarda Cristina Ramos da Silva
+* Nome completo do aluno 4
 * Alysson Roberto Cordeiro
 
 ## Orientador
