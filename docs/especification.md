@@ -12,7 +12,7 @@ Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se de
 
   
 
-Divorciado , tem 3 filhos .Mora sozinho no subúrbio de São  Paulo, trabalha como operado de maquinas pesadas em grandes construções, e é portador da doença de diabetes e hipertensão .Devido o dia a dia corrido ele acaba se esquecendo de se medicar no horário correto as vezes , e ele esta procurando uma maneira de se auto medicar no horário correto . 
+Divorciado , tem 3 filhos .Mora sozinho no subúrbio de São  Paulo, trabalha como operado de maquinas pesadas em grandes construções, e é portador da doença de **Diabetes**e **Hipertensão**
 
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
