@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-## Joaquim Cardoso dos Santos ,46 anos. 
+####### Joaquim Cardoso dos Santos ,46 anos. 
 
 Divorciado, tem 3 filhos. Mora sozinho no subúrbio de São Paulo, trabalha como operado de maquinas pesadas em grandes construções, e é portador da doença de  **Hipertensão** e **Diabetes**. Devido o dia a dia corrido ele acaba se esquecendo de se medicar no horário correto as vezes, e ele está procurando uma maneira de se auto medicar de acordo com o horário estabelecido no bula.
 
