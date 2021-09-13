@@ -37,6 +37,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COM ... `PERSONA`|QUERO/ PRECISO ... `FUNCIONALIDADE`|PARA ...`MOTIVO/VALOR`|
 |:--                   |:--:|--:
 |`Joaquim C. dos Santos`| Notificações do horário de cada remédio| Tomar ciência de quando devo me medicar|
+|`Joaquim C. dos Santos`| Estabelecer auxilio e orientação| Para melhor uso dos medicamentos| 
+|`Joaquim C. dos Santos `|Gerenciar o uso dos medicamentos |Que eu possa auto medicar-me de acordo com a prescrição medica| 
+ 
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
