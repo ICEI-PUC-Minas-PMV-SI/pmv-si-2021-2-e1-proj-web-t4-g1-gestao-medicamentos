@@ -6,7 +6,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-### Joaquim Cardoso dos Santos ,46 anos. 
+### -Joaquim Cardoso dos Santos 
 
 Divorciado, tem 3 filhos. Mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções, e é portador das doenças de **Hipertensão** e **Diabetes**. Devido o dia a dia corrido ele acaba se esquecendo de se medicar no horário correto as vezes, e ele está procurando uma maneira de se auto medicar de acordo com o horário estabelecido na bula. 
 
