@@ -33,7 +33,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 
 |EU COM ... `PERSONA`|QUERO/ PRECISO ... `FUNCIONALIDADE`|PARA ...`MOTIVO/VALOR`|
-|:--                   |:--:|--:
+|:--                   |:--:|:--:
 |`Joaquim C. dos Santos`| Notificações do horário de cada remédio| Tomar ciência de quando devo me medicar|
 |`Joaquim C. dos Santos`| Estabelecer auxilio e orientação| Para melhor uso dos medicamentos| 
 
