@@ -58,7 +58,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|`RF-001`|O site disponibilizara sistema de login ao usuário| **ALTA**| 
+|`RF-002`|O site irá disponibilizar na parte superior um campo interativo com a palavra “Pesquisar” |**ALTA**| 
+|`RF-003`|O site atendera a ordem de notificação do horário de consumo de acordo com o remédio selecionado pelo usuário|**ALTA**|   
+|`RF-004`|O site dará ao usuário acesso a uma plataforma confiável onde será auxiliado por meio de textos e link de vídeos de profissionais explicando o melhor uso dos medicamentos|**ALTA**|   
 
 ### Requisitos não Funcionais
 
