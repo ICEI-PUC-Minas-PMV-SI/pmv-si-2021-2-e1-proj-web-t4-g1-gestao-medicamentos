@@ -10,6 +10,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Divorciado, tem 3 filhos. Mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador das doenças de **Hipertensão** e **Diabetes**. Devido o dia a dia corrido ele acaba se esquecendo de se medicar no horário correto as vezes, e ele está procurando uma maneira de se auto medicar de acordo com o horário estabelecido na bula. 
 
+### Sueli Aparecida
+
+Sueli Aparecida tem 70 anos, é professora aposentada e vive na companhia do marido que também é aposentado. Ela costuma utilizar algumas redes sociais como _WhatsApp_ e _Facebook_ para se relacionar com familiares e amigos. Faz uso regular de medicamentos para controle de **diabetes**, **hipertensão arterial**, **dislipidemia** e **Hipotireoidismo**. Além disso, também toma algumas vitaminas para suplementação nutricional. Procura algum meio para auxiliá-la a organizar as informações, bem como para lembrá-la de tomar o medicamento certo, na hora certa e na dosagem correta, pois tem dificuldades com a bula, esquecimentos de horários, nome dos medicamentos, além de esquecer de verificar quando determinado medicamento está acabando.
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
