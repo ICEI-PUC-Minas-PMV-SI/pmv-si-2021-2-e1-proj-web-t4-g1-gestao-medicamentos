@@ -28,6 +28,10 @@ Criar um sistema que auxilie o usuário no gerenciamento do uso de seus medicame
 
 ## Justificativa
 
+Este projeto surge com a necessidade de facilitar a vida das pessoas que diariamente precisam administrar medicamentos para si próprios ou para outrem. Conforme o Conselho Regional de Enfermagem de São Paulo (COREN, 2017, p. 11) “incidentes relacionados a medicamentos (IRM) estão entre os mais comuns no serviço de saúde” e tais prejuízos podem acarretar transtornos não só para o cliente/paciente, como também para todos os outros agentes que fazem parte do núcleo biopsicossocial deste, a saber: familiares, amigos, cuidadores, enfermeiros etc. Nessa perspectiva, torna-se imprescindível uma administração de medicamentos realizada de maneira correta e, por administração de medicamentos, entende-se que se trata de “um processo multidisciplinar, iniciando no momento da prescrição médica, continuando com a provisão deste medicamento pelo farmacêutico e terminando com a sua preparação e administração aos clientes” segundo a definição de Miasso e Cassiani (2004, p.534). 
+
+Desta forma, propõe a presente aplicação web como ferramenta de auxílio na última etapa do processo de administração de medicamentos que tem o intuito de não só indiciar o medicamento a ser ingerido, como também seu horário correto de ingestão, sua quantidade e duração do manuseio deste para tratamento da enfermidade em questão.  
+
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
