@@ -43,6 +43,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
  
 
+|`Sueli Aparecida`| `Organizar as informações dos vários medicamentos que utiliza`|`Viabilizar utilização segura e eficiente dos medicamentos`|
+|`Sueli Aparecida`| `Receber lembrete com as instruções na hora de tomar remédio`| `Proporcionar que ela tome o remédio certo, na hora certa e na dose prescrita`|
+|`Sueli Aparecida`| `Receber lembrete avisando quando determinado medicamento estiver acabando`| `Evitar interrupções no tratamento e prejuízo à saúde`|
+
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
