@@ -44,7 +44,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
  
 
 |EU COM ... `PERSONA`|QUERO/ PRECISO ... `FUNCIONALIDADE`|PARA ...`MOTIVO/VALOR`|
-|:--:|:--:|:--:
+|-----------------|-------------------------------------------------------------|----------------------------------------------------------|
 |`Sueli Aparecida`| Organizar as informações dos vários medicamentos que utiliza| Viabilizar utilização segura e eficiente dos medicamentos|
 |`Sueli Aparecida`| Receber lembrete com as instruções na hora de tomar remédio| Proporcionar que ela tome o remédio certo, na hora certa e na dose prescrita|
 |`Sueli Aparecida`| Receber lembrete avisando quando determinado medicamento estiver acabando| Evitar interrupções no tratamento e prejuízo à saúde|
