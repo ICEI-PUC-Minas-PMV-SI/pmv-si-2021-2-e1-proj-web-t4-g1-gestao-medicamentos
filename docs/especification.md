@@ -14,6 +14,11 @@ Viúvo, tem 3 filhos. Atualmente mora sozinho no subúrbio de São Paulo, trabal
 
 Sueli Aparecida tem 70 anos, é professora aposentada e vive na companhia do marido que também é aposentado. Ela costuma utilizar algumas redes sociais como _WhatsApp_ e _Facebook_ para se relacionar com familiares e amigos. Faz uso regular de medicamentos para controle de **diabetes**, **hipertensão arterial**, **dislipidemia** e **Hipotireoidismo**. Além disso, também toma algumas vitaminas para suplementação nutricional. Procura algum meio para auxiliá-la a organizar as informações, bem como para lembrá-la de tomar o medicamento certo, na hora certa e na dosagem correta, pois tem dificuldades com a bula, esquecimentos de horários, nome dos medicamentos, além de esquecer de verificar quando determinado medicamento está acabando.
 
+### Adriana Pereira Silva
+
+Adriana Pereira Silva, 50 anos é casada mãe de três filhos. Trabalha como cuidadora de idosos há 15 anos e nos últimos cinco anos é responsável pelos cuidados de casal de idosos, Vanda Noranha de 86 anos e seu marido João Noronha de 90 anos. Os idosos fazem tratamento diário a base de remédios controlados, pois Vanda é hipertensa, tem diabetes tipo 2 e osteoporose. Já João é hipertenso e está em tratamento de um Enfisema Pulmonar. 
+Em sua rotina, Adriana precisa controlar os horários e as doses dos rémedios, necessitando assim de um auxílio tecnologico que a lembre dos horários e que ela possa ter o controle das doses ministradas no dia. 
+
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
 > **Links Úteis**:
@@ -42,6 +47,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |`Sueli Aparecida`| Organizar as informações dos vários medicamentos que utilizo| Viabilizar utilização segura e eficiente dos medicamentos|
 |`Sueli Aparecida`| Receber lembrete com as instruções na hora de tomar remédio| Proporcionar que eu tome o remédio certo, na hora certa e na dose prescrita|
 |`Sueli Aparecida`| Receber lembrete avisando quando determinado medicamento estiver acabando| Evitar interrupções no tratamento e prejuízo à saúde|
+
+|`Adriana Pereira Silva`| Controlar a rotina diária de medicamentos| Possibilitar maior facilidade no controle de horários e doses dos remédios|
+|`Adriana Pereira Silva`| Ter um local com todo o histórico dos remédios já ministrados no dia| Manter o tratamento correto e eficiente|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
