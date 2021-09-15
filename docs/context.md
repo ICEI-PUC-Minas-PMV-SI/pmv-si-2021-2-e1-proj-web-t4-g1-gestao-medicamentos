@@ -32,10 +32,6 @@ Este projeto surge com a necessidade de facilitar a vida das pessoas que diariam
 
 Desta forma, propõe a presente aplicação web como ferramenta de auxílio na última etapa do processo de administração de medicamentos que tem o intuito de não só indiciar o medicamento a ser ingerido, como também seu horário correto de ingestão, sua quantidade e duração do manuseio deste para tratamento da enfermidade em questão.  
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
 ## Público-Alvo
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
