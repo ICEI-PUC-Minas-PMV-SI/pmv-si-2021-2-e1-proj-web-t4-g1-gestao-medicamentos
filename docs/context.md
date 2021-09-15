@@ -22,7 +22,7 @@ Criar um sistema que auxilie o usuário no gerenciamento do uso de seus medicame
 
 **Objetivos específicos:**
 
-> - Solicitar ao usuário informações sobre os dias, horários, nomes e quantidades dos medicamentos que ele faz o uso;
+> - Solicitar ao usuário informações sobre os dias, horários, nomes e as dosagens dos medicamentos que ele faz o uso;
 > - Organizar os medicamentos por dia e horário em um cronograma que o usuário pode visualizar a qualquer momento;
 > - Alertar o usuário nos momentos em que ele deve fazer o uso dos medicamentos por meio de email ou notificação na própria aplicação.
 
