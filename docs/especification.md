@@ -44,10 +44,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COM ... `PERSONA`|QUERO/ PRECISO ... `FUNCIONALIDADE`|PARA ...`MOTIVO/VALOR`|
 |-----------------|-------------------------------------------------------------|----------------------------------------------------------|
-|`Sueli Aparecida`| Organizar as informações dos vários medicamentos que utilizo| Viabilizar utilização segura e eficiente dos medicamentos|
+|`Joaquim C. dos Santos`| Notificações do horário de cada remédio| Tomar ciência de quando devo me medicar| 
+|`Joaquim C. dos Santos`| Estabelecer auxilio e orientação| Para melhor uso dos medicamentos| 
+| `Sueli Aparecida` | Organizar as informações dos vários medicamentos que utilizo | Viabilizar utilização segura e eficiente dos medicamentos |
 |`Sueli Aparecida`| Receber lembrete com as instruções na hora de tomar remédio| Proporcionar que eu tome o remédio certo, na hora certa e na dose prescrita|
 |`Sueli Aparecida`| Receber lembrete avisando quando determinado medicamento estiver acabando| Evitar interrupções no tratamento e prejuízo à saúde|
-
 |`Adriana Pereira Silva`| Controlar a rotina diária de medicamentos| Possibilitar maior facilidade no controle de horários e doses dos remédios|
 |`Adriana Pereira Silva`| Ter um local com todo o histórico dos remédios já ministrados no dia| Manter o tratamento correto e eficiente|
 
