@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ### Joaquim Cardoso dos Santos,46 anos
 
-Divorciado, tem 3 filhos. Mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador das doenças de **Hipertensão** e **Diabetes**. Devido o dia a dia corrido ele acaba se esquecendo de se medicar no horário correto as vezes, e ele está procurando uma maneira de se auto medicar de acordo com o horário estabelecido na bula. 
+Viúvo, tem 3 filhos. Atualmente mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador da `Síndrome de Burnout` (distúrbio psíquico causado pela exaustão extrema). Ultimamente o seu psicólogo recomendou-lhe q utilizasse redes sociais para entretenimento, e praticasse exercícios físicos; então ele passou utilizar frequentemente _WhatsApp_, _Facebook_ e o _Instagram_; e faz uma curta caminhada no final da tarde. Ele faz uso diário de ***antidepressivo*** e ***ansiolíticos*** para tratamento de seu distúrbio. Como o horário de sua medicação fica dentro do horário de trabalho ele acaba atrasando ou antecipando o uso dos medicamentos. Tendo isso em mente, ele está procurando uma maneira de gerenciar, auxiliar e o lembrar de consumir os medicamentos no horário correto. 
 
 ### Sueli Aparecida
 
