@@ -45,6 +45,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
    
 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir cadastro do usuário | ALTA |
+|RF-002| Permitir que o usuário faça login | ALTA |
+|RF-003| Permitir cadastro de assistidos | ALTA |
+|RF-004| Permitir cadastro de medicamentos | ALTA |
+|RF-005| Disparar lembrete no horário de tomar medicamento | ALTA |
+|RF-006| Disparar alerta de fim do estoque de medicamentos | ALTA |
+|RF-007| Permitir confirmação de que tomou medicamento | ALTA |
+|RF-008| Recuperar senha | ALTA |
+|RF-009| Redefinir senha | ALTA |
+|RF-010| Fornecer dicas e orientações sobre uso dos medicamentos e doenças | MÉDIA |
+|RF-011| Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos | MÉDIA |
+|RF-012| Permitir cadastrar pessoa para receber alerta quando esquecer de tomar medicamento | MÉDIA |
+|RF-013| Permitir registro de medições | BAIXA |
+|RF-014| Fornecer dicas e orientações sobre cuidados com a saúde | BAIXA |
+|RF-015| Disponibilizar relatório de ingestões de medicamentos por períodos | BAIXA |
+
+
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
