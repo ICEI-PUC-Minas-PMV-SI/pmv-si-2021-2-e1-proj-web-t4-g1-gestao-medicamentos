@@ -18,7 +18,7 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 **Objetivo geral:**
 
-Criar um sistema que auxilie o usuário no gerenciamento do uso de seus medicamentos.
+Criar um sistema que auxilie o usuário no gerenciamento do uso de seus medicamentos ou o cuidador no gerenciamento dos medicamentos dos seus assistidos.
 
 **Objetivos específicos:**
 
