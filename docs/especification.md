@@ -6,9 +6,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-### Joaquim Cardoso dos Santos,46 anos
+### Joaquim Cardoso dos Santos
 
-Viúvo, tem 3 filhos. Atualmente mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador da **Síndrome de Burnout** (distúrbio psíquico causado pela exaustão extrema). Ultimamente o seu psicólogo recomendou-lhe que utilizasse redes sociais para entretenimento, e praticasse exercícios físicos; então ele passou utilizar frequentemente _WhatsApp_, _Facebook_ e o _Instagram_; e faz uma curta caminhada no final da tarde todos os dias. Ele faz uso diário de ***antidepressivo*** e ***ansiolíticos*** para tratamento de seu distúrbio. Como o horário de sua medicação fica dentro do horário de trabalho ele acaba atrasando ou antecipando o uso dos medicamentos. Tendo isso em mente, ele está procurando por um artifício que possa gerencia-lo, auxilia-lo e o lembra-lo de se medicar no horário correto. 
+Joaquim Cardoso dos Santos ,46 anos, viúvo, tem 3 filhos. Atualmente mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador da **Síndrome de Burnout** (distúrbio psíquico causado pela exaustão extrema). Ultimamente o seu psicólogo recomendou-lhe que utilizasse redes sociais para entretenimento, e praticasse exercícios físicos; então ele passou utilizar frequentemente _WhatsApp_, _Facebook_ e o _Instagram_; e faz uma curta caminhada no final da tarde todos os dias. Ele faz uso diário de ***antidepressivo*** e ***ansiolíticos*** para tratamento de seu distúrbio. Como o horário de sua medicação fica dentro do horário de trabalho ele acaba atrasando ou antecipando o uso dos medicamentos. Tendo isso em mente, ele está procurando por um artifício que possa gerencia-lo, auxilia-lo e o lembra-lo de se medicar no horário correto. 
 
 ### Sueli Aparecida
 
