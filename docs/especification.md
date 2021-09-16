@@ -70,13 +70,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|O site atendera ao requisito de **PORTABILIDADE** - Deve usar Design Responsivo, para que renderize bem em qualquer dispositivo. |**ALTA**| 
+|RNF-001|O site atendera ao requisito de **PORTABILIDADE** - deverá executar em qualquer plataforma. |**ALTA**| 
 |RNF-002|O site atendera a Lei Geral de Proteção de Dados pessoais nº 13.709/2018|**ALTA**| 
 |RNF-003|A `front-end` e `back-end` do site deverá ser desenvolvida em ***CSS***, ***HTML*** e ***JavaScript***|**ALTA**| 
-|RNF-004|O site dera atender ao requisito de **USABILIDADE** - facilidade no uso do sistema|**ALTA**| 
+|RNF-004|O site deverá atender ao requisito de **USABILIDADE** - facilidade no uso do sistema|**ALTA**| 
 |RNF-005|O site atendera ao requisito de **CONFIABILIDADE** -terá alta disponibilidade 99% do tempo|**ALTA**| 
-|RNF-005|O site deverá usar arquitetura em camadas para desacoplamento|**MÉDIA| 
-|RNF-007| Deve processar requisições do usuário em no máximo 3s|**BAIXA**| 
+|RNF-006|O site deverá usar arquitetura em camadas para desacoplamento|**MÉDIA**| 
+|RNF-007|Deve usar Design Responsivo, para que renderize bem em qualquer dispositivo|**MÉDIA**| 
+|RNF-008| Deve processar requisições do usuário em no máximo 3s|**BAIXA**| 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
