@@ -19,18 +19,6 @@ Sueli Aparecida tem 70 anos, é professora aposentada e vive na companhia do mar
 Adriana Pereira Silva, 50 anos é casada mãe de três filhos. Trabalha como cuidadora de idosos há 15 anos e nos últimos cinco anos é responsável pelos cuidados de casal de idosos, Vanda Noranha de 86 anos e seu marido João Noronha de 90 anos. Os idosos fazem tratamento diário a base de remédios controlados, pois Vanda é hipertensa, tem diabetes tipo 2 e osteoporose. Já João é hipertenso e está em tratamento de um Enfisema Pulmonar. 
 Em sua rotina, Adriana precisa controlar os horários e as doses dos rémedios, necessitando assim de um auxílio tecnologico que a lembre dos horários e que ela possa ter o controle das doses ministradas no dia. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -44,15 +32,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |`Sueli Aparecida`| Receber lembrete avisando quando determinado medicamento estiver acabando| Evitar interrupções no tratamento e prejuízo à saúde|
 |`Adriana Pereira Silva`| Controlar a rotina diária de medicamentos| Possibilitar maior facilidade no controle de horários e doses dos remédios|
 |`Adriana Pereira Silva`| Ter um local com todo o histórico dos remédios já ministrados no dia| Manter o tratamento correto e eficiente|
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -85,14 +64,6 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
  correspondem a uma funcionalidade que deve estar presente na
   plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -105,8 +76,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| Não pode ser desenvolvido um módulo de backend        |
 |04| O desevolvimento do projeto estará limitado a 5 colaboradores |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
