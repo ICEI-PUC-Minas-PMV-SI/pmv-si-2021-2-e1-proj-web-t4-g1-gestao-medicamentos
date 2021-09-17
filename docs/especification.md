@@ -80,9 +80,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |03| Não pode ser desenvolvido um módulo de backend        |
 |04| O desevolvimento do projeto estará limitado a 5 colaboradores |
 
+<a href="url"> 
+<img src=" https://user-images.githubusercontent.com/90012621/133790947-3f01b02d-f16e-4041-90d3-35457ad3a48a.jpg " align="left" height="48" width="48" ></a> 
 
-
-![sueli](https://user-images.githubusercontent.com/90012621/133790587-69e6a9d5-e504-4abd-a460-99a42f8b0566.jpg)
 
 
 
