@@ -25,11 +25,11 @@ Joaquim Cardoso dos Santos ,46 anos, viúvo, tem 3 filhos. Atualmente mora sozin
 
 Sueli Aparecida tem 70 anos, é professora aposentada e vive na companhia do marido que também é aposentado. Ela costuma utilizar algumas redes sociais como _WhatsApp_ e _Facebook_ para se relacionar com familiares e amigos. Faz uso regular de medicamentos para controle de **diabetes**, **hipertensão arterial**, **dislipidemia** e **hipotireoidismo**. Além disso, também toma algumas vitaminas para suplementação nutricional. Procura algum meio para auxiliá-la a organizar as informações, bem como para lembrá-la de tomar o medicamento certo, na hora certa e na dosagem correta, pois tem dificuldades com a bula, esquecimentos de horários, nome dos medicamentos, além de esquecer de verificar quando determinado medicamento está acabando.
 
-<span align = "rihgt"> 
+<span align = "rihgt">
 
-### 3) Adriana Pereira da Silva </h2><img src = "https://user-images.githubusercontent.com/90012621/133816058-adf08db2-afa5-4124-8a38-d7e779440b55.png" width = "180px">  
+### 3) Adriana Pereira da Silva </h2><img src = "https://user-images.githubusercontent.com/90012621/133818487-d7211743-4724-4329-a4fe-b0c6b79b0940.png" width = "180px">   
 
-</span> 
+</span>
 
 Adriana Pereira Silva, 50 anos é casada mãe de três filhos. Trabalha como cuidadora de idosos há 15 anos e nos últimos cinco anos é responsável pelos cuidados de casal de idosos, Vanda Noranha de 86 anos e seu marido João Noronha de 90 anos. Os idosos fazem tratamento diário a base de remédios controlados, pois Vanda é hipertensa, tem diabetes tipo 2 e osteoporose. Já João é hipertenso e está em tratamento de um Enfisema Pulmonar. 
 Em sua rotina, Adriana precisa controlar os horários e as doses dos rémedios, necessitando assim de um auxílio tecnologico que a lembre dos horários e que ela possa ter o controle das doses ministradas no dia. 
