@@ -9,7 +9,6 @@ Nesta seção, nos debruçamos em evidenciar e ilustrar os tópicos que norteiam
 - `REQUISITOS` 
 
  > - ***REQUISITOS FUNCIONAIS*** - Representa o que o software faz, em termos de tarefas e serviços. 
-
  > - ***REQUISITOS NÃO FUNIONAIS*** - Requisitos não funcionais são os requisitos relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança, disponibilidade, manutenção e tecnologias envolvidas. 
 
 - `RESTRIÇÕES` - São situações impostas por alguém ou por um contexto que podem afetar o desempenho e até o resultado de um projeto.
