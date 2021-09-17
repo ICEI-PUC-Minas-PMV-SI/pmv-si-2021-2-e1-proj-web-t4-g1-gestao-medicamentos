@@ -59,7 +59,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
+|ID    | Descrição do Requisito | Persona | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir cadastro do usuário | ALTA |
 |RF-002| Permitir que o usuário faça login | ALTA |
