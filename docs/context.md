@@ -1,6 +1,6 @@
 # Introdução
 
-A presente aplicação Web surgiu com a necessidade de facilitar a vida daqueles que diariamente utilizam medicamentos ou cuidam da medicação de terceiros, a fim de melhorar suas vida e condição de saúde. 
+A presente aplicação Web surgiu com a necessidade de facilitar a vida daqueles que diariamente utilizam medicamentos ou cuidam da medicação de terceiros, a fim de melhorar suas vida e condição de saúde. Em vista disso, foram elencados alguns pontos a fim de nortear o desenvolvimento dessa aplicação Web, a saber:
 
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
