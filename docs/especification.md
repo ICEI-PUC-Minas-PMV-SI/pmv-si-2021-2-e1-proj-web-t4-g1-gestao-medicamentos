@@ -1,9 +1,18 @@
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Nesta seção, nos debruçamos em evidenciar e ilustrar os tópicos que norteiam o desenvolvimento desta aplicação Web, a saber: 
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+- `PERSONAS `- É a representação semi fictícia, baseada em dados reais, do seu cliente ideal. É um modelo construído a partir de características comportamentais e demográficas. 
 
+- `HISTÓRIAS DE USUARIOS` - Que é uma explicação informal e geral sobre um recurso de software escrita a partir da perspectiva do usuário final. Seu objetivo é articular como um recurso de software pode gerar valor para o cliente. 
+
+- `REQUISITOS` 
+
+ > - ***REQUISITOS FUNCIONAIS*** - Representa o que o software faz, em termos de tarefas e serviços. 
+
+ > - ***REQUISITOS NÃO FUNIONAIS*** - Requisitos não funcionais são os requisitos relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, segurança, disponibilidade, manutenção e tecnologias envolvidas. 
+
+- `RESTRIÇÕES` - São situações impostas por alguém ou por um contexto que podem afetar o desempenho e até o resultado de um projeto.
 ## Personas
 
 <span align = "ceter">
