@@ -69,8 +69,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007|Deve usar Design Responsivo, para que renderize bem em qualquer dispositivo|**MÉDIA**| 
 |RNF-008| Deve processar requisições do usuário em no máximo 3s|**BAIXA**| 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
