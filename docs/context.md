@@ -8,6 +8,7 @@ A utilização correta de medicamentos é um desafio para algumas pessoas. Os mo
 - falta de atenção em relação ao estoque, acaba o remédio e a pessoa fica sem;
 - falta de hábito de quem acabou de começar um tratamento e não está acostumado a se medicar diariamente; 
 - dificuldade em se organizar quando o tratamento é feito com várias medicações em horários diferentes;
+- 
 O problema também afeta quem precisa administrar medicamentos em outras pessoas. Cuidadores, enfermeiros (e em alguns casos familiares e amigos) eventualmente têm dificuldades pra se organizar quando precisam aplicar um ou mais medicamentos em mais de uma pessoa e com horários que nem sempre coincidem.
 
 > **Links Úteis**:
