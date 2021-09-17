@@ -6,15 +6,30 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-### 1) Joaquim Cardoso dos Santos  
+<span align = "ceter">
 
-Joaquim Cardoso dos Santos ,46 anos, viúvo, tem 3 filhos. Atualmente mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador da **Síndrome de Burnout** (distúrbio psíquico causado pela exaustão extrema). Ultimamente o seu psicólogo recomendou-lhe que utilizasse redes sociais para entretenimento, e praticasse exercícios físicos; então ele passou utilizar frequentemente _WhatsApp_, _Facebook_ e o _Instagram_; e faz uma curta caminhada no final da tarde todos os dias. Ele faz uso diário de ***antidepressivo*** e ***ansiolíticos*** para tratamento de seu distúrbio. Como o horário de sua medicação fica dentro do horário de trabalho ele acaba atrasando ou antecipando o uso dos medicamentos. Tendo isso em mente, ele está procurando por um artifício que possa gerencia-lo, auxilia-lo e o lembra-lo de se medicar no horário correto. 
+### 1) Joaquim Cardoso dos Santos </h2><img src = "https://user-images.githubusercontent.com/90012621/133793202-584aebb8-9a9c-419c-906a-fc70c9ead728.png" width = "180px"> 
 
-### 2) Sueli Aparecida 
+</span>
+
+
+
+Joaquim Cardoso dos Santos ,46 anos, viúvo, tem 3 filhos. Atualmente mora sozinho no subúrbio de São Paulo, trabalha como operador de maquinas pesadas em grandes construções e é portador da **Síndrome de Burnout** (distúrbio psíquico causado pela exaustão extrema). Ultimamente o seu psicólogo recomendou-lhe que utilizasse redes sociais para entretenimento, e praticasse exercícios físicos; então ele passou utilizar frequentemente _WhatsApp_, _Facebook_ e o _Instagram_; e faz uma curta caminhada no final da tarde todos os dias. Ele faz uso diário de ***antidepressivo*** e ***ansiolíticos*** para tratamento de seu distúrbio. Como o horário de sua medicação fica dentro do horário de trabalho ele acaba atrasando ou antecipando o uso dos medicamentos. Tendo isso em mente, ele está procurando por um artifício que possa gerencia-lo, auxilia-lo e o lembra-lo de se medicar no horário correto.
+
+<span align = "rihgt">
+
+### 2) Sueli Aparecida </h2><img src = "https://user-images.githubusercontent.com/90012621/133808017-ab8d1e1b-474d-4604-aa16-9be4780fc2d7.png" width = "180px"> 
+
+</span>
+
 
 Sueli Aparecida tem 70 anos, é professora aposentada e vive na companhia do marido que também é aposentado. Ela costuma utilizar algumas redes sociais como _WhatsApp_ e _Facebook_ para se relacionar com familiares e amigos. Faz uso regular de medicamentos para controle de **diabetes**, **hipertensão arterial**, **dislipidemia** e **hipotireoidismo**. Além disso, também toma algumas vitaminas para suplementação nutricional. Procura algum meio para auxiliá-la a organizar as informações, bem como para lembrá-la de tomar o medicamento certo, na hora certa e na dosagem correta, pois tem dificuldades com a bula, esquecimentos de horários, nome dos medicamentos, além de esquecer de verificar quando determinado medicamento está acabando.
 
-### 3) Adriana Pereira da Silva 
+<span align = "rihgt"> 
+
+### 3) Adriana Pereira da Silva </h2><img src = "https://user-images.githubusercontent.com/90012621/133816058-adf08db2-afa5-4124-8a38-d7e779440b55.png" width = "180px">  
+
+</span> 
 
 Adriana Pereira Silva, 50 anos é casada mãe de três filhos. Trabalha como cuidadora de idosos há 15 anos e nos últimos cinco anos é responsável pelos cuidados de casal de idosos, Vanda Noranha de 86 anos e seu marido João Noronha de 90 anos. Os idosos fazem tratamento diário a base de remédios controlados, pois Vanda é hipertensa, tem diabetes tipo 2 e osteoporose. Já João é hipertenso e está em tratamento de um Enfisema Pulmonar. 
 Em sua rotina, Adriana precisa controlar os horários e as doses dos rémedios, necessitando assim de um auxílio tecnologico que a lembre dos horários e que ela possa ter o controle das doses ministradas no dia. 
@@ -79,8 +94,5 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| O projeto não deve extrapolar o orçamento definido    |
 |03| Não pode ser desenvolvido um módulo de backend        |
 |04| O desevolvimento do projeto estará limitado a 5 colaboradores |
-
-
-
 
 
