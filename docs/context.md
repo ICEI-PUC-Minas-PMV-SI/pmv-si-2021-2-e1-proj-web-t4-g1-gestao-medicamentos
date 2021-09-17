@@ -3,11 +3,12 @@
 A presente aplicação Web surgiu com a necessidade de facilitar a vida daqueles que diariamente utilizam medicamentos ou cuidam da medicação de terceiros, a fim de melhorar suas vidas e condições de saúde. Em vista disso, foram elencados alguns pontos a fim de nortear o desenvolvimento dessa aplicação Web, a saber: 1) Solicitar ao usuário informações sobre os dias, horários, nomes e as dosagens dos medicamentos que ele ou os seus assistidos fazem uso; 2) Organizar os medicamentos por dia e horário em um cronograma que o usuário pode visualizar a qualquer momento e 3) Alertar o usuário nos momentos em que ele deve fazer o uso dos medicamentos por meio de email ou notificação na própria aplicação. Foram elencadas três personas com o intuito de contextualizar e direcionar o público-alvo do projeto, são eles: Joaquim (trabalhador, 46 anos, pai, portador da Síndrome de Burnout), Sueli (aposentada, 70 anos, casada, possui diabetes, hipertensão arterial, dislipidemia e hipotireoidismo) e Adriana (cuidadora de idosos, 50 anos, casada, mãe). Essa aplicação web é direcionada a pessoas de diferentes realidades e vislumbra amenizar as dores e necessidades desses personagens.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+A utilização correta de medicamentos é um desafio para algumas pessoas. Os motivos são vários: 
+- rotina cheia de compromissos e o consequente esquecimento; 
+- falta de atenção em relação ao estoque, acaba o remédio e a pessoa fica sem;
+- falta de hábito de quem acabou de começar um tratamento e não está acostumado a se medicar diariamente; 
+- dificuldade em se organizar quando o tratamento é feito com várias medicações em horários diferentes;
+O problema também afeta quem precisa administrar medicamentos em outras pessoas. Cuidadores, enfermeiros (e em alguns casos familiares e amigos) eventualmente têm dificuldades pra se organizar quando precisam aplicar um ou mais medicamentos em mais de uma pessoa e com horários que nem sempre coincidem.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
