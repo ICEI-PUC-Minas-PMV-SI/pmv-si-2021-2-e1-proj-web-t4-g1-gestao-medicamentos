@@ -15,6 +15,7 @@ Sistema de gerenciamento de medicamentos para idosos.
 * Guilherme Lima de Freitas
 * Eduarda Cristina Ramos da Silva
 * Alysson Roberto Cordeiro
+* Matheus Henrique Novaes Braga
 
 ## Orientador
 
