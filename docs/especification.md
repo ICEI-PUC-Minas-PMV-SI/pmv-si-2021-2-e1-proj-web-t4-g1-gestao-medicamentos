@@ -49,7 +49,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO ...  `PERSONA`| QUERO/ PRECISO ... `FUNCIONALIDADE`| PARA ... `MOTIVO/VALOR`| 
 |-----------------|-------------------------------------------------------------|----------------------------------------------------------|
 |Usuários `1,2 e 3` | Receber notificações com as instruções na hora do uso dos medicamentos| Proporcionar que eu utilize o medicamento certo, na hora certa e na dose prescrita| 
-|`Joaquim C. dos santos` | Estabelecer auxilio e orientação| Para melhor uso dos medicamentos| 
 |`Sueli Aparecida`| Organizar as informações dos vários medicamentos que utilizo| Viabilizar utilização segura e eficiente dos medicamentos| 
 |`Sueli Aparecida` | Receber notificações 2 dias antes avisando quando determinado medicamento está acabando| Evitar interrupções no tratamento e prejuízo à saúde| 
 |`Adriana Pereira` | Ter um local com todo o histórico dos medicamentos já ministrados no dia| Manter o tratamento correto e eficiente| 
