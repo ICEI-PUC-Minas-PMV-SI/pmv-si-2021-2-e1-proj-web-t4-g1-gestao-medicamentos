@@ -58,28 +58,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade | Persona |
+|ID    | Descrição do Requisito | Prioridade | Usuário |
 |------|-----------------------------------------|----|-----|
-|RF-001| Disponibilizar dois perfis para cadastro de usuários (comum ou cuidador) | **ALTA** | 1, 2, 3 |
-|RF-002| Permitir que o usuário faça login | **ALTA** | 1, 2, 3 |
-|RF-003| Permitir gerenciamento de assistidos | **ALTA** | 3 |
-|RF-004| Permitir cadastro de medicamentos | **ALTA** | 1, 2 |
-|RF-005| Permitir que, para cada assistido, o usuário possa fazer a vinculação de todas as medicações | **ALTA** | 3 |
-|RF-006| Disparar lembrete no horário com orientações para tomar o medicamento | **ALTA** | 1, 2 |
-|RF-007| Disparar lembrete no horário com orientações sobre o medicamento a ser ministrado e para qual assistido | **ALTA** | 3 |
-|RF-008| Disparar alerta de fim de estoque de medicamentos, onde a quantidade mínima para disparo do alerta pode ser configurada pelo usuário | **ALTA** | 1, 2 |
-|RF-009| Permitir que, ao cadastrar o medicamento, o usuário opte por receber notificação quando o estoque estiver acabando | **ALTA** | 1, 2 |
-|RF-010| Para cada assistido, disparar alerta de fim de estoque de medicamentos, onde a quantidade mínima para disparo do alerta pode ser configurada pelo usuário | **ALTA** | 3 |
-|RF-011| Permitir que, ao vincular medicamentos a cada um dos seus assistidos, o usuário opte por receber notificação quando o estoque estiver acabando | **ALTA** | 3 |
-|RF-012| Recuperar senha | **ALTA** | 1, 2, 3 |
-|RF-013| Redefinir senha | **ALTA** | 1, 2, 3 |
-|RF-014| Disponibilizar consulta rápida do cronograma de ingestão diária de medicamentos | **MÉDIA** | 1, 2, |
-|RF-015| Disponibilizar consulta rápida do cronograma de ingestão diária de medicamentos por assistido | **MÉDIA** | 3 |
-|RF-016| Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos | **MÉDIA** | 1, 2 |
-|RF-017| Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos por assistido | **MÉDIA** | 3 |
-|RF-018| Permitir cadastrar pessoa para receber alerta quando esquecer de tomar medicamento | **MÉDIA** | 1, 2 |
-|RF-019| Permitir que, ao cadastrar o medicamento, o usuário opte por sempre confirmar a ingestão | **BAIXA** | 1, 2 |
-|RF-020| Permitir que, ao vincular medicamentos a cada um dos seus assistidos, o usuário opte por sempre confirmar a ingestão | **BAIXA** | 3 |
+|RF-001| Disponibilizar dois perfis para cadastro de usuários (comum ou cuidador) | **ALTA** | Comum e Cuidador |
+|RF-002| Permitir que o usuário faça login | **ALTA** | Comum e Cuidador |
+|RF-003| Permitir gerenciamento de assistidos | **ALTA** | Cuidador |
+|RF-004| Permitir cadastro de medicamentos | **ALTA** | Comum |
+|RF-005| Permitir que, para cada assistido, o usuário possa fazer a vinculação de todas as medicações | **ALTA** | Cuidador |
+|RF-006| Disparar lembrete no horário com orientações para tomar o medicamento | **ALTA** | Comum |
+|RF-007| Disparar lembrete no horário com orientações sobre o medicamento a ser ministrado e para qual assistido | **ALTA** | Cuidador |
+|RF-008| Disparar alerta de fim de estoque de medicamentos, onde a quantidade mínima para disparo do alerta pode ser configurada pelo usuário | **ALTA** | Comum |
+|RF-009| Permitir que, ao cadastrar o medicamento, o usuário opte por receber notificação quando o estoque estiver acabando | **ALTA** | Comum |
+|RF-010| Para cada assistido, disparar alerta de fim de estoque de medicamentos, onde a quantidade mínima para disparo do alerta pode ser configurada pelo usuário | **ALTA** | Cuidador |
+|RF-011| Permitir alteração de senha | **ALTA** | Comum e Cuidador |
+|RF-012| Recuperar senha | **ALTA** | Comum e Cuidador |
+|RF-013| Disponibilizar consulta rápida do cronograma de ingestão diária de medicamentos (no caso do cuidador permitir consultar por assistido) | **MÉDIA** | Comum e Cuidador|
+|RF-014| Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos (no caso do cuidador permitir consultar por assistido) | **MÉDIA** | Comum e Cuidador|
+|RF-015| Permitir cadastrar pessoa para receber alerta quando esquecer de tomar medicamento | **MÉDIA** | Comum |
+|RF-016| Permitir que, ao cadastrar o medicamento, o usuário opte por sempre confirmar a ingestão | **BAIXA** | Comum |
+|RF-017| Permitir que, ao vincular medicamentos a cada um dos seus assistidos, o usuário opte por sempre confirmar a ingestão | **BAIXA** | Cuidador |
 
 
 ### Requisitos não Funcionais
@@ -88,7 +85,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001|O site atendera ao requisito de **PORTABILIDADE** - deverá executar em qualquer plataforma. |**ALTA**| 
 |RNF-002|O site atendera a Lei Geral de Proteção de Dados pessoais nº 13.709/2018|**ALTA**| 
-|RNF-003|A `front-end` e `back-end` do site deverá ser desenvolvida em ***CSS***, ***HTML*** e ***JavaScript***|**ALTA**| 
+|RNF-003|O site deverá ser desenvolvido em ***CSS***, ***HTML*** e ***JavaScript***|**ALTA**| 
 |RNF-004|O site deverá atender ao requisito de **USABILIDADE** - facilidade no uso do sistema|**ALTA**| 
 |RNF-005|O site atendera ao requisito de **CONFIABILIDADE** -terá alta disponibilidade 99% do tempo|**ALTA**| 
 |RNF-006|O site deverá usar arquitetura em camadas para desacoplamento|**MÉDIA**| 
