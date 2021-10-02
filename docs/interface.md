@@ -14,6 +14,9 @@ Para a presente aplicação, temos dois tipos de usuário, desta forma, consider
 
 2. Usuário (que se automedica): Login > Home > Adicionar medicamento > Lista Medicamentos > Perfil usuário > Calendário > Notificações;
 
+![Userflow - Usuário comum](https://user-images.githubusercontent.com/90875153/135729622-b0bb6576-3139-4eaa-8f43-3236eb32ca1a.png)
+
+
 Ambos podem ser conferidos no nosso projeto no Figma: https://www.figma.com/file/grCcWAJ9sl6WSaA5QnTqXL/APLICAÇÃO-WEB-|-GestãoMed?node-id=0%3A1
 
 
