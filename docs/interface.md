@@ -7,9 +7,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Para a presente aplicação, temos dois tipos de usuário, desta forma, consideramos dois fluxos:
 
-1. Cuidador: Login > Home (principais medicações do dia > Lista de pacientes > Perfil do paciente > Adicionar medicação > Adicionar paciente; (a ser atualizado)
+1. Cuidador: Login > Home > Pacientes + Adicionar paciente >  Perfil paciente + Adicionar medicamento > Lista Medicamentos > Calendário > Notificações;
 
-2. Usuário (que se automedica): Login > Home (principais medicações do dia) > Lista de medicações > Adicionar medicações; (a ser atualizado)
+2. Usuário (que se automedica): Login > Home > Adicionar medicamento > Lista Medicamentos > Perfil usuário > Calendário > Notificações;
 
 Ambos podem ser conferidos no nosso projeto no Figma: https://www.figma.com/file/grCcWAJ9sl6WSaA5QnTqXL/APLICAÇÃO-WEB-|-GestãoMed?node-id=0%3A1
 
