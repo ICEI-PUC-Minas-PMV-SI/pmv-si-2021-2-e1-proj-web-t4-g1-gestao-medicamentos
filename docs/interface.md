@@ -50,4 +50,11 @@ Obs: A única diferença aqui é a forma como se acessa a função. O cuidador a
 • RF-013 - Disponibilizar consulta rápida do cronograma de ingestão diária de medicamentos (é o que já aparece para o cuidador na home; ele pode acessar a lista de cada paciente através de seus perfis e alternar os dias clicando em qualquer número do calendário à direita)
 ![02 home cuidador](https://user-images.githubusercontent.com/90875153/136090583-8ac39f70-2db3-4a71-9692-a478ae655cc7.jpg)
 
+**Imagem 06 - calendário expandido**
+
+• RF-014 - Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos (função ainda será implementada, mas o calendário expandido já nos dá uma visão geral)
+![06 calendário usuário normal](https://user-images.githubusercontent.com/90875153/136098405-f202835a-c653-4269-bee3-cbdb8937563c.jpg)
+
+
+
 As telas estão no nosso projeto no Figma: https://www.figma.com/file/grCcWAJ9sl6WSaA5QnTqXL/APLICAÇÃO-WEB-|-GestãoMed?node-id=0%3A1
