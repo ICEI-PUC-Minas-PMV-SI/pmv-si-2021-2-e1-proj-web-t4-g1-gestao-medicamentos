@@ -9,12 +9,14 @@ Para a presente aplicação, temos dois tipos de usuário, desta forma, consider
 
 1. Cuidador: Login > Home > Pacientes + Adicionar paciente >  Perfil paciente + Adicionar medicamento > Lista Medicamentos > Calendário > Notificações;
 
-![Userflow - Cuidador](https://user-images.githubusercontent.com/90875153/135700546-d307009c-ba41-4473-8d84-205eeb709ea3.png)
+
+![USERFLOW - CUIDADOR](https://user-images.githubusercontent.com/90875153/136482827-ae8f8b03-1213-41b2-844f-30e50fbf3071.png)
 
 
-2. Usuário (que se automedica): Login > Home > Adicionar medicamento > Lista Medicamentos > Perfil usuário > Calendário > Notificações;
+2. Usuário (que se automedica): Login > Home > Adicionar medicamento > Perfil usuário > Calendário > Notificações;
 
-![Userflow - Usuário comum](https://user-images.githubusercontent.com/90875153/135729622-b0bb6576-3139-4eaa-8f43-3236eb32ca1a.png)
+![USERFLOW - USUARIO COMUM](https://user-images.githubusercontent.com/90875153/136482839-c27d7b3e-09c8-45cf-b954-2284b43a925b.png)
+
 
 
 Ambos podem ser conferidos no nosso projeto no Figma: https://www.figma.com/file/grCcWAJ9sl6WSaA5QnTqXL/APLICAÇÃO-WEB-|-GestãoMed?node-id=0%3A1
