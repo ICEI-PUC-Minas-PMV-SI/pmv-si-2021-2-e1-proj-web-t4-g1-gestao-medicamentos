@@ -5,14 +5,22 @@ body{
     opacity: 15%;
     pointer-events: none;
 }
+.invisivel{
+    display: none;
+}
+
+/*Configurações*/
 #configuracoes-aberto{
+    box-shadow: 1px 1px 4px;
     position: absolute;
     width: 40%;
     left: 30%;
     top: 20%;
     border-radius: 10px;
-    background-color: white;
+    background-color: gray;/*rgb(61, 59, 59)*/
     border: 1px solid black;
+    padding-bottom: 15px;
+    min-height: 300px;
 }
 #configuracoes-aberto h2{
     font-size: 1.4em;
@@ -25,32 +33,46 @@ body{
     background-color: black;
     height: 1.5px;
 }
-#configuracoes-aberto .config-opcao, #configuracoes-aberto .config-sair{
+#configuracoes-aberto .config-opcao:hover{
+    background-color: rgb(94, 89, 89);
+}
+
+#configuracoes-aberto .config-opcao, #configuracoes-aberto .config-sair, #configuracoes-aberto .config-confirmar{
     display: block;
+    color: white;
     width: 44%;
-    background-color: aqua;
+    background-color: rgb(61, 59, 59);
+    box-shadow: 1px 1px 4px black;
     border-radius: 15px;
     margin: 15px auto;
     padding: 15px;
     text-align: center;
     font-size: 0.9em;
 }
-#configuracoes-aberto .config-sair{
+#configuracoes-aberto .config-sair, #configuracoes-aberto .config-confirmar{
     border-radius: 10px;
     background-color: #b61e00;
     color: white;
     width: 39%;
     font-size: 1em;
     font-weight: 900;
-    margin: 50px auto 20px;
+    margin: 50px auto 15px;
 }
+#configuracoes-aberto .config-sair:hover#configuracoes-aberto .config-confirmar:hover{
+    background-color: red;
+}
+
 #configuracoes-aberto .config-voltar{
-    display: block;
-    margin-top: -47px;
-    margin-left: 5%;
-    font-size: 2em;
     width: 10px;
-    color: black;
+    display: block;
+    margin-left: 5%;
+    margin-top: -39px;
+    margin-bottom: 15px;
+}
+
+#configuracoes-aberto .config-voltar img{
+    display: block;
+    width: 20px;
 }
 
 @media (max-width: 1100px){
@@ -73,4 +95,221 @@ body{
         left: 10%;
         top: 10%;
     }
+}
+
+
+
+/*Configurações-1.1*/
+#configuracoes-aberto h2.small{
+    font-size: 1.29em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#configuracoes-aberto .config-confirmar{
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+}
+#configuracoes-aberto .config-confirmar:hover{
+    background-color: rgb(4, 155, 4);
+}
+#dados-pessoais{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "nome sobrenome"
+                         "email email"
+                         "estado cidade"
+                         "senha senha";
+}
+#dados-pessoais .nome{
+    grid-area: nome;
+}
+#dados-pessoais .sobrenome{
+    grid-area: sobrenome;
+}
+#dados-pessoais input[type="email"]{
+    grid-area: email;
+}
+#dados-pessoais .select{
+    grid-area: estado;
+}
+#dados-pessoais .cidade{
+    grid-area: cidade;
+}
+#dados-pessoais input[type="password"]{
+    grid-area: senha;
+}
+#dados-pessoais input, #dados-pessoais select{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 8px 5px;
+}
+
+/*Configurações-1.2*/
+#alteracao-senha{
+    width: 80%;
+    margin: 0 auto;
+}
+#alteracao-senha input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 8px 5px;
+    width: 92%;
+}
+
+/*Configurações-1.3*/
+#deletando-conta{
+    width: 80%;
+    margin: 0 auto;
+}
+#configuracoes-aberto  form.deletando{
+    margin: 35px auto 0;
+}
+#deletando-conta input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 8px 5px;
+    width: 92%;
+}
+#configuracoes-aberto  form.deletando .config-confirmar{
+    margin-top: 35px;
+}
+
+
+/*Configurações-2*/
+#notificacoes{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: "estoque botao-1"
+                         "quantidade numero"
+                         "ingestao botao-2"
+                         "pessoa botao-3"
+                         "email email";
+}
+
+#notificacoes *{
+    border-radius: 15px;
+    padding: 12px;
+    font-size: 0.9em;
+    border: none;
+}
+#notificacoes .estoque{
+    grid-area: estoque;
+}
+#notificacoes .quantidade{
+    grid-area: quantidade;
+    margin-top: 3px;
+}
+#notificacoes .numero{
+    grid-area: numero;  
+}
+#notificacoes .ingestao{
+    grid-area: ingestao;
+}
+#notificacoes .pessoa{
+    grid-area: pessoa;
+}
+#notificacoes .btn-1{
+    grid-area: botao-1;
+}
+#notificacoes .btn-2{
+    grid-area: botao-2;
+}
+#notificacoes .btn-3{
+    grid-area: botao-3;
+}
+#notificacoes form{ 
+    grid-area: email;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "email botao";
+}
+#notificacoes form input[type="email"]{
+    grid-area: email;
+    width: 85%;
+}
+#notificacoes form input[type="submit"]{
+    grid-area: botao;
+    width: 100%;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+    margin-left: 10px;
+}
+#notificacoes form input[type="submit"]:hover{
+    background-color: rgb(4, 155, 4);
+}
+#notificacoes span{
+    color: white;
+    background-color: rgb(94, 89, 89);
+    text-align: center;
+    margin: 5px 0;
+}
+#notificacoes input[type="number"]{
+    width: 85%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-top: 4px;
+    height: 20px;
+    text-align: center;
+}
+input[type="checkbox"] {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    -webkit-appearance: none;
+    background-color: #c6c6c6; 
+    outline: none;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(85, 85, 85, 0.2);
+    transition: .2s; 
+    cursor: pointer;
+}
+input.btn-2, input.btn-3{
+    margin-top: 20px;
+}
+input:checked[type="checkbox"] {
+    background-color: #000;
+}
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    transform: scale(1.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+}
+input:checked[type="checkbox"]:before {
+    left: 30px;
+}
+
+
+
+/*Configurações-3*/
+#ajuda{
+    width: 60%;
+    margin: 0 auto;
+}
+#ajuda textarea{
+    resize: none;
+    margin: 25px 0 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    width: 90%;
 }

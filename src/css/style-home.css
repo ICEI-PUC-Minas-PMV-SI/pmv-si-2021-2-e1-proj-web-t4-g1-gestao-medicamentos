@@ -32,11 +32,14 @@ header > a{
     border-radius: 10px;
     box-shadow: 2px 2px 10px;
 }
+#barra-navegacao >span > img{
+ background-color: white;
+}
 #barra-navegacao img{
     width: 30%;
     margin: 10px;
     margin-right: 4%;
-    border-radius: 25px;
+    border-radius: 15px;
     display: inline;
 }
 #barra-navegacao h3{
@@ -128,13 +131,13 @@ main .hora-remedio .tarefa .remedio, main .hora-remedio .tarefa-aberta .remedio{
     font-weight: bold;
     color: #03045E;
 }
-main .hora-remedio .tarefa .expandir, main .hora-remedio .tarefa-aberta .expandir{
+main .hora-remedio .tarefa .expandir, main .hora-remedio .tarefa-aberta .expandido{
     width: 5%;
     position: absolute;
     right: 20px;
     top: 5px;
     background-color: #C4C4C4;
-    padding: 7px 5px 5px 5px;
+    padding: 5px;
     border-radius: 15px;
 }
 main .hora-remedio .tarefa-aberta{
@@ -358,7 +361,7 @@ aside #notificacoes-home .notificacao-recente .descricao3{
 
 aside .adicionar-paciente{
     margin-top: 15px;
-    background-color: #B61E00;
+    background-color: blue;
     border-radius: 10px;
     height: 50px;
     text-align: center;
