@@ -1,0 +1,284 @@
+/* Box formulario */
+
+.adicionar-medicamento {
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  position: fixed;
+  padding: 5px;
+  left: 35%;
+  top: 15%;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 510px;
+  height: 600px;
+  align-items: flex-start;
+}
+
+.adicionar-medicamento h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  margin-left: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+#fechar-form {
+  position: relative;
+  left: 15px;
+  top: -15px;
+  border-style: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  font-size: 30px;
+  color: red;
+}
+
+#fechar-form a {
+  text-decoration: none;
+  color: #0077b6;
+}
+
+/* Primeiros dois campos agrupados */
+
+#nome-estoque {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 5%;
+  border-style: hidden;
+}
+
+.campo-form {
+  border-radius: 10px;
+  border-color: #0077b6;
+  border-style: solid;
+  width: 300px;
+  height: 40px;
+  font-size: 14pt;
+  padding-left: 5%;
+  margin-top: 15px;
+}
+
+.campo-form::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+/* Terceiro campo */
+
+#periodo-uso {
+  position: absolute;
+  top: 180px;
+  border-style: hidden;
+  padding-left: 5%;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+.calendario {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  width: 300px;
+  height: 45px;
+  border-style: solid;
+  border-color: #0077b6;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 14pt;
+  color: gray;
+}
+
+/* ID abaixo é identica à classe calendário, apenas com margin-left menor para alinhar os campos */
+
+#data-final {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+  width: 300px;
+  height: 45px;
+  border-style: solid;
+  border-color: #0077b6;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 14pt;
+  color: gray;
+}
+
+#horarios-uso {
+  position: absolute;
+  top: 380px;
+  border-style: hidden;
+  padding-left: 5%;
+  white-space: nowrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+#horarios-uso select {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -5px;
+  width: 150px;
+  height: 45px;
+  border-style: solid;
+  border-color: #0077b6;
+  border-radius: 10px;
+  padding-left: 12px;
+  font-size: 14pt;
+  color: gray;
+}
+
+#botao-adicionar-medicamento {
+  position: absolute;
+  top: 520px;
+  left: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: hidden;
+  background-color: green;
+}
+
+#botao-adicionar-medicamento a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  white-space: nowrap;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: auto;
+  margin-top: 5%;
+  border: hidden;
+  opacity: 10%;
+}
+
+@media (max-width: 720px) {
+  .adicionar-medicamento {
+    width: 300px;
+    height: 500px;
+  }
+
+  .adicionar-medicamento h1 {
+    font-size: 16pt;
+  }
+
+  #nome-estoque {
+    margin-top: 70px;
+  }
+
+  .campo-form {
+    width: 220px;
+    height: 30px;
+  }
+
+  #periodo-uso {
+    top: 180px;
+    font-size: 10pt;
+  }
+
+  .calendario {
+    width: 170px;
+    height: 30px;
+    font-size: 12pt;
+  }
+
+  #data-final {
+    width: 175px;
+    height: 30px;
+    font-size: 12pt;
+  }
+
+  #horarios-uso {
+    font-size: 12pt;
+    top: 330px;
+  }
+
+  #horarios-uso select {
+    height: 30px;
+    font-size: 12pt;
+  }
+
+  #botao-adicionar-medicamento {
+    width: 200px;
+    height: 40px;
+    left: 50px;
+    top: 440px;
+  }
+
+  #botao-adicionar-medicamento a {
+    font-size: 10pt;
+    letter-spacing: 0px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .adicionar-medicamento {
+    width: 240px;
+    height: 460px;
+  }
+
+  .adicionar-medicamento h1 {
+    font-size: 14pt;
+  }
+
+  #nome-estoque {
+    margin-top: 70px;
+  }
+
+  .campo-form {
+    width: 170px;
+    height: 30px;
+  }
+
+  .campo-form::placeholder {
+    font-size: 10pt;
+  }
+
+  #periodo-uso {
+    top: 180px;
+    font-size: 8pt;
+  }
+
+  .calendario {
+    width: 140px;
+    height: 30px;
+    font-size: 10pt;
+  }
+
+  #data-final {
+    width: 140px;
+    height: 30px;
+    font-size: 10pt;
+  }
+
+  #horarios-uso {
+    font-size: 8pt;
+    top: 310px;
+  }
+
+  #horarios-uso select {
+    height: 30px;
+    font-size: 10pt;
+  }
+
+  #botao-adicionar-medicamento {
+    width: 200px;
+    height: 40px;
+    left: 25px;
+    top: 400px;
+  }
+
+  #botao-adicionar-medicamento a {
+    font-size: 10pt;
+    letter-spacing: 0px;
+    padding: 5px;
+  }
+}
