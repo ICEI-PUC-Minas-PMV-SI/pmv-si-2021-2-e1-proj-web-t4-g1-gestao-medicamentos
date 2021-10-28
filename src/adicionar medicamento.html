@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gestão Med </title>
+  <link rel="stylesheet" type="text/css" href="../css/style-adicionar-medicamento.css" />
+</head>
+
+<body>
+  <iframe scrolling="no" src="perfil-paciente.html"> </iframe>
+  <form class="adicionar-medicamento">
+    <button id="fechar-form">
+      <a href="index.html">
+        <p>&lsaquo;</p>
+      </a>
+    </button>
+    <h1> Informe os dados do medicamento </h1>
+    <fieldset id="nome-estoque">
+      <input class="campo-form" type="text" id="nome-med" placeholder="Nome do Medicamento">
+      <input class="campo-form" type="number" id="estoque-med" placeholder="Estoque inicial (Ex: 30 unidades)">
+    </fieldset>
+    <fieldset id="periodo-uso">
+      <h2> Período de uso</h2>
+      <h3> De:&nbsp; <input type="date" class="calendario"> </h3>
+      <h3> Até:&nbsp; <input type="date" class="calendario" id="data-final"> </h3>
+    </fieldset>
+    <fieldset id="horarios-uso">
+      <h2> Horário(s) de uso </h2>
+      <select name="Horários">
+        <option value="">Horários</option>
+        <option value="6">06:00</option>
+        <option value="7">07:00</option>
+        <option value="8">08:00</option>
+        <option value="9">09:00</option>
+        <option value="10">10:00</option>
+        <option value="11">11:00</option>
+        <option value="12">12:00</option>
+        <option value="13">13:00</option>
+        <option value="14">14:00</option>
+        <option value="15">15:00</option>
+        <option value="16">16:00</option>
+        <option value="17">17:00</option>
+        <option value="18">18:00</option>
+        <option value="19">19:00</option>
+        <option value="20">20:00</option>
+        <option value="21">21:00</option>
+        <option value="22">22:00</option>
+      </select>
+    </fieldset>
+    <button id="botao-adicionar-medicamento" type="button">
+      <a href=""> Adicionar medicamento </a>
+  </form>
+
+
+</body>
+
+</html>
