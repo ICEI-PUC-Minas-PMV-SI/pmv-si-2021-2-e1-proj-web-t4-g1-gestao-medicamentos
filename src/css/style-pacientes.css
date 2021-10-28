@@ -20,11 +20,9 @@ header{
     display: block;
     margin: 0 auto;
 }
-
-header > a{
-    color:#00B7D5;
-    font-size: 85%;
-    text-decoration: none;
+header > a img{
+    width: 90%;
+    margin-left: 5%;
 }
 
 #barra-navegacao{
@@ -33,11 +31,14 @@ header > a{
     border-radius: 10px;
     box-shadow: 2px 2px 10px;
 }
+#barra-navegacao >span > img{
+ background-color: white;
+}
 #barra-navegacao img{
     width: 30%;
     margin: 10px;
     margin-right: 4%;
-    border-radius: 25px;
+    border-radius: 15px;
     display: inline;
 }
 #barra-navegacao h3{
@@ -68,8 +69,9 @@ header > a{
     border-radius: 10px 0 0 10px;
 }
 #barra-navegacao .sair{
+    width: 25%;
     display: block;
-    margin: 100px auto 40px;
+    margin: 100px auto 30px;
 }
 
 main{
@@ -397,7 +399,7 @@ aside #notificacoes-home .notificacao-recente .descricao3{
 
 aside .adicionar-medicamento{
     margin-top: 15px;
-    background-color: #B61E00;
+    background-color: blue;
     border-radius: 10px;
     height: 50px;
     text-align: center;
