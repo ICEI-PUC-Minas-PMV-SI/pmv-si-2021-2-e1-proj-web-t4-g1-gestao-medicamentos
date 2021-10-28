@@ -21,9 +21,9 @@ header{
     display: block;
     margin: 0 auto;
 }
-header > a{
-    color:#00B7D5;
-    font-size: 85%;
+header > a img{
+    width: 90%;
+    margin-left: 5%;
 }
 
 #barra-navegacao{
