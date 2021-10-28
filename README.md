@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Sistema de gerenciamento de medicamentos para idosos.
+Sistema de gerenciamento de medicamentos.
 
 ## Integrantes
 
