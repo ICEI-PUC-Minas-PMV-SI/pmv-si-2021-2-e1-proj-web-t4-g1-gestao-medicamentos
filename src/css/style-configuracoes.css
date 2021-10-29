@@ -58,7 +58,7 @@ body{
     font-weight: 900;
     margin: 50px auto 15px;
 }
-#configuracoes-aberto .config-sair:hover#configuracoes-aberto .config-confirmar:hover{
+#configuracoes-aberto .config-sair:hover{
     background-color: red;
 }
 
