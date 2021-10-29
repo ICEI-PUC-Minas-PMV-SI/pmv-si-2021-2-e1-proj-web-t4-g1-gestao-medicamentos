@@ -260,6 +260,9 @@ aside #calendario table tbody tr td{
     font-size: 0.9em;
     text-align: center;
 }
+aside #calendario table tbody tr td a{
+    color: black;
+}
 aside #calendario table tbody tr td.sobra{
     color: #777777;
 }
