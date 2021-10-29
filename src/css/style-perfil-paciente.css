@@ -144,6 +144,13 @@ main .informacoes-paciente .opcoes{
     text-align: center;
     border-radius: 25px;
 }
+main .informacoes-paciente .voltar a, main .informacoes-paciente .opcoes a{
+    color: black;
+    padding: 5px 5px 10px 5px;
+}
+main .informacoes-paciente .voltar a{
+    padding: 5px 10px;
+}
 main #corpo{
     margin: 30px 30px;
 }
@@ -231,6 +238,9 @@ aside #calendario table thead tr td{
     padding: 5px 15px;
     font-size: 0.9em;
     text-align: center;
+}
+aside #calendario table tbody tr td a{
+    color: black;
 }
 aside #calendario .dias-letras, aside #calendario .dias-numeros {
     background-color: #F1F1F1;
