@@ -160,6 +160,7 @@ iframe {
   margin: auto;  
   border: hidden;
   opacity: 10%;
+  pointer-events: none;
 }
 
 @media (max-width: 720px) {
