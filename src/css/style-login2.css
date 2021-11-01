@@ -1,0 +1,404 @@
+para{
+    position: absolute;
+    top: 240px;
+    left: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: left;
+}
+img{
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+pare{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00B4D7;
+    top: 92.4%;
+    width: 100%;
+    font-size: 22;
+    color: white;
+    right: 0.5px;
+    text-indent: 120px;
+    
+}
+body{
+    background-color: rgb(217, 227, 248);
+}
+.box1{
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    background-color: #b0daee;
+    text-align: center;
+    border-radius: 10px;
+    border : none;
+    box-shadow: 0 5px 45px rgba(0, 0, 0,0.35);
+    padding: 2% 2%;
+}
+fieldset
+{
+   border: 3px double #90c1d6;
+   border-radius: 10px; 
+}
+
+legend
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:#036494;
+    text-shadow: 1px 2px 4px #337381;
+}
+.box1 input[type = "email"]{
+    border: 0;
+    background-color: #b0daee;
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  14px 20px;
+    width: 260px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.box1 input[type = "email"]:focus{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+.box1 input[type = "password"]{
+    border: 0;
+    background-color: #b0daee;
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  14px 20px;
+    width: 260px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.box1 input[type = "password"]:focus{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+
+.box1 input[type = "button"]{
+    border: 2px solid #00B4D7;
+    background-color: #00B4D7;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    padding:  20px 15px;
+    width: 240px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box1 input[type="button"]:hover{
+    background-color: #b0daee;
+    color: #00B4D7;
+    border: 2px solid #00B4D7;
+}
+.box1 lk input[type="button"]{
+    background-color: #011AD6;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid #011AD6;
+    padding:  20px 15px;
+    width: 160px;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box1 lk input[type="button"]:hover{
+    background-color: #b0daee;
+    color: #011AD6;
+    border: 2px solid #011AD6;
+}
+a[id="li03"]{
+    cursor: default;
+
+}
+a:link{
+    color:rgb(2, 4, 138) ;
+    text-decoration: none;
+}
+ll a:link{
+    color:rgb(2, 4, 138) ;
+    text-decoration: none;
+}
+ll a:visited{
+    color: rgb(2, 4, 138);
+}
+@media(max-width:1240px){
+    img{
+        width: 500px;
+        position: relative;
+        top: 175px;
+        left: 5%;
+    }
+     para p{
+        font-size: 90%;
+        left: 5%;
+        position: relative;
+        left: 1
+     }
+     pare p{
+         height: 21px;
+     }
+}
+@media(max-width:1200px){
+    img{
+        width: 400px;
+        position: relative;
+        top: 200px;
+        left: 5%;
+    }
+     para p{
+        font-size: 85%;
+        left: 5%;
+        position: relative;
+        left: 1px;
+        top: 15px;
+     }
+     pare p{
+         height: 21px;
+     }
+}
+@media(max-width:900px){
+    img{
+        width: 300px;
+        position: relative;
+        top:-2px;
+        left: 33%;
+    }
+     para p{
+        color: transparent;
+     }
+     pare p{
+         height: 21px;
+     }
+     .box1{
+         left: 50%;
+     }
+}
+@media(max-width:850px){
+    img{
+        width: 300px;
+        position: relative;
+        left: 32%;
+    }
+    para p{
+        color: transparent;
+        }
+    pare p{
+            height: 21px;
+        }
+    .box1{
+            left: 50%;
+        }
+}
+@media(max-width:800px){
+    img{
+        width: 300px;
+        position: relative;
+        left: 31%;
+    }
+    para p{
+        color: transparent;
+        }
+    pare p{
+            height: 21px;
+        }
+    .box1{
+            left: 50%;
+        }
+}
+@media(max-width:700px){
+    img{
+        width: 300px;
+        position: relative;
+        left: 29%;
+    }
+    para p{
+        color: transparent;
+        }
+    pare p{
+            height: 21px;
+        }
+    .box1{
+            left: 50%;
+        }
+}
+@media(max-width:600px){
+    img{
+        width: 300px;
+        position: relative;
+        left: 26%;
+    }
+    para p{
+        color: transparent;
+        }
+    pare p{
+            height: 21px;
+        }
+    .box1{
+            left: 50%;
+        }
+}
+@media(max-width:500px){
+    body{
+        background: #b0daee;
+    }
+    img{
+        width: 300px;
+        position: relative;
+        left: 21%;
+        top: -15px;
+
+    }
+    .box1{
+        top: 50%;
+        left: 50%;
+        background: #b0daee;
+        height: 450px;
+        position: absolute;
+        box-shadow: none;
+    }
+    fieldset{
+        border: none;
+    }
+    legend{
+        position: absolute;
+        top: 2px;
+        left: 40%;
+    }
+    .box1 input[type = "email"]{
+        width: 300px;
+        position: absolute;
+        top: 35px;
+        left: 14px;
+    }
+    .box1 input[type = "password"]{
+        width: 300px;
+        position: absolute;
+        top: 100px;
+        left: 14px;
+    }
+    ll a:link{
+        position: absolute;
+        top: 300px;
+        left: 125px;
+    }
+    .box1 input[type="button"]{
+        width: 200px;
+        position: absolute;
+        top: 180px;
+        left: 85px;
+    }
+    hr{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+        width: 350px;
+        height: 1.5px;
+    }
+    .box1 lk input[type="button"]{
+        top: 330px;
+        left: 130px;
+        width: 120px;
+    }
+    pare{
+        background: transparent;
+        color: transparent;
+        height: 0px;
+    }
+
+}
+@media(max-width:450px){
+    img{
+        width: 300px;
+        position: relative;
+        left: 18%;
+    }
+}
+@media(max-width:400px){
+    img{
+        width: 300px;
+        position: relative;
+        left: 14%;
+    }    
+}
+@media(max-width:320px){
+    .box1{
+        top: 50%;
+        left: 50%;
+        background: #b0daee;
+        height: 350px;
+        position: absolute;
+        box-shadow: none;
+    }
+    img{
+        width: 250px;
+        position: relative;
+        left: 16%;
+    }   
+    .box1 input[type = "email"]{
+        width: 250px;
+        position: absolute;
+        top: 35px;
+        left: 45px;
+    }
+    .box1 input[type = "password"]{
+        width: 250px;
+        position: absolute;
+        top: 100px;
+        left: 45px;
+    }
+    legend{
+        position: absolute;
+        left: 42%;
+    }
+    ll a:link{
+        position: absolute;
+        top: 300px;
+        left: 135px;
+    }
+    .box1 input[type="button"]{
+        width: 200px;
+        position: absolute;
+        top: 200px;
+        left: 92px;
+    }
+    hr{
+        position: absolute;
+        top: 320px;
+        left: 40px;
+        width: 300px;
+        height: 1.5px;
+    }
+    .box1 lk input[type="button"]{
+        top: 330px;
+        left: 130px;
+        width: 120px;
+    }
+
+}
+
+
