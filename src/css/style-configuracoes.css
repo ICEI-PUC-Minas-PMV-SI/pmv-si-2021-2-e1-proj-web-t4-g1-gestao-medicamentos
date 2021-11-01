@@ -1,21 +1,32 @@
 body{
     position: relative;
 }
-#wrapper{
+
+iframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+    border: hidden;
     opacity: 15%;
     pointer-events: none;
 }
+
 .invisivel{
     display: none;
 }
 
 /*Configurações*/
+a{
+    text-decoration: none;
+}
+
 #configuracoes-aberto{
     box-shadow: 1px 1px 4px;
     position: absolute;
     width: 40%;
     left: 30%;
-    top: 20%;
+    margin-top: 10%;
     border-radius: 10px;
     background-color: gray;/*rgb(61, 59, 59)*/
     border: 1px solid black;
