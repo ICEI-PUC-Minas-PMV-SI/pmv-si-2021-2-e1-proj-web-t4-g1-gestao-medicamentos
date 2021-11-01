@@ -13,6 +13,7 @@
   width: 510px;
   height: 600px;
   align-items: flex-start;
+  overflow: scroll;
 }
 
 .adicionar-medicamento h1 {
