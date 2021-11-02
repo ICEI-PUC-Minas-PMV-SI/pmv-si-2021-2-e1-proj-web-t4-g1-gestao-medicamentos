@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestão Med</title>
+        <link rel="stylesheet" href="css/style-home.css">
+        <link rel="stylesheet" href="css/style-notificacoes.css">
+        
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+            <header>
+                <a class="logo" href="home.html"><h1><img src="imagens/marca.png" alt=""></h1></a>
+            </header>
+
+            <main id="notificacoes">
+                <div id=notificacoestitulo>
+                 <h3>Hoje</h3>
+                 <h4><u>Terça-feira, 28</u></h4>
+                </div>
+ 
+                <hr>
+                                                
+                 <div class="row">
+                     <div class="card">
+                       <div id="box">
+                         <h2>Joaquim</h2>
+                       </div>
+                       <h4>XXX quase acabando</h4>
+                       <h4>Restam 4 comprimidos</h4>
+                     </div>
+                 </div>
+ 
+                 <hr>
+ 
+                 <div class="row">
+                     <div class="card">
+                       <div id="box">
+                         <h2>Sueli</h2>
+                       </div>
+                       <h4>XXX quase acabando</h4>
+                       <h4>Restam 4 comprimidos</h4>
+                     </div>
+                 </div>
+                 <hr>
+ 
+                 <button type="button" class="btn btn-dark">Ver todos</button>
+ 
+               
+             </main>
+
+            <div id="barra-navegacao">
+                <span><img src="imagens/perfil-feminino.jpg" alt=""></span><h3>Bem vinda, Adriana!</h3>
+                <ul>
+                    <a href="home.html"><li>Início</li></a>
+                    <a href="pacientes.html"><li>Pacientes</li></a>
+                    <a href="calendario.html"><li>Calendário</li></a>
+                    <a href="#"><li class="ativo">Notificações</li></a>
+                </ul>
+                <a href="login2.html"><img class="sair" src="imagens/icone-sair.png" alt=""></a>
+            </div>
+
+            <aside>
+                <div id="calendario">
+
+                    <header>
+                        <a class="mes-anterior" href=""><</a>
+                        <h3 class="mes-ano">Setembro 2021</h3>
+                        <a href="" class="mes-posterior">></a>
+                    </header>
+                    <div class="dias-letras">
+                        <table cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <td>D</td>
+                                    <td>S</td>
+                                    <td>T</td>
+                                    <td>Q</td>
+                                    <td>Q</td>
+                                    <td>S</td>
+                                    <td>S</td>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="dias-letras">
+                        <table collspacing="0">
+                            <tbody id="dias">
+                                <tr>
+                                    <td class="sobra">29</td>
+                                    <td class="sobra">30</td>
+                                    <td class="sobra">31</td>
+                                    <td><a href="">1</a></td>
+                                    <td><a href="">2</a></td>
+                                    <td><a href="">3</a></td>
+                                    <td><a href="">4</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">5</a></td>
+                                    <td><a href="">6</a></td>
+                                    <td><a href="">7</a></td>
+                                    <td><a href="">8</a></td>
+                                    <td><a href="">9</a></td>
+                                    <td><a href="">10</a></td>
+                                    <td><a href="">11</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">12</a></td>
+                                    <td><a href="">13</a></td>
+                                    <td><a href="">14</a></td>
+                                    <td><a href="">15</a></td>
+                                    <td><a href="">16</a></td>
+                                    <td><a href="">17</a></td>
+                                    <td><a href="">18</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">19</a></td>
+                                    <td><a href="">20</a></td>
+                                    <td><a href="">21</a></td>
+                                    <td><a href="">22</a></td>
+                                    <td><a href="">23</a></td>
+                                    <td><a href="">24</a></td>
+                                    <td><a href="">25</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="">26</a></td>
+                                    <td><a href="">27</a></td>
+                                    <td class="hoje">28</td>
+                                    <td><a href="">29</a></td>
+                                    <td><a href="">30</a></td>
+                                    <td><a href="">31</a></td>
+                                    <td class="sobra">1</td>
+                                </tr>
+                                <tr>
+                                    <td class="sobra">2</td>
+                                    <td class="sobra">3</td>
+                                    <td class="sobra">4</td>
+                                    <td class="sobra">5</td>
+                                    <td class="sobra">6</td>
+                                    <td class="sobra">7</td>
+                                    <td class="sobra">8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="notificacoes-home">
+                    <p>Medicamentos</p>
+                    <a class="ver-todos" href="home.html">Ver todos</a>
+                    <div class="notificacao-recente">
+                        <p class="paciente-notificacao" style="width: 40%; font-size: 12px;">Xarelto | Joaquim</p>
+                        <a href="" class="opcoes">...</a>
+                        <span class="descricao">Dar 1 comprimido, às 8h, até 29/09 </span>
+                        <span class="descricao2">Restam <span class="descricao3">3</span> comprimidos</span>
+                    </div>
+                </div>
+
+                <div class="adicionar-paciente">
+                    <a href="adicionar medicamento.html">Adicionar medicamento</a>
+                </div>
+            </aside>
+        </div>
+
+    </body>
+</html>
