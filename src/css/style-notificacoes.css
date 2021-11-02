@@ -1,0 +1,53 @@
+#notificacoestitulo {
+    color: white;   
+    text-align: center;
+    line-height:0
+}
+
+
+
+.row {    
+    width: 300px;
+    justify-content: center;
+    align-items: center;    
+    margin-left: auto;
+    margin-right: auto; 
+  }
+
+.card {
+    border-radius: 0px;
+    box-shadow: 5px 5px 5px 5px rgba(50, 50, 50, 0.22);
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    transition: all 0.3s ease-out;
+    background: white;
+    line-height:0;
+  }
+  
+
+  #box{
+	width:125px;	
+	height: 40px;	
+	background-color:#90E0EF;	
+	border-radius: 20px 20px 20px 20px;
+    line-height:2;
+    text-align: center;
+}
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+  }
