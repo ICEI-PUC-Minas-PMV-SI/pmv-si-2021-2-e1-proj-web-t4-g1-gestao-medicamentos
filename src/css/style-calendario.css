@@ -1,0 +1,333 @@
+#wrapper{
+    width: 100%;
+    display: grid;
+    margin: 0 0.5%;
+    grid-template-columns: 18% 74%;
+    grid-template-rows: 80px auto;
+    grid-gap: 0 3%;
+    grid-template-areas: "logo principal"
+                         "barra-nav principal";
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    grid-area: logo;
+    color:#00B7D5;
+    display: block;
+    margin: 0 auto;
+}
+header > a img{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#barra-navegacao{
+    grid-area: barra-nav;
+    background-color: #00B4D8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+}
+#barra-navegacao >span > img{
+ background-color: white;
+}
+#barra-navegacao img{
+    width: 30%;
+    margin: 10px;
+    margin-right: 4%;
+    border-radius: 15px;
+    display: inline;
+}
+#barra-navegacao h3{
+    margin-left: 10px;
+    display: inline;
+    font-size: 90%;
+    position: absolute;
+    width: 10%;
+    color: white;
+}
+#barra-navegacao ul{
+    margin-top: 40px;
+}
+#barra-navegacao ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 20px;
+    margin-left: -20px;
+}
+#barra-navegacao ul li:hover{
+    background-color: blue;
+    border-radius: 10px 0 0 10px;
+}
+#barra-navegacao ul li.ativo{
+    background-color: #03045E;
+    border-radius: 10px 0 0 10px;
+}
+#barra-navegacao .sair{
+    width: 25%;
+    display: block;
+    margin: 100px auto 30px;
+}
+
+main{
+    grid-area: principal;
+    background-color: #0077B6;
+    justify-content: center;
+    display: flex;
+    color: #eee;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.calendario {
+    position: relative;
+    text-align: center;
+    width: 720px;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.mes {
+    width: 100%;
+    height: 192px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    text-align: center;
+    text-shadow: 0 4.8px 8px rgba(0, 0,0, 0.5);
+}
+
+.mes h1 {
+    display: inline;
+    font-size: 2.5rem;
+    padding: 40px;
+}
+
+.mes i {
+    cursor: pointer;
+    color: black;
+    font-size: x-large;
+    background-color: white;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.mes a {
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+    float: left;
+    margin-top: 5px;
+}
+
+
+.dias-da-semana {
+    width: 100%;
+    height: 40px;
+    padding: 0 6.4px;
+    display: flex;
+    align-items: center;
+}
+
+.dias-da-semana div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 4.8px 8px rgba(0, 0,0, 0.5);
+}
+
+.dias {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3.2px;
+}
+
+.dias div {
+    font-size: 1.4rem;
+    margin: 4.8px;
+    width: calc(100%/7.8);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 4.8px 8px rgba(0, 0,0, 0.5);
+    transition: bacground-color 0.2s;
+}
+
+.dias div:hover:not(.hoje) {
+    background-color: #262626;
+    border: 3.2px solid #777;
+    cursor: pointer;
+}
+
+.data-anterior,
+.proxima-data {
+    opacity: 0.5;
+}
+
+.hoje {
+    background-color: #03045E;
+}
+
+@media (max-width: 1050px){
+    .dias div {
+        width: calc(100%/7.9);
+    } 
+}
+@media (max-width: 950px){
+    .dias div {
+        width: calc(100%/8);
+    } 
+}
+@media (max-width: 890px){
+    .dias div {
+        width: calc(100%/8.1);
+    } 
+}
+@media (max-width: 830px){
+    .dias div {
+        width: calc(100%/8.2);
+    } 
+}
+@media (max-width: 770px){
+    .dias div {
+        width: calc(100%/8.4);
+    } 
+}
+@media (max-width: 700px){
+    .dias div {
+        width: calc(100%/8.5);
+    } 
+    .mes h1 {
+        display: inline;
+        font-size: 2.5rem;
+        padding: 20px;
+    }
+}
+@media (max-width: 670px){
+    .calendario {
+        width: 100%;
+    }
+    
+    .mes {
+        padding: 0;
+    }
+    
+    .mes h1 {
+        font-size: 2.2rem;
+        padding: 20px;
+    }
+    @media (max-width: 670px){
+        .dias div {
+            width: calc(100%/8.1);
+        } 
+    }
+    @media (max-width: 620px){
+        .dias div {
+            width: calc(100%/8.3);
+        } 
+    }
+    @media (max-width: 550px){
+        .dias div {
+            width: calc(100%/8.5);
+        } 
+    }
+    @media (max-width: 490px){
+        .dias div {
+            width: calc(100%/8.7);
+        } 
+    }
+}
+
+@media (max-width: 920px){
+    #wrapper{
+        grid-template-columns: 26% 72%;
+        grid-template-rows: 80px auto;
+        grid-gap: 0 2%;
+        grid-template-areas: "logo principal"
+                             "barra-nav principal";
+    }
+    
+}
+
+@media (max-width: 670px){
+    #wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows:auto;
+        grid-gap: 15px 0;
+        grid-template-areas: "logo"
+                             "barra-nav"
+                             "principal";
+    }
+    #barra-navegacao{
+        position: relative;
+    }
+    #barra-navegacao img{
+        width: 10%;
+        margin-right: 0;
+    }
+    #barra-navegacao h3{
+        width: 20%;
+    }
+    #barra-navegacao ul{
+        margin: 0 auto;
+    }
+    #barra-navegacao ul li{
+        padding: 15px;
+        font-size: 0.8em;
+        margin-bottom: 0px;
+        display: inline;
+        float: left;
+        margin-left: 0px;
+        margin-right: 1px;
+    }
+    #barra-navegacao ul li:hover{
+        border-radius: 10px 10px 0 0;
+    }
+    #barra-navegacao ul li.ativo{
+        border-radius: 10px 10px 0 0;
+    }
+    #barra-navegacao .sair{
+        width: 7%;
+        display: block;
+        position: absolute;
+        top: -85px;
+        right: 20px;
+    }
+}
+@media (max-width: 440px){
+    
+    #barra-navegacao ul{
+        margin: 10px auto 0;
+    }
+    #barra-navegacao ul li{
+        padding: 10px;
+    }
+    #barra-navegacao ul li:hover{
+        border-radius: 10px 10px 0 0;
+    }
+    #barra-navegacao ul li.ativo{
+        border-radius: 10px 10px 0 0;
+    }
+}
+@media (max-width: 380px){
+    #barra-navegacao ul li{
+        padding: 7px;
+    }
+}
+
