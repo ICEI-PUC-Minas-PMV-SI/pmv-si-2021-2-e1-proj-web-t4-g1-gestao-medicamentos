@@ -5,7 +5,7 @@
 |RF-001| Disponibilizar dois perfis para cadastro de usuários (comum ou cuidador) | **cadastro2-2.html** | Guilherme |
 |RF-002| Permitir que o usuário faça login | **login2.html** | Guilherme |
 |RF-003| Permitir gerenciamento de assistidos | **pacientes.html, adicionar-paciente.html** | Alysson |
-|RF-004| Permitir cadastro de medicamentos | adicionar-medicamento.html | Matheus |
+|RF-004| Permitir cadastro de medicamentos | **adicionar-medicamento.html** | Matheus |
 |RF-005| Permitir que, para cada assistido, o usuário possa fazer a vinculação de todas as medicações | **(inserir artefato)** | Inserir desenvolvedor |
 |RF-006| Disparar lembrete no horário com orientações para tomar o medicamento | **(inserir artefato)** | Inserir desenvolvedor |
 |RF-007| Disparar lembrete no horário com orientações sobre o medicamento a ser ministrado e para qual assistido | **(inserir artefato)** | Inserir desenvolvedor |
