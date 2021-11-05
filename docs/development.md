@@ -18,4 +18,4 @@
 |RF-014| Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos (no caso do cuidador permitir consultar por assistido) | **(inserir artefato)** | Inserir desenvolvedor|
 |RF-015| Permitir cadastrar pessoa para receber alerta quando esquecer de tomar medicamento | **configuracoes-2.html, configuracoes-u-c-2.html** | Marcos Paulo |
 |RF-016| Permitir que, ao cadastrar o medicamento, o usuário opte por sempre confirmar a ingestão | A ser desenvolvido | Matheus |
-|RF-017| Permitir que, ao vincular medicamentos a cada um dos seus assistidos, o usuário opte por sempre confirmar a ingestão | **(inserir artefato)** | Inserir desenvolvedor |
+|RF-017| Permitir que, ao vincular medicamentos a cada um dos seus assistidos, o usuário opte por sempre confirmar a ingestão | A ser desenvolvido | Matheus |
