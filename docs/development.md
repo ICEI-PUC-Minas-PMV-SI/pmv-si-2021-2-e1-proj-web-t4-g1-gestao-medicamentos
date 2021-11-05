@@ -12,10 +12,10 @@
 |RF-008| Disparar alerta de fim de estoque de medicamentos, onde a quantidade mínima para disparo do alerta pode ser configurada pelo usuário | **(inserir artefato)** | Inserir desenvolvedor |
 |RF-009| Permitir que, ao cadastrar o medicamento, o usuário opte por receber notificação quando o estoque estiver acabando | **(inserir artefato)** | Inserir desenvolvedor |
 |RF-010| Para cada assistido, disparar alerta de fim de estoque de medicamentos, onde a quantidade mínima para disparo do alerta pode ser configurada pelo usuário | **(inserir artefato)** | Inserir desenvolvedor |
-|RF-011| Permitir alteração de senha | **(inserir artefato)** | Inserir desenvolvedor |
+|RF-011| Permitir alteração de senha | **configuracoes-1.2.html, configuracoes-u-c-1.2.html** | Marcos Paulo |
 |RF-012| Recuperar senha | **esqueceuasenha.html,esqueceuasenha2.html** | Guilherme |
-|RF-013| Disponibilizar consulta rápida do cronograma de ingestão diária de medicamentos (no caso do cuidador permitir consultar por assistido) | **(inserir artefato)** | Inserir desenvolvedor|
+|RF-013| Disponibilizar consulta rápida do cronograma de ingestão diária de medicamentos (no caso do cuidador permitir consultar por assistido) | **home.html, home-usuario-comum.html** | Marcos Paulo |
 |RF-014| Disponibilizar consulta ao histórico de ingestões de medicamentos por períodos (no caso do cuidador permitir consultar por assistido) | **(inserir artefato)** | Inserir desenvolvedor|
-|RF-015| Permitir cadastrar pessoa para receber alerta quando esquecer de tomar medicamento | **(inserir artefato)** | Inserir desenvolvedor |
+|RF-015| Permitir cadastrar pessoa para receber alerta quando esquecer de tomar medicamento | **configuracoes-2.html, configuracoes-u-c-2.html** | Marcos Paulo |
 |RF-016| Permitir que, ao cadastrar o medicamento, o usuário opte por sempre confirmar a ingestão | A ser desenvolvido | Matheus |
 |RF-017| Permitir que, ao vincular medicamentos a cada um dos seus assistidos, o usuário opte por sempre confirmar a ingestão | **(inserir artefato)** | Inserir desenvolvedor |
