@@ -176,124 +176,117 @@ main .ver-todos a{
 aside{
     grid-area: barra-lateral;
 }
-aside #calendario{
-    background-color: #90E0EF;
+
+
+.calendario {
     border-radius: 10px;
-    height: 320px;
-}
-aside #calendario header{
+    background-color: #90E0EF;
     position: relative;
-    color: #03045E;
-    padding: 15px 15px 10px;
-}
-aside #calendario header h3{
     text-align: center;
-    font-weight: 100;
-    font-size: 1em;
+    width: 100%;
+    height: 295px;
+    padding: 20px 0px;
 }
-aside #calendario header .mes-anterior, aside #calendario header .mes-posterior{
+
+.mes {
+    width: 100%;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.mes h1 {
+    display: inline;
+    font-size: 100%;
+    padding: 15px;
+    width: 50%;
+    text-transform: capitalize;
+}
+
+.mes i {
+    cursor: pointer;
     color: black;
     font-size: x-large;
-    position: absolute;
-    top: 25px;
-}
-aside #calendario header .mes-anterior{
-    left: 30px;
-}
-aside #calendario header .mes-posterior{
-    right: 30px;
-}
-aside #calendario table thead tr td{
-    max-width: 15px;
-    padding: 5px 15px;
-    font-size: 0.9em;
+    line-height: 10px;
+    width: 20px;
     text-align: center;
-}
-aside #calendario .dias-letras, aside #calendario .dias-numeros {
-    background-color: #F1F1F1;
-    border-radius: 10px;
-    margin: 0 30px 10px;
+    border-radius: 25px;
     padding: 5px;
 }
-aside #calendario table tbody tr td{
-    max-width: 16px;
-    padding: 3px 11px;
-    font-size: 0.9em;
-    text-align: center;
-}
-aside #calendario table tbody tr td a{
+
+.mes a {
+    font-size: 1rem;
     color: black;
+    font-weight: 600;
+    float: left;
+    margin-top: 5px;
 }
-aside #calendario table tbody tr td.sobra{
-    color: #777777;
+
+
+.dias-da-semana {
+    background-color: white;
+    border-radius: 15px;
+    margin: 25px auto 10px;
+    width: 90%;
+    height: 30px;
+    padding-top: 10px ;
+    display: flex;
+    flex-wrap: wrap;
 }
-aside #calendario table tbody tr td.hoje{
-    background-color: #c4c4c4;
-    color: #777777;
-    border-radius: 20px;
+
+.dias-da-semana div {
+    font-size: 1rem;
+    margin: 1px;
+    width: calc(100%/7.5);
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 4.8px 8px rgba(0, 0,0, 0.5);
+    display: inline;
 }
-@media (max-width: 1240px){
-    aside #calendario table thead tr td, aside #calendario table tbody tr td{
-        font-size: 0.8em;
-    }
+
+.dias {
+    background-color: white;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
-@media (max-width: 1200px){
-    aside #calendario table thead tr td, aside #calendario table tbody tr td{
-        font-size: 0.7em;
-        padding: 3px 11px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 14.5px;
-    }
+
+.dias div {
+    font-size: 1rem;
+    margin: 1px;
+    width: calc(100%/7.5);
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 4.8px 8px rgba(0, 0,0, 0.5);
+    transition: bacground-color 0.2s;
 }
-@media (max-width: 1170px){
-    aside #calendario table tbody tr td{
-        padding: 3px 11px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 14px;
-    }
+
+.dias div:hover:not(.hoje) {
+    background-color: gray;
+    border: 0px solid #777;
+    cursor: pointer;
+    border-radius: 25px;
 }
-@media (max-width: 1160px){
-    aside #calendario table tbody tr td{
-        padding: 3px 10px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 13px;
-    }
+
+.data-anterior,
+.proxima-data {
+    opacity: 0.5;
 }
-@media (max-width: 1100px){
-    aside #calendario table tbody tr td{
-        padding: 3px 9px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 12px;
-    }
+
+.hoje {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
 }
-@media (max-width: 1050px){
-    aside #calendario table tbody tr td{
-        padding: 3px 8px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 11px;
-    }
-}
-@media (max-width: 1000px){
-    aside #calendario table tbody tr td{
-        padding: 3px 7px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 10px;
-    }
-}
-@media (max-width: 950px){
-    aside #calendario table tbody tr td{
-        padding: 3px 6px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 9px;
-    }
-}
+
 
 aside #notificacoes-home{
     margin-top: 15px;
@@ -391,74 +384,18 @@ aside .adicionar-paciente a{
         grid-gap: 2%;
         grid-template-rows: auto;
         grid-template-areas: "calendario notificacao"
-        "calendario botao-adicionar";
+                             "calendario botao-adicionar";
     }
-    aside #calendario{
+    aside .calendario{
         grid-area: calendario;
         margin-top: 15px;
-    }
-    aside #calendario table tbody tr td{
-        padding: 3px 18px;
-    }
-    aside #calendario table thead tr td{
-        padding: 5px 21.5px;
-    }
-
-    @media (max-width: 900px) {
-        aside #calendario table tbody tr td{
-            padding: 3px 17px;
-        }
-        aside #calendario table thead tr td{
-            padding: 5px 20.5px;
-        }
-    }
-    @media (max-width: 860px) {
-        aside #calendario table tbody tr td{
-            padding: 3px 15px;
-        }
-        aside #calendario table thead tr td{
-            padding: 5px 18.5px;
-        }
-        aside #calendario .dias-letras, aside #calendario .dias-numeros{
-            padding: 5px 10px;
-        }
-    }
-    @media (max-width: 815px) {
-        aside #calendario table tbody tr td{
-            padding: 3px 11px;
-        }
-        aside #calendario table thead tr td{
-            padding: 5px 14.5px;
-        }
-        aside #calendario .dias-letras, aside #calendario .dias-numeros{
-            padding: 5px 30px;
-        }
-    }
-    @media (max-width: 780px) {
-        aside #calendario .dias-letras, aside #calendario .dias-numeros{
-            padding: 5px 25px;
-        }
-    }
-    @media (max-width: 760px) {
-        aside #calendario .dias-letras, aside #calendario .dias-numeros{
-            padding: 5px 15px;
-        }
-    }
-    @media (max-width: 730px) {
-        aside #calendario .dias-letras, aside #calendario .dias-numeros{
-            padding: 5px 10px;
-        }
-    }
-    @media (max-width: 700px) {
-        aside #calendario .dias-letras, aside #calendario .dias-numeros{
-            padding: 5px 0px;
-        }
     }
     aside #notificacoes-home{
         grid-area: notificacao;
         padding-bottom: 30px;
     }
     aside .adicionar-paciente{
+        grid-area: botao-adicionar;
         padding: 9px;
     }
 }
@@ -473,6 +410,13 @@ aside .adicionar-paciente a{
                              "principal"
                              "barra-lateral";
     }
+    header{
+        margin-top: 0;
+        height: 90px;
+    }
+    header img{
+        height: 70px;
+    }
     aside{
         display: grid;
         grid-template-columns: 1fr;
@@ -481,7 +425,7 @@ aside .adicionar-paciente a{
         grid-template-areas: "botao-adicionar"
                              "notificacao";
     }
-    aside #calendario{
+    aside .calendario{
         display: none;
     }
     aside #notificacoes-home{

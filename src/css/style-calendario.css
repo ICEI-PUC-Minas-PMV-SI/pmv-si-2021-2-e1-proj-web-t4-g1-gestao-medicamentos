@@ -171,7 +171,7 @@ main{
 
 .dias div:hover:not(.hoje) {
     background-color: #262626;
-    border: 3.2px solid #777;
+    border: 0px solid #777;
     cursor: pointer;
 }
 
@@ -220,6 +220,13 @@ main{
     }
 }
 @media (max-width: 670px){
+    header{
+        margin-top: 0;
+        height: 90px;
+    }
+    header img{
+        height: 70px;
+    }
     .calendario {
         width: 100%;
     }
