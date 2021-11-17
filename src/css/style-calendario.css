@@ -161,7 +161,7 @@ main{
     font-size: 1.4rem;
     margin: 4.8px;
     width: calc(100%/7.8);
-    height: 70px;
+    height: 65px;
     display: flex;
     justify-content: center;
     align-items: center;

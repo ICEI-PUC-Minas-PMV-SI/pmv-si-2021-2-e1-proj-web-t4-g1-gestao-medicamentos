@@ -139,9 +139,11 @@ main .hora-remedio .tarefa .expandir, main .hora-remedio .tarefa-aberta .expandi
     background-color: #C4C4C4;
     padding: 5px;
     border-radius: 15px;
+    cursor: pointer;
 }
 main .hora-remedio .tarefa-aberta{
     height: 100px;
+    display: none;
 }
 main .hora-remedio .tarefa-aberta .feito, main .hora-remedio .tarefa-aberta .opcoes{
     border-radius: 10px;
