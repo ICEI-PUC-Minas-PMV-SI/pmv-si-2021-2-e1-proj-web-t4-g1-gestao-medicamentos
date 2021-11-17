@@ -18,7 +18,8 @@
 
             <main>
                 <h1>Para hoje</h1>
-                <h3 class="dia-hoje">Terça-feira, 28</h3>
+                <h3 class="dia-hoje">Dia, Data</h3>
+                
 
                 <div><a href="configuracoes.html"><img id="configuracoes" src="imagens/configuracoes.png" alt=""></a></div>
 
@@ -26,27 +27,45 @@
                     <div class="horario">
                         <span class="hora">8h</span><hr>
                     </div>
-                    <div class="tarefa">
+                    <div class="tarefa" id="tarefa-1">
                         Dar <span class="remedio">Xarelto</span> | <span class="paciente">Sueli</span>
-                        <span><a href=""><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                        <span><a onclick="expandir1()"><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                    </div>
+                    <div class="tarefa-aberta" id="tarefa-aberta-1">
+                        Dar <span class="remedio">Xarelto</span> | <span class="paciente">Sueli</span>
+                        <span><a onclick="expandir1()"><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
+                        <a href="" class="feito">Marcar como feito</a>
+                        <a href="" class="opcoes">...</a>
                     </div>
                 </div>
+
                 <div class="hora-remedio">
                     <div class="horario">
                         <span class="hora">10h</span><hr>
                     </div>
-                    <div class="tarefa">
+                    <div class="tarefa" id="tarefa-2">
                         Dar <span class="remedio">Enalapril</span> | <span class="paciente">Joaquim</span>
-                        <span><a href=""><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                        <span><a onclick="expandir2()"><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                    </div>
+                    <div class="tarefa-aberta" id="tarefa-aberta-2">
+                        Dar <span class="remedio">Enalapril</span> | <span class="paciente">Joaquim</span>
+                        <span><a onclick="expandir2()"><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
+                        <a href="" class="feito">Marcar como feito</a>
+                        <a href="" class="opcoes">...</a>
                     </div>
                 </div>
+
                 <div class="hora-remedio">
                     <div class="horario">
                         <span class="hora">15h</span><hr>
                     </div>
-                    <div class="tarefa-aberta">
+                    <div class="tarefa" id="tarefa-3">
                         Dar <span class="remedio">Insulina</span> | <span class="paciente">João</span>
-                        <span><a href=""><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
+                        <span><a onclick="expandir3()"><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                    </div>
+                    <div class="tarefa-aberta" id="tarefa-aberta-3">
+                        Dar <span class="remedio">Insulina</span> | <span class="paciente">João</span>
+                        <span><a onclick="expandir3()"><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
                         <a href="" class="feito">Marcar como feito</a>
                         <a href="" class="opcoes">...</a>
                     </div>

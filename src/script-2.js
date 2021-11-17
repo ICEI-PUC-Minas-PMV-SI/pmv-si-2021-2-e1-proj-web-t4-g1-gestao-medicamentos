@@ -80,3 +80,60 @@ document.querySelector(".next").addEventListener("click", () => {
 renderCalendar();
 
 
+
+//Data hoje Home
+var data = new Date();
+
+var diasSemana = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
+
+var nomeDia = diasSemana[data.getDay()];
+
+var dataHoje = document.querySelector(".dia-hoje");
+
+dataHoje.textContent = nomeDia + ", " + data.getDate();
+
+
+
+
+// Expandir/encolher tarefas
+function expandir1(){
+  var tarefaFechada = document.getElementById("tarefa-1");
+  var tarefaAberta = document.getElementById("tarefa-aberta-1");
+
+  if(tarefaFechada.style.display === "none"){
+    tarefaFechada.style.display="block";
+    tarefaAberta.style.display="none";
+  }
+  else{
+    tarefaAberta.style.display="block";
+    tarefaFechada.style.display="none";
+  }
+}
+
+function expandir2(){
+  var tarefaFechada = document.getElementById("tarefa-2");
+  var tarefaAberta = document.getElementById("tarefa-aberta-2");
+
+  if(tarefaFechada.style.display === "none"){
+    tarefaFechada.style.display="block";
+    tarefaAberta.style.display="none";
+  }
+  else{
+    tarefaAberta.style.display="block";
+    tarefaFechada.style.display="none";
+  }
+}
+
+function expandir3(){
+  var tarefaFechada = document.getElementById("tarefa-3");
+  var tarefaAberta = document.getElementById("tarefa-aberta-3");
+
+  if(tarefaFechada.style.display === "none"){
+    tarefaFechada.style.display="block";
+    tarefaAberta.style.display="none";
+  }
+  else{
+    tarefaAberta.style.display="block";
+    tarefaFechada.style.display="none";
+  }
+}
