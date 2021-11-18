@@ -31,7 +31,7 @@ header > a img{
     background-color: #00B4D8;
     border-radius: 10px;
     box-shadow: 2px 2px 10px;
-    height: max-content;
+    height: 84.8vh;
 }
 #barra-navegacao >span > img{
  background-color: white;
@@ -284,6 +284,7 @@ main{
     }
     #barra-navegacao{
         position: relative;
+        height: max-content;
     }
     #barra-navegacao img{
         width: 10%;
