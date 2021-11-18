@@ -35,37 +35,60 @@
                 <div id="corpo">
                     <h1 class="proximas">Próximas medicações</h1>
 
-                    <span class="dia-data">Quarta-feira, 29 de Setembro</span>
+                    <div class="scroll">
+                        <span class="dia-data">Quarta-feira, 29 de Setembro</span>
                     
-                    <div class="hora-remedio">
-                        <div class="horario">
-                            <span class="hora">8h</span><hr>
+                        <div class="hora-remedio">
+                            <div class="horario">
+                                <span class="hora">8h</span><hr>
+                            </div>
+                            <div class="tarefa" id="tarefa-1">
+                                <span class="remedio">Xarelto</span>
+                                <span><a onclick="expandir1()"><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                            </div>
+                            <div class="tarefa-aberta" id="tarefa-aberta-1">
+                                <span class="remedio">Xarelto</span>
+                                <span><a onclick="expandir1()"><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
+                                <a href="" class="feito">Marcar como feito</a>
+                                <a href="" class="opcoes">...</a>
+                            </div>
                         </div>
-                        <div class="tarefa">
-                            <span class="remedio">Xarelto</span>
-                            <span><a href=""><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
-                        </div>
-                    </div>
-                    <div class="hora-remedio">
-                        <div class="horario">
-                            <span class="hora">10h</span><hr>
-                        </div>
-                        <div class="tarefa">
-                            <span class="remedio">Enalapril</span>
-                            <span><a href=""><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
-                        </div>
-                    </div>
 
-                    <span class="dia-data">Quinta-feira, 30 de Setembro</span>
-                    <div class="hora-remedio">
-                        <div class="horario">
-                            <span class="hora">10h</span><hr>
-                        </div>
-                        <div class="tarefa">
+                        <div class="hora-remedio">
+                            <div class="horario">
+                                <span class="hora">10h</span><hr>
+                            </div>
+                            <div class="tarefa" id="tarefa-2">
                             <span class="remedio">Enalapril</span>
-                            <span><a href=""><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                            <span><a onclick="expandir2()"><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                        </div>
+                        <div class="tarefa-aberta" id="tarefa-aberta-2">
+                            <span class="remedio">Enalapril</span>
+                            <span><a onclick="expandir2()"><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
+                            <a href="" class="feito">Marcar como feito</a>
+                            <a href="" class="opcoes">...</a>
+                        </div>
+                        </div>
+
+                        <span class="dia-data">Quinta-feira, 30 de Setembro</span>
+
+                        <div class="hora-remedio">
+                            <div class="horario">
+                                <span class="hora">10h</span><hr>
+                            </div>
+                            <div class="tarefa" id="tarefa-3">
+                                <span class="remedio">Enalapril</span>
+                                <span><a onclick="expandir3()"><img class="expandir" src="imagens/expandir.png" alt=""></a></span>
+                            </div>
+                            <div class="tarefa-aberta" id="tarefa-aberta-3">
+                                <span class="remedio">Enalapril</span>
+                                <span><a onclick="expandir3()"><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br>
+                                <a href="" class="feito">Marcar como feito</a>
+                                <a href="" class="opcoes">...</a>
+                            </div>
                         </div>
                     </div>
+                    
                 </div> 
             </main>
 
