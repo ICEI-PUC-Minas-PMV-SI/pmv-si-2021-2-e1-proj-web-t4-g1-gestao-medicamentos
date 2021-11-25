@@ -1,0 +1,1409 @@
+/* =============================Cadastro01=================================== */
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.616);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container.mostrar{
+    display: flex;
+}
+@keyframes modal{
+    from {
+        opacity: 0;
+        transform: translate(0, -60, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+.mostrar .modal{
+    animation: modal .9s;
+}
+.fechar{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #E81330;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37);
+    transition: 0.6s;
+}
+.fechar:hover{
+    width: 52px;
+    height: 52px;
+}
+.box2
+{
+    width: 420px;
+    height: 454px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #b0daee;
+    text-align: center;
+    border-radius: 10px;
+    border : none;
+    box-shadow:  4px 4px 1px rgb(175, 175, 175);
+    box-shadow: 0 5px 45px rgba(0, 0, 0,0.35);
+    padding: 2% 2%;
+}
+
+fieldset
+{
+   border: 3px double #90c1d6;
+   border-radius: 10px;
+   
+}
+
+legend
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:#036494;
+    cursor: default;
+    text-shadow: 1px 2px 4px #337381;
+}
+.labelNome{
+    position: absolute;
+    top: 72px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.labelSobrenome{
+    position: absolute;
+    top: 72px;
+    left: 245px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.labelEmail{
+    position: absolute;
+    top: 145px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.labelSenha{
+    position: absolute;
+    top: 221px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.labelConfSenha{
+    position: absolute;
+    top: 221px;
+    left: 245px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.labelEstado{
+    position: absolute;
+    top: 295px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.labelCidade{
+    position: absolute;
+    top: 295px;
+    left: 245px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.certificacao1{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: 222px;
+}
+.certificacao2{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: 412px;
+}
+.certificacao3{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 155px;
+    left: 415px;
+}
+.certificacao4{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 230px;
+    left: 222px;
+}
+.certificacao5{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 230px;
+    left: 410px;
+}
+.certificacao6{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 305px;
+    left: 222px;
+}
+.certificacao7{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 305px;
+    left: 410px;
+}
+
+.text1
+{
+    background-color: #b0daee;
+    margin: 40px auto;
+    display: flexbox;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  8px 14px;
+    width: 152px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 25px;
+    margin-right: 1.75px;
+}
+
+.text1:focus
+{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+
+.box2 input[type = "email"]
+{
+    background-color: #b0daee;
+    display: flexbox;
+    margin: 40px auto;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  8px 14px;
+    width: 342px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.20s;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+   
+.box2 input[type = "email"]:focus
+{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+
+.senha2
+{
+    background-color: #b0daee;
+    position: fixed;
+    margin: 40px auto;
+    display: block;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  8px 14px;
+    width: 150px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 0px;
+    margin-left: 7.5px;
+}
+
+.olho2{
+    width: 12px;
+    position: absolute;
+    top: 246px;
+    left: 213px;
+    opacity: 50%;
+    cursor: pointer;
+}
+.senha2:focus{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+.senha3{
+    background-color: #b0daee;
+    position: fixed;
+    margin: 40px auto;
+    display: block;
+    right: 50px;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  8px 14px;
+    width: 150px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 0px;
+    margin-right: 1.5px;
+}
+
+.olho3{
+    width: 12px;
+    position: absolute;
+    top: 246px;
+    left: 400px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.senha3:focus{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+
+.estado
+{
+    background-color: #b0daee;
+    position: absolute;
+    margin: 40px auto;
+    top: 310px;
+    left: 50px;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  7px 14px;
+    width: 181.5px;
+    float: left;
+    cursor: pointer;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 0px;
+    margin-right: 8px;
+}
+
+.estado:focus
+{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+
+.cidade
+{
+    background-color: #b0daee;
+    margin: 40px auto;
+    position: absolute;
+    top: 310px;
+    right: 50px;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  8px 14px;
+    width: 150px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 0px;
+    margin-right: 1.5px;
+}
+
+
+.cidade:focus
+{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+
+
+.box2  input[type="button"]
+{
+    background-color: #00B7D5;
+    margin: 20px auto;
+    text-align: center;
+    position: absolute;
+    left: 152px;
+    top: 380px;
+    border: 1.75px solid #00B7D5;
+    padding:  20px 15px;
+    width: 160px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+    align-items: center;
+}
+.erro{
+    position: absolute;
+    top: 365px;
+    left: 54px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #E81330;
+    background: #e0b3b8;
+    width: 360px;
+    height: 20px;
+    border-radius: 3px;
+    display: none;
+}
+
+.box2  input[type="button"]:hover
+{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+@media(max-width:1200px){
+    .estado{
+        top: 310px;
+        left: 49px;
+    }
+    .cidade{
+        top: 310px;
+    }
+    .senha2{
+        left: 41.5px;
+    }
+    .senha3{
+        right: 49px;
+    }
+    .olho2{
+        top: 244px;
+        left: 210px;
+    }
+    .olho3{
+        top: 244px;
+        left: 395px;
+    }
+    .certificacao1{
+        width: 14px;
+        top: 80px;
+        left: 220px;
+    }
+    .certificacao2{
+        width: 14px;
+        top: 80px;
+        left: 410px;
+    }
+    .certificacao3{
+        width: 14px;
+        top: 151px;
+        left: 412px;
+    }
+    .certificacao4{
+        width: 14px;
+        top: 227px;
+        left: 220px;
+    }
+    .certificacao5{
+        width: 14px;
+        top: 227px;
+        left: 407px;
+    }
+    .certificacao6{
+        width: 14px;
+        top: 305px;
+        left: 220px;
+    }
+    .certificacao7{
+        width: 14px;
+        top: 305px;
+        left: 407px;
+    }
+    .labelNome{
+        top: 72px;
+        left: 50px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 72px;
+        left: 240px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 145px;
+        left: 50px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 221px;
+        left: 50px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 221px;
+        left: 240px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 295px;
+        left: 240px;
+        font-size: 12px;
+    } 
+    .erro{
+        left: 52px;
+    }
+}
+@media(max-width:1100px){
+    .estado{
+        top: 310px;
+        left: 46.5px;
+    }
+    .cidade{
+        top: 310px;
+        right: 46.5px;
+    }
+    .senha2{
+        left: 39.5px;
+    }
+    .senha3{
+        right: 47px;
+    }
+    .olho2{
+        top: 242px;
+        left: 208px;
+    }
+    .olho3{
+        top: 242px;
+        left: 395px;
+    }
+    .certificacao1{
+        width: 13.5px;
+        top: 78px;
+        left: 220px;
+    }
+    .certificacao2{
+        width: 13.5px;
+        top: 78px;
+        left: 410px;
+    }
+    .certificacao3{
+        width: 13.5px;
+        top: 152px;
+        left: 412px;
+    }
+    .certificacao4{
+        width: 13.5px;
+        top: 227px;
+        left: 220px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 227px;
+        left: 408px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 304px;
+        left: 220px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 304px;
+        left: 407px;
+    }
+    .labelNome{
+        top: 70px;
+        left: 50px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 70px;
+        left: 240px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 143px;
+        left: 50px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 219px;
+        left: 50px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 219px;
+        left: 240px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 295px;
+        left: 240px;
+        font-size: 12px;
+    }  
+    .erro{
+        left: 51px;
+    } 
+}
+@media(max-width:1000px){
+    .estado{
+        top: 310px;
+        left: 44.5px;
+    }
+    .cidade{
+        top: 310px;
+        right: 44.5px;
+    }
+    .senha2{
+        left: 37.5px;
+    }
+    .senha3{
+        right: 45px;
+    }
+    .olho2{
+        top: 241px;
+        left: 205px;
+    }
+    .olho3{
+        top: 241px;
+        left: 392px;
+    }
+    .certificacao1{
+        width: 13.5px;
+        top: 76px;
+        left: 217px;
+    }
+    .certificacao2{
+        width: 13.5px;
+        top: 76px;
+        left: 407px;
+    }
+    .certificacao3{
+        width: 13.5px;
+        top: 151px;
+        left: 409px;
+    }
+    .certificacao4{
+        width: 13.5px;
+        top: 225px;
+        left: 217px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 225px;
+        left: 405px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 305px;
+        left: 217px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 305px;
+        left: 405px;
+    }
+
+    .labelNome{
+        top: 68px;
+        left: 48px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 68px;
+        left: 238px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 142px;
+        left: 48px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 217px;
+        left: 48px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 217px;
+        left: 238px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 295px;
+        left: 238px;
+        font-size: 12px;
+    }
+    .erro{
+        left: 49px;
+    }   
+}
+@media(max-width:900px){
+    .estado{
+        top: 310px;
+        left: 42.5px;
+    }
+    .cidade{
+        top: 310px;
+        right: 42.5px;
+    }
+    .senha2{
+        left: 35px;
+    }
+    .senha3{
+        right: 42.5px;
+    }
+     
+    .olho2{
+        top: 238px;
+        left: 202px;
+    }
+    .olho3{
+        top: 238px;
+        left: 390px;
+    }
+    .certificacao1{
+        width: 13.5px;
+        top: 74px;
+        left: 216px;
+    }
+    .certificacao2{
+        width: 13.5px;
+        top: 74px;
+        left: 405px;
+    }
+    .certificacao3{
+        width: 13.5px;
+        top: 148px;
+        left: 407px;
+    }
+    .certificacao4{
+        width: 13.5px;
+        top: 222px;
+        left: 216px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 222px;
+        left: 404px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 304px;
+        left: 216px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 304px;
+        left: 404px;
+    }
+ 
+    .labelNome{
+        top: 66px;
+        left: 46px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 66px;
+        left: 236px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 140px;
+        left: 46px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 215px;
+        left: 46px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 215px;
+        left: 236px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 295px;
+        left: 238px;
+        font-size: 12px;
+    }   
+    .erro{
+        left: 47px;
+    }
+}
+@media(max-width:800px){
+    .estado{
+        top: 310px;
+        left: 40.5px;
+    }
+    .cidade{
+        top: 310px;
+        right: 40.5px;
+    }
+    .senha2{
+        left: 33px;
+    }
+    .senha3{
+        right: 40.5px;
+    }
+    .olho2{
+        top: 237.5px;
+        left: 202px;
+    }
+    .olho3{
+        top: 237.5px;
+        left: 390px;
+    }
+    .certificacao1{
+        width: 13.5px;
+        top: 72px;
+        left: 214px;
+    }
+    .certificacao2{
+        width: 13.5px;
+        top: 72px;
+        left: 403px;
+    }
+    .certificacao3{
+        width: 13.5px;
+        top: 146px;
+        left: 405px;
+    }
+    .certificacao4{
+        width: 13.5px;
+        top: 220px;
+        left: 214px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 220px;
+        left: 402px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 303px;
+        left: 214px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 303px;
+        left: 402px;
+    }
+    .labelNome{
+        top: 64px;
+        left: 44px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 64px;
+        left: 234px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 138px;
+        left: 44px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 213px;
+        left: 44px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 213px;
+        left: 234px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 295px;
+        left: 236px;
+        font-size: 12px;
+    } 
+    .labelEstado{
+        top: 295px;
+        left: 44px;
+        font-size: 12px;
+    }
+    .erro{
+        top: 352px;
+        left: 45;
+    }    
+    .box2  input[type="button"]{
+        top: 360px;
+    }
+
+}
+@media(max-width:700px){
+    .estado{
+        top: 300px;
+        left: 38.5px;
+    }
+    .cidade{
+        top: 300px;
+        right: 38.5px;
+    }
+    .senha2{
+        left: 31px;
+    }
+    .senha3{
+        right: 39px;
+    }
+    .olho2{
+        top: 235px;
+        left: 200px;
+    }
+    .olho3{
+        top: 235px;
+        left: 388px;
+    }
+    .certificacao1{
+        width: 13.5px;
+        top: 70px;
+        left: 212px;
+    }
+    .certificacao2{
+        width: 13.5px;
+        top: 70px;
+        left: 401px;
+    }
+    .certificacao3{
+        width: 13.5px;
+        top: 144px;
+        left: 403px;
+    }
+    .certificacao4{
+        width: 13.5px;
+        top: 218px;
+        left: 212px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 218px;
+        left: 400px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 295px;
+        left: 212px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 295px;
+        left: 400px;
+    }
+
+    .labelNome{
+        top: 62px;
+        left: 42px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 62px;
+        left: 232px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 136px;
+        left: 42px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 211px;
+        left: 42px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 211px;
+        left: 232px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 285px;
+        left: 235px;
+        font-size: 12px;
+    } 
+    .labelEstado{
+        top: 285px;
+        left: 42px;
+        font-size: 12px;
+    }     
+    .erro{
+        top: 350px;
+        left: 44px;
+    } 
+}
+@media(max-width:600px){
+    .estado{
+        top: 300px;
+        left: 36.5px;
+    }
+    .cidade{
+        top: 300px;
+        right: 36.5px;
+    }
+    .senha2{
+        left: 29px;
+    }
+    .senha3{
+        right: 37px;
+    }
+    .olho2{
+        top: 232px;
+        left: 200px;
+    }
+    .olho3{
+        top: 232px;
+        left: 386px;
+    }
+    .certificacao1{
+        width: 13px;
+        top: 68px;
+        left: 210px;
+    }
+    .certificacao2{
+        width: 13px;
+        top: 68px;
+        left: 399px;
+    }
+    .certificacao3{
+        width: 13px;
+        top: 142px;
+        left: 401px;
+    }
+    .certificacao4{
+        width: 13px;
+        top: 216px;
+        left: 210px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 216px;
+        left: 397px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 293px;
+        left: 210px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 293px;
+        left: 398px;
+    }
+    .labelNome{
+        top: 60px;
+        left: 40px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 60px;
+        left: 230px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 134px;
+        left: 40px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 209px;
+        left: 40px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 209px;
+        left: 230px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 285px;
+        left: 230px;
+        font-size: 12px;
+    }  
+    .labelEstado{
+        top: 285px;
+        left: 40px;
+        font-size: 12px;
+    }   
+    .erro{
+        top: 350px;
+        left: 42px;
+    } 
+}
+@media(max-width:500px){
+    .estado{
+        top: 265px;
+        left: 34.5px;
+    }
+    .cidade{
+        top: 265px;
+        right: 34.5px;
+    }
+    .senha2{
+        left: 27.5px;
+    }
+    .senha3{
+        right: 34.5px;
+    }
+    .olho2{
+        top: 200px;
+        left: 195px;
+    }
+    .olho3{
+        top: 200px;
+        left: 383px;
+    }
+    .certificacao1{
+        width: 13px;
+        top: 35px;
+        left: 208px;
+    }
+    .certificacao2{
+        width: 13px;
+        top: 35px;
+        left: 397px;
+    }
+    .certificacao3{
+        width: 13px;
+        top: 110px;
+        left: 400px;
+    }
+    .certificacao4{
+        width: 13px;
+        top: 183px;
+        left: 210px;
+    }
+    .certificacao5{
+        width: 13.5px;
+        top: 183px;
+        left: 397px;
+    }
+    .certificacao6{
+        width: 13.5px;
+        top: 260px;
+        left: 208px;
+    }
+    .certificacao7{
+        width: 13.5px;
+        top: 260px;
+        left: 396px;
+    }
+    .labelNome{
+        top: 28px;
+        left: 38px;
+        font-size: 12px;  
+    }
+    .labelSobrenome{  
+        top: 28px;
+        left: 228px;
+        font-size: 12px;  
+    }
+    .labelEmail{
+        top: 102px;
+        left: 38px;
+        font-size: 12px;
+    }
+    .labelSenha{
+        top: 175px;
+        left: 38px;
+        font-size: 12px; 
+    }
+    .labelConfSenha{
+        top: 175px;
+        left: 228px;
+        font-size: 12px;
+    }
+    .labelCidade{
+        top: 250px;
+        left: 228px;
+        font-size: 12px;
+    } 
+    .labelEstado{
+        top: 250px;
+        left: 38px;
+        font-size: 12px;
+    }     
+
+    .fechar{
+        top: -30px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .fechar:hover{
+        width: 44px;
+        height: 44px;
+    }
+    .modal-container{
+        background-color: #b0daee;
+    }
+    .legenda2{
+        position: fixed;
+        top: -15px;
+        left: 115px;
+    }  
+    .box2{
+        border: none;
+        box-shadow: none;
+    }
+    fieldset{
+        border: none;
+    }
+    .erro{
+        top: 330px;
+        left: 40px;
+    } 
+}
+@media(max-width:450px){
+    legend{
+        font-size: 25px;
+    }
+    .box2 input[type="text"]{
+        width: 130px;
+        margin-right: 0.5px;
+    }
+    .box2 input[type = "email"]{
+        width: 297px;
+        
+    }
+    .senha2{
+        width: 130px;
+        left: 47.5px;
+    }
+    .senha3{
+        width: 130px;
+        right: 54px;
+    }
+    .olho2{
+        top: 198px;
+        left: 195px;
+    }
+    .olho3{
+        top: 198px;
+        left: 360px;
+    }
+    .certificacao1{
+        width: 12px;
+        top: 34px;
+        left: 207px;
+    }
+    .certificacao2{
+        width: 12px;
+        top: 34px;
+        left: 375px;
+    }
+    .certificacao3{
+        width: 12px;
+        top: 107px;
+        left: 377px;
+    }
+    .certificacao4{
+        width: 12px;
+        top: 183px;
+        left: 208px;
+    }
+    .certificacao5{
+        width: 12px;
+        top: 183px;
+        left: 375px;
+    }
+    .certificacao6{
+        width: 12px;
+        top: 260px;
+        left: 208px;
+    }
+    .certificacao7{
+        width: 12px;
+        top: 260px;
+        left: 375px;
+    }
+  
+
+ 
+    .labelNome{
+        top: 26px;
+        left: 60px;
+        font-size: 10px;  
+    }
+    .labelSobrenome{  
+        top: 26px;
+        left: 228px;
+        font-size: 10px;  
+    }
+    .labelEmail{
+        top: 102px;
+        left: 60px;
+        font-size: 10px;
+    }
+    .labelSenha{
+        top: 175px;
+        left: 60px;
+        font-size: 10px;
+    }
+    .labelConfSenha{
+        top: 175px;
+        left: 228px;
+        font-size: 10px;
+    }
+    .labelCidade{
+        top: 251px;
+        left: 228px;
+        font-size: 10px;
+    } 
+    .labelEstado{
+        top: 251px;
+        left: 60px;
+        font-size: 10px;
+    } 
+   
+    .estado{
+        top: 265px;
+        left: 54.5px;
+        width: 162px;
+    }
+    .cidade{
+        width: 131px;
+        top: 265px;
+        right: 54.5px;
+    }
+    .fechar{
+        right: 55px;
+        top: -25px;
+    }
+}
+@media(max-width:320px){
+    legend{
+        font-size: 25px;
+        margin-left: 4px;
+    }
+    .box2 input[type="text"]{
+        width: 120px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .box2 input[type = "email"]{
+        width: 276px;
+        margin-right: 4px;
+    }
+    .senha2{
+        width: 120px;
+        left: 55px;
+    }
+    .senha3{
+        width: 120px;
+        right: 61px;
+    }
+    .estado{
+        top: 265px;
+        left: 62px;
+        width: 152px;
+    }
+    .cidade{
+        width: 120px;
+        right: 62px;
+        top: 265px;
+    }
+    .olho2{
+        top: 196px;
+        left: 195px;
+    }
+    .olho3{
+        top: 196px;
+        left: 350px;
+    }
+    .certificacao1{
+        width: 12px;
+        top: 32px;
+        left: 206px;
+    }
+    .certificacao2{
+        width: 12px;
+        top: 32px;
+        left: 362px;
+    }
+    .certificacao3{
+        width: 12px;
+        top: 106px;
+        left: 362px;
+    }
+    .certificacao4{
+        width: 12px;
+        top: 180px;
+        left: 206px;
+    }
+    .certificacao5{
+        width: 12px;
+        top: 180px;
+        left: 363px;
+    }
+    .certificacao6{
+        width: 12px;
+        top: 259px;
+        left: 206px;
+    }
+    .certificacao7{
+        width: 12px;
+        top: 259px;
+        left: 363px;
+    }
+    .labelNome{
+        top: 24.5px;
+        left: 67px;
+        font-size: 10px;  
+    }
+    .labelSobrenome{  
+        top: 24.5px;
+        left: 220px;
+        font-size: 10px;  
+    }
+    .labelEmail{
+        top: 100px;
+        left: 67px;
+        font-size: 10px;
+    }
+    .labelSenha{
+        top: 173px;
+        left: 67px;
+        font-size: 10px;
+    }
+    .labelConfSenha{
+        top: 173px;
+        left: 220px;
+        font-size: 10px;
+    }
+    .labelCidade{
+        top: 253px;
+        left: 220px;
+        font-size: 10px;
+    } 
+    .labelEstado{
+        top: 253px;
+        left: 67px;
+        font-size: 10px;
+    } 
+    .fechar{
+        right: 60px;
+        top: -50px;
+    }
+}
