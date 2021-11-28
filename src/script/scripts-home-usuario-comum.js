@@ -1,0 +1,99 @@
+let nome = document.querySelector('#nome-usuario');
+nome.innerHTML = "João";
+
+
+
+let lista = document.querySelector('.scroll');
+
+for (var i = 0; i < 7; i++){
+
+
+    let horaRemedio = document.createElement('div');
+    horaRemedio.classList.add('hora-remedio');
+
+
+
+    let horario = document.createElement('div');
+    horario.classList.add('horario');
+
+    let hora = document.createElement('span');
+    hora.classList.add('hora');
+
+    let hr = document.createElement('hr');
+    
+
+
+    let tarefa = document.createElement('div');
+    tarefa.classList.add('tarefa');
+    tarefa.classList.add('tarefa-' + (i + 1));
+
+    let remedio = document.createElement('span');
+    remedio.classList.add('remedio');
+
+    let span = document.createElement('span');
+
+    let a = document.createElement('a');
+
+
+    let expandir = document.createElement('img');
+    expandir.classList.add('expandir');
+
+
+    //Tarefa aberta//
+    let br = document.createElement('br');
+
+    let feito = document.createElement('a');
+    feito.classList.add('feito');
+    feito.innerHTML = 'Marcar como feito';
+
+    let opcoes = document.createElement('a');
+    opcoes.classList.add('opcoes');
+    opcoes.innerHTML = '...';
+
+
+
+    hora.innerHTML = ( 10 + (i*2) ) + 'h';
+
+    horario.appendChild(hora);
+    horario.appendChild(hr);
+
+    tarefa.innerHTML = 'Tomar ';
+
+    remedio.innerHTML = 'Xarelto';
+
+    expandir.src = 'imagens/expandir.png';
+
+    a.appendChild(expandir);
+
+    span.appendChild(a);
+
+    tarefa.appendChild(remedio);
+    tarefa.appendChild(span);
+
+    horaRemedio.appendChild(horario);
+    horaRemedio.appendChild(tarefa);
+    lista.appendChild(horaRemedio);
+
+
+    let tarefaAberta = document.createElement('div');
+    tarefaAberta.classList.add('tarefa-aberta');
+    tarefaAberta.innerHTML = 'Tomar <span class="remedio">Xarelto</span><span><a class="retrair" ><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br><a href="" class="feito">Marcar como feito</a><a href="" class="opcoes">...</a>';
+    horaRemedio.appendChild(tarefaAberta);
+
+
+    //Expandir e retrair os cards
+    var retrair = tarefaAberta.querySelector('.expandido');
+
+    expandir.addEventListener("click", function () {
+        tarefaAberta.style.display="block";
+        tarefa.style.display="none";
+    })
+
+    retrair.addEventListener("click", function () {
+        tarefa.style.display="block";
+        tarefaAberta.style.display="none";
+    })
+    
+    
+    
+}
