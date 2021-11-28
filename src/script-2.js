@@ -95,45 +95,20 @@ dataHoje.textContent = nomeDia + ", " + data.getDate();
 
 
 
-// Expandir/encolher tarefas
-function expandir1(){
-  var tarefaFechada = document.getElementById("tarefa-1");
-  var tarefaAberta = document.getElementById("tarefa-aberta-1");
+//   Expandir/encolher tarefas
 
-  if(tarefaFechada.style.display === "none"){
-    tarefaFechada.style.display="block";
-    tarefaAberta.style.display="none";
-  }
-  else{
-    tarefaAberta.style.display="block";
-    tarefaFechada.style.display="none";
-  }
-}
+//   var tarefaFechada = document.getElementById("tarefa-1");
+//   var tarefaAberta = document.getElementById("tarefa-aberta-1");
+//   var expandir = tarefaFechada.querySelector('.expandir');
+//   var retrair = tarefaAberta.querySelector('.expandido');
+//   
+//   expandir.addEventListener("click", function () {
+//     tarefaAberta.style.display="block";
+//     tarefaFechada.style.display="none";
+//   })
+//   
+//   retrair.addEventListener("click", function () {
+//     tarefaFechada.style.display="block";
+//     tarefaAberta.style.display="none";
+//   })
 
-function expandir2(){
-  var tarefaFechada = document.getElementById("tarefa-2");
-  var tarefaAberta = document.getElementById("tarefa-aberta-2");
-
-  if(tarefaFechada.style.display === "none"){
-    tarefaFechada.style.display="block";
-    tarefaAberta.style.display="none";
-  }
-  else{
-    tarefaAberta.style.display="block";
-    tarefaFechada.style.display="none";
-  }
-}
-
-function expandir3(){
-  var tarefaFechada = document.getElementById("tarefa-3");
-  var tarefaAberta = document.getElementById("tarefa-aberta-3");
-
-  if(tarefaFechada.style.display === "none"){
-    tarefaFechada.style.display="block";
-    tarefaAberta.style.display="none";
-  }
-  else{
-    tarefaAberta.style.display="block";
-    tarefaFechada.style.display="none";
-  }
-}
