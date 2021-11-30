@@ -20,11 +20,11 @@
                 <div class="informacoes-paciente">
                     <div class="voltar"><a href="home-usuario-comum.html"><</a></div>
                     <div class="esquerda">
-                        <img src="imagens/perfil-masculino.png" alt="">
+                        <img id="foto-meu-perfil" src="imagens/perfil-masculino.png" alt="">
                     </div>
                     <div class="direita">
-                        <h2 class="nome">Joaquim Cardoso</h2>
-                        <span class="idade">46 anos</span>
+                        <h2 id="nome-meu-perfil" class="nome">Joaquim Cardoso</h2>
+                        <span id="localizacao" class="idade">São Paulo, SP</span>
                         <hr>
                         Cadastrado em <span class="data-cadastro">28/09/2021</span><br>
                         Medicamentos: <span class="lista-medicamentos">Enalapril, Tramadol</span>
@@ -93,14 +93,14 @@
             </main>
 
             <div id="barra-navegacao">
-                <span><img src="imagens/perfil-masculino.png" alt=""></span><h3>Bem vindo, Joaquim!</h3>
+                <span><img id="foto-perfil" src="" alt=""></span><h3><span id="nome-usuario"></span></h3>
                 <ul>
                     <a href="home-usuario-comum.html"><li>Início</li></a>
                     <a href="#"><li class="ativo">Meu Perfil</li></a>
                     <a href="calendario-usuario-comum.html"><li>Calendário</li></a>
                     <a href="notificacoes-usuario-comum.html"><li>Notificações</li></a>
                 </ul>
-                <a href="login2.html"><img class="sair" src="imagens/icone-sair.png" alt=""></a>
+                <a href="login2.html" onclick="sair()"><img class="sair" src="imagens/icone-sair.png" alt=""></a>
             </div>
 
             <aside>
@@ -186,6 +186,7 @@
                 </div>
             </aside>
         </div>
-
+        <script src="script/scripts-geral.js"></script>
+        <script src="script/scripts-meu-perfil.js"></script>
     </body>
 </html>
