@@ -110,6 +110,7 @@ main .informacoes-paciente .esquerda img{
     background-color: #777777;
     margin-top: 20px;
     border-radius: 10px;
+    background-color: white;
 }
 main .informacoes-paciente .direita{
     grid-area: informacoes;
