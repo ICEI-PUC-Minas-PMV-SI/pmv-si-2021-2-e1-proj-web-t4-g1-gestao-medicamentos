@@ -1,0 +1,701 @@
+/* =====================Cadastro02==================== */
+.modal-container02{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container02.mostrar02{
+    display: flex;
+}
+@keyframes modal02{
+    from {
+        opacity: 0;
+        transform: translate(0, -60, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+.mostrar2 .modal02{
+    animation: modal02 .9s;
+}
+.sucesso{
+    position: absolute;
+    top: -12px;
+    left: 155px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color:#036494;
+    background: #b0daee;
+    height: 22px;
+    width: 160px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 87, 80, 0.35);
+    display: none;
+    text-align: center;
+
+}
+.box3
+{
+    width: 420px;
+    height: 455px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #b0daee;
+    text-align: center;
+    border-radius: 10px;
+    border : none;
+    padding: 2% 2%;
+}
+.bor2{
+    height: 430px;
+}
+fieldset
+{
+   border: 3px double #90c1d6;
+   border-radius: 10px; 
+}
+
+legend
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color:#036494;
+    text-shadow: 1px 2px 4px #337381;
+    cursor: default;
+}
+
+.labelGenero{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    top: 60px;
+    left: 55px;
+    display: flex;
+    text-align: left;
+    color:#036494;
+    cursor: default;
+}
+.labelUser{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    top: 135px;
+    left: 55px;
+    display: flex;
+    text-align: left;
+    color:#036494;
+    cursor: default;
+}
+.labelDate{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    top: 285px;
+    left: 55px;
+    display: flex;
+    text-align: left;
+    color:#036494;
+    cursor: default;
+}
+.certificacao8{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 62px;
+    left: 105px;
+}
+.certificacao9{
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 138px;
+    left: 156px;
+}
+.certificacao10{
+    width: 15px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 287px;
+    left: 185px;
+}
+
+w input[type="radio"]{
+    display: none;
+}
+w label{
+    color: rgb(80, 80, 80);
+    background-color: #b0daee;
+    font-family: 'Poppins',sans-serif;
+    float: left;
+    position: relative;
+    text-align:center;
+    width: 93.5px;
+    font-size: 13px;
+    margin: 20px auto;
+    border: 1.75px solid rgb(2, 132, 255);
+    border-radius: 5px;
+    padding: 15px 13.5px;
+    align-items: left;
+    margin-left: 2px;
+    margin-top: 6%;
+    justify-content: space-between;
+    transition: 0.5s;
+    cursor: pointer;
+}
+w label>span{
+    font-size: 13px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%,80%);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+w input[id="fema"]:checked + label{
+    background-color: #00B7D5;
+    border: 1.75px solid #00B7D5;
+    color: #ffffff;
+    box-shadow: 0 15px 45px #054b9b80;
+}
+w input[id="male"]:checked + label{
+    background-color: #00B7D5;
+    border: 1.75px solid #00B7D5;
+    color: #ffffff;
+    box-shadow: 0 15px 45px #006f8080;
+}
+w input[id="ou"]:checked + label{
+    background-color: #00B7D5;
+    border: 1.75px solid #00B7D5;
+    color: #ffffff;
+    box-shadow: 0 15px 45px #006f8080;
+}
+o input[type="radio"]{
+    display: none;
+}
+o label{
+    height: 90px;
+    width: 93.5px;
+    border: 1.75px solid transparent;
+    position: relative;
+    margin: auto ;
+    padding: 7px 46px;
+    border-radius: 5px;
+    color: rgb(80, 80, 80);
+    transition: 0.5s;
+    margin:  1.75px;
+    margin-top: 25px;
+    float: left;
+    cursor: pointer;
+}
+o label>span{
+    font-size: 13px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,80%);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+o input[type="radio"]:checked + label{
+    background-color: #00b9d533;
+    color: #036494;
+    box-shadow: 0 15px 45px rgba(3, 17, 148, 0.336);
+}
+
+o img{
+    position: absolute;
+    width: 30%;
+    left: 65px;
+    top: 20px;
+    height: auto;
+}
+hr[id="t02"]{
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    left: 49.5%;
+    top: 31.5%;
+}
+.data1{
+    background-color: #b0daee;
+    position: absolute;
+    margin: 40px auto;
+    top: 310px;
+    left: 45px;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  7px 14px;
+    width: 150px;
+    float: left;
+    cursor: pointer;
+    outline: none;
+    color: #7c8081;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 0px;
+    margin-right: 8px;
+}
+.data1:focus
+{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+.box3 l1{
+    color:#036494;
+    position: absolute;
+    top: 363px;
+    left: 38px;
+    text-align: left;
+    font-size: 13px;
+    font-family: sans-serif;
+    cursor: default;
+}
+.box3 input[type="button"]
+{
+    background-color: #00B7D5;
+    margin: 30px auto;
+    text-align: center;
+    position: absolute;
+    left: 152px;
+    top: 370px;
+    border: 1.5px solid #00B7D5;
+    padding:  20px 15px;
+    width: 160px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+    align-items: center;
+  
+}
+.box3 input[type="button"]:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;;
+}
+.voltar2{
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #011AD6;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(3, 0, 139, 0.37);
+    transition: 0.6s;
+}
+.voltar2:hover{
+    width: 52px;
+    height: 52px;
+}
+.fechar2{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #E81330;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37);
+    transition: 0.6s;
+}
+.fechar2:hover{
+    width: 52px;
+    height: 52px;
+}
+@media(max-width:1200px){
+    .sucesso{
+        top: -13px;
+        left: 155px;
+    }
+    .labelGenero{
+        top: 59px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 134px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 285px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 61px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 137px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 287px;
+        left: 185px;
+    }
+}
+@media(max-width:1100px){
+    .sucesso{
+        top: -14px;
+        left: 154px;
+    }
+    .labelGenero{
+        top: 58px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 133px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 285px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 60px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 136px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 287px;
+        left: 185px;
+    }
+}
+@media(max-width:1000px){
+    .sucesso{
+        top: -15px;
+        left: 153px;
+    }
+    .labelGenero{
+        top: 57px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 132px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 285px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 59px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 135px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 287px;
+        left: 185px;
+    }
+
+}
+@media(max-width:900px){
+    .sucesso{
+        top: -16px;
+        left: 152;
+    }
+    .labelGenero{
+        top: 56px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 131px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 281px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 58px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 134px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 284px;
+        left: 185px;
+    }
+}
+@media(max-width:800px){
+    .sucesso{
+        top: -17px;
+        left: 151px;
+    }
+    .labelGenero{
+        top: 52px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 130px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 280px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 53px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 133px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 284px;
+        left: 185px;
+    }
+}
+@media(max-width:700px){
+    .sucesso{
+        top: -18px;
+        left: 150px;
+    }
+    .labelGenero{
+        top: 51px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 129px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 280px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 52px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 132px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 283px;
+        left: 185px;
+    }
+}
+@media(max-width:600px){
+    .sucesso{
+        top: -19px;
+        left: 149px;
+    }
+    .labelGenero{
+        top: 50px;
+        left: 55px;
+    }
+    .labelUser{
+        top: 128px;
+        left: 55px;
+    }
+    .labelDate{
+        top: 280px;
+        left: 55px;
+    }
+    .certificacao8{
+        top: 51px;
+        left: 105px;
+    }
+    .certificacao9{
+        top: 130px;
+        left: 156px;
+    }
+    .certificacao10{
+        top: 282px;
+        left: 185px;
+    }
+
+}
+@media(max-width:500px){
+    .sucesso{
+        top: -80px;
+        left: 148px;
+    }
+    .labelGenero{
+        top: 15px;
+        left: 35px;
+    }
+    .labelUser{
+        top: 90px;
+        left: 35px;
+    }
+    .labelDate{
+        top: 245px;
+        left: 35px;
+    }
+    .certificacao8{
+        top: 17px;
+        left: 85px;
+    }
+    .certificacao9{
+        top: 92px;
+        left: 138px;
+    }
+    .certificacao10{
+        top: 248px;
+        left: 165px;
+    }
+    .legenda3{
+        position: fixed;
+        top: -15px;
+        left: 115px;
+    }
+    hr[id="t02"]{
+        left: 49.5%;
+        top: 24%;
+    }
+    .data1{
+        left: 25px;
+        top: 272px;
+    }
+    #voltar2{
+        top: -50px;
+        left: 25px;
+        width: 40px;
+        height: 40px;
+    }
+    #voltar2:hover{
+        width: 44px;
+        height: 44px;
+    }
+    #fechar2{
+        top: -50px;
+        right: 38px;
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 4px 4px 0 rgba(238, 238, 238, 0);
+    }
+    #fechar2:hover{
+        width: 44px;
+        height: 44px;
+        box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37)
+    }
+    .legenda3{
+        left: 100px;
+        top: -45px;
+        text-shadow: 1px 2px 4px #33738100;
+    }
+    .box3 l1{
+        top: 340px;
+        left: 25px;
+    }
+
+}
+@media(max-width:320px){
+    .sucesso{
+        top: -80px;
+        left: 147px;
+    }
+    #voltar2{
+        top: -45px;
+        left: 70px;
+        width: 30px;
+        height: 30px;
+    }
+    #voltar2:hover{
+        width: 32px;
+        height: 32px;
+    }
+    #fechar2{
+        top: -45px;
+        right: 55px;
+        width: 30px;
+        height: 30px;
+        box-shadow: 0 4px 4px 0 rgba(238, 238, 238, 0);
+    }
+    #fechar2:hover{
+        width: 32px;
+        height: 32px;
+        box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37)
+    }
+    .labelGenero{
+        top: 15px;
+        left: 65px;
+    }
+    .labelUser{
+        top: 90px;
+        left: 65px;
+    }
+    .labelDate{
+        top: 245px;
+        left: 65px;
+    }
+    .certificacao8{
+        top: 17px;
+        left: 115px;
+    }
+    .certificacao9{
+        top: 92px;
+        left: 168px;
+    }
+    .certificacao10{
+        top: 248px;
+        left: 195px;
+    }
+    .box3 l1{
+        top: 340px;
+        left: 60px;
+        font-size: 10px;
+    }
+    .f{
+        padding: 15px 6px;
+        left: 40px;
+    }
+    .m{
+        padding: 15px 6px;
+        left: 40px;
+    }
+    .o{
+        padding: 15px 6px;
+        left: 40px;
+    }
+    .doutor{
+        padding: 7px 33.5px;
+        left: 40px;
+    }
+    .comum{
+        padding: 7px 33.5px;
+        left: 40px;
+    }
+    .data1{
+        left: 62px;
+    }
+    hr[id="t02"]{
+        left: 226px;
+        top: 110px;
+    }
+}
