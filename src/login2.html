@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/gm.ico" type="image/x-icon">
+    <title>GestãoMed</title>
+    <link rel="stylesheet" href="css/style-login3.css">
+    <link rel="stylesheet" href="css/style-cadastro1.css">
+    <link rel="stylesheet" href="css/style-cadastro2.css">
+    <link rel="stylesheet" href="css/style-esqueceuasenha1.css">
+    <link rel="stylesheet" href="css/style-esqueceuasenha2.css">
+
+</head>
+<body>
+<!--======================Login======================-->
+    <div class="login">
+        <div class="art">
+            <!-- <img class="img5" src="imagens/pill.png" alt=""> -->
+        </div>
+    <!------LOGO------>
+        <img src="imagens/marca.png" alt="">
+        <header>
+    <!------SLOGAN------>
+            <para>
+                <p>Te ajudamos a se medicar <br> na hora certa!</p>
+            </para> 
+        </header>
+        <aside>
+    <!------JANELA-DE-LOGIN------>
+            <form class="box1" action="index.html" method="post">
+                <fieldset>
+                    <legend><strong>Login</strong></legend>
+    <!------EMAIL-E-SENHA------>
+                    <input type="email" id="email2" name="" placeholder="Email">
+                    <input type="password" name="" placeholder="Senha" id="password"class=senha1> 
+                    <img class="olho1" id="eyeSvg" onclick="eyeClick()"  src="imagens/view.png"  alt="">
+                    <label id="erro1" class="erro1"></label>
+    <!------ENTRAR------>
+                        <input type="button" onclick="entrar()" name="" value="Entrar">
+                
+    <!------LINK-ESQUECEU-A-SENHA------>
+                    <ll>
+                        <a class="lin" href="#">
+                            Esqueceu a senha?
+                        </a>
+                    </ll>
+                    <hr>
+    <!------CRIAR-CONTA------>
+                    <lk>
+                        <input class="criar" type="button" name="" value="Criar conta">
+                    </lk>
+                </fieldset>
+            </form>
+        </aside>
+         <pare>
+    <!------RODA-PÉ------>
+             <p>GestãoMed &copy; 2021</p>
+        </pare>
+    </div>  
+
+<!--=====================Cadastro====================-->
+    <div class="cadastro">
+<!--=====================Modal01=====================-->
+        <div id="modal-promocao" class="modal-container">
+            <div class="modal"> 
+<!--=====================Cadastro01==================-->
+                <div class="Cadastro01"> 
+    <!-------JANELA-DE-CADASTRO-01------->
+                    <form class="box2" action="index.html" method="post">
+    <!-------BOTÃO-PARA-FECHAR------->
+                        <button type="button" class="fechar">x</button>   
+                        <fieldset class="bor2">
+    <!-------DADOS-DO-USUARIO------->
+                            <legend class=legenda2><b>Informe Seus Dados</b></legend>
+                        <!--------nome------->
+
+                            <label class="labelNome" id="labelNome"></label>
+                            <input class="text1" type="text" name="" placeholder="Nome" maxlength="15" max="1" id="nome">
+                            <img class="certificacao1" id="certificacao1" src="" alt="">
+                        <!-------sobrenome------->
+
+                            <label class="labelSobrenome" id="labelSobrenome"></label>
+                            <input class="text1" type="text" name="" placeholder="Sobrenome" required maxlength="25"  id="sobrenome">
+                            <img class="certificacao2" id="certificacao2" src="" alt="">
+                        <!---------email-------->
+
+                        
+                            <label class="labelEmail" id="labelEmail"></label>
+                            <input type="email" name="" placeholder="Email"  required maxlength="50" id="email">
+                            <img class="certificacao3" id="certificacao3" src="" alt="">                         
+                        <!--------senha-------->
+
+                            <label class="labelSenha" id="labelSenha"></label>
+                            <input type="password"  placeholder="Senha" id="password2" class="senha2" required maxlength="20">
+                            <img  class="olho2" id="eyeSvg2" onclick="eyeClick2()" src="imagens/view.png" alt="">
+                            <img class="certificacao4" id="certificacao4" src="" alt="">  
+                        <!-------confSenha------->
+
+                            <label class="labelConfSenha" id="labelConfSenha"></label>
+                            <input type="password" name="" placeholder="Confirme" id="password3" class="senha3" required maxlength="20">
+                            <img  class="olho3" id="eyeSvg3" onclick="eyeClick3()" src="imagens/view.png" alt="">
+                            <img class="certificacao5" id="certificacao5" src="" alt="">  
+                        <!---------estado--------->
+                        <form name="esta" onsubmit="return validaa">
+                            <label class="labelEstado" id="labelEstado"></label>
+                            <select class="estado" id="estado"  onchange="getSelectValue()" name="estado" required >
+                                <option id="est" value="est">Estado</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="EX">Estrangeiro</option>
+                            </select>
+                            <img class="certificacao6" id="certificacao6" src="" alt="">  
+                        </form>
+                        <!---------cidade-------->
+
+                            <label class="labelCidade" id="labelCidade"></label>
+                            <input class="cidade" type="text" name="" placeholder="Cidade" required maxlength="35" id="cidade">
+                            <img class="certificacao7" id="certificacao7" src="" alt="">  
+    <!---------BOTÃO-PARA-CONTINUAR--------->
+                               <input class="continuar" type="button" name="" value="Continuar" onclick="continuar()"> 
+                               <label class="erro" id="erro">Preecha todos os campos</label>
+                        </fieldset>
+                    </form>
+                </div>      
+<!--=====================Modal02=====================-->                    
+                        <div id="modal-promocao02" class="modal-container02">
+                            <div class="modal02">
+<!--=====================Cadastro02==================-->
+                            <div class="Cadastro02"> 
+    <!---------JANELA-DE-CADASTRO-02--------->
+                                <form class="box3" action="index.html" method="post">
+    <!---------BOTÃO-PARA-FECHAR--------->
+                                    <button type="button" id="voltar2" class="volta"><i class="fa fa-angle-left" aria-hidden="true"></i></button> 
+                                    <button type="button" id="fechar2" class="fechar">x</button> 
+                                    <fieldset class="bor2">
+    <!---------DADOS-DO-USUARIO--------->
+                                            <label class="sucesso" id="sucesso">Cadastrando Usuário...</label>
+                                            <legend class="legenda3"><strong>Informe Seus Dados</strong></legend>
+                                            
+                                                <form  method="post" onchange="genero()" id="genero">
+                                                    <label class="labelGenero" id="labelGenero">Gênero</label>
+                                                    <img class="certificacao8" id="certificacao8" src="" alt="">
+                                                    <w>                                        
+                                                        <div class="feme">
+                                                            <input  type="radio"  onchange="genero()" name="sexo" id="fema" value="femenino">
+                                                            <label class="f" for="fema">
+                                                                <span>Femenino</span>
+                                                            </label>       
+                                                    </div>
+                                                    <div class="masc">
+                                                            <input  type="radio"  onchange="genero()" name="sexo" id="male" value="masculino">
+                                                            <label class="m" for="male">
+                                                                <span>Masculino</span>
+                                                            </label>       
+                                                        </div>
+                                                        <div class="outr">
+                                                            <input type="radio"  onchange="genero()" name="sexo" id="ou" value="outro">
+                                                            <label class="o" for="ou">
+                                                                <span>Outro</span>
+                                                            </label> 
+                                                        </div>
+                                                    </w>
+                                                </form>
+                                            
+                                            
+                                            <div class="tip usuario">
+                                                <label class="labelUser" id="labelUser">Tipo de Usuário</label>
+                                                    <img class="certificacao9" id="certificacao9" src="" alt="">
+                                                <o>
+                                                <input  type="radio"  onchange="user()" value="cuidador"  name="tipoUsuario" id="card">
+                                                    <label class="doutor" for="card">
+                                                    <img src="imagens/doctor.png" alt="">
+                                                        <span>Cuidador</span>
+                                                    </label>
+                                                <input  type="radio" onchange="user()" value="comum" name="tipoUsuario" id="cash">
+                                                    <label class="comum" for="cash">
+                                                        <img src="imagens/user.png" alt="">
+                                                        <span>Comum</span>
+                                                    </label>
+                                                    <hr id="t02">
+                                                </o>
+                                            </div>
+                                        <div class="data nasc">
+                                            
+                                            <img class="certificacao10" id="certificacao10" src="" alt="">
+                                            <label class="labelDate" onchangd="onChangeDOB (executionContext)" id="labelDate">Data de Nascimento</label> 
+                                            
+                                            <input onchange="validardataDeNascimento(this.value);" class="data1" id="dataDeNascimento"  type="date">
+                                        </div>
+                                        <div class="link">
+    <!------LINK-DE-TERMOS-DE-USO------->
+                                            <l1>
+                                                <input type="checkbox" name="acao" value="vel">Eu aceito os <a href="#">Termos de uso e Politica de Privacidade </a>do site
+                                            </l1>   
+                                        </div>
+    <!-------CRIAR------->
+                                        <div class="Criar">
+                                                <input type="button" name="" value="Criar"  onclick="cadastrar()">
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+<!--==================ESQUECEU=A=SENHA?==============-->
+    <div class="esqueceuAsenha">
+<!--=====================Modal03=====================-->
+        <div id="modal-promocao03" class="modal-container03">
+            <div class="modal03">
+<!--==================ESQUECEU=A=SENHA?01============-->                
+                <div class="esqueceuAsenha01">
+                    <form class="box4" action="index.html" method="post">
+    <!-------BOTÃO-PARA-FECHAR------->
+                            <button type="button" id="fecha" class="fechar">x</button>
+                            <fieldset>
+                                <legend class="legend0">Encontre sua conta</legend>
+                                <para01>
+                                    <p>Insira seu email para procurar a sua conta </p>
+                                </para01>
+                                <input type="email" placeholder="E-mail">
+                                <para02>
+                                    <p>Você receberá um email com o códigode verificação</p>
+                                </para02>
+                                    <input class="cont" type="button" value="continuar">
+                                </a>
+                            </fieldset>    
+                    </form>
+                </div> 
+<!--=====================Modal04=====================-->
+                <div id="modal-promocao04" class="modal-container04">
+                    <div class="modal04">
+<!--==================ESQUECEU=A=SENHA?02============-->
+                        <div class="esqueceuAsenha02">
+                            <form class="box5" action="index.html" method="post">
+        <!-------BOTÃO-PARA-FECHAR------->                        
+                                <button type="button"  class="volta"><i class="fa fa-angle-left" aria-hidden="true"></i></button> 
+                                <button type="button" id="fecha" class="fechar">x</button>
+                                <fieldset class="bor1">
+                                    <legend>Encontre sua conta</legend>
+                                    <para01>
+                                        <p>Insira o código que você recebeu no seu email </p>
+                                    </para01>
+                                    <input type="text" placeholder="####">
+                                    <input type="submit" value="Verificar">
+                                </fieldset>         
+                            </form>
+                        </div>  
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+<!--====================SCRIPT=MODAL==================-->
+
+    <script type="text/javascript" src="scripts/scripts-login.js"></script>
+    <script type="text/javascript" src="scripts/scripts-cadastro01.js"></script>
+</body>
+</html>
