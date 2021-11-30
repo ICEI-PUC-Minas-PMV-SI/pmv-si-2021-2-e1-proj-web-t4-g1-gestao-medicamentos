@@ -96,7 +96,8 @@ function entrar(){
                 cidade : item.cidadeCad,
                 genero : item.generoCad,
                 user : item.userCad,
-                data : item.data, 
+                data : item.data,
+                genero : item.generoCad, 
              }
          }
      });
@@ -110,6 +111,7 @@ function entrar(){
             if(userValid.user == 'cuidador'){
                 window.location.href='https://icei-puc-minas-pmv-si.github.io/pmv-si-2021-2-e1-proj-web-t4-g1-gestao-medicamentos/src/home.html'
             } 
+            localStorage.setItem('userLogado', JSON.stringify(userValid))
         } 
         else{
             email2.setAttribute('style', 'border-color: red')
