@@ -39,21 +39,35 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 
 # Registro de Testes de Software
 
-CT01 - Imagem 01:
+**CT01** - Imagem 01:
 
 ![image](https://user-images.githubusercontent.com/90875153/144672279-babfb001-6806-4e1c-b01a-62b1fea6c71c.png)
 
-CT01 - Imagem 02:
+**CT01** - Imagem 02:
 
 ![image](https://user-images.githubusercontent.com/90875153/144672309-3b4ada20-af1a-4617-af7c-de59bacd6c9e.png)
 
-CT 02 - Imagem 01:
+**CT** 02 - Imagem 01:
 
 ![image](https://user-images.githubusercontent.com/90875153/144672377-8e2ad00f-6dae-4241-95e8-26912c886c29.png)
 
-CT 02 - Imagem 02: 
+**CT 02** - Imagem 02: 
 
 ![image](https://user-images.githubusercontent.com/90875153/144672394-3c975d44-df78-4241-8a33-cd45a3b5db6c.png)
+
+**CT 03** - Imagem 01: 
+
+![image](https://user-images.githubusercontent.com/90875153/144672679-24e181ca-af01-4928-a69e-18243e050e9c.png)
+
+**CT 03** - Imagem 02:
+
+![CT 03 2](https://user-images.githubusercontent.com/90875153/144672714-b2fa9df1-107e-4e8d-9836-56be5def4c2f.jpg)
+
+**CT 03** - Imagem 03:
+
+
+
+
 
 
 
