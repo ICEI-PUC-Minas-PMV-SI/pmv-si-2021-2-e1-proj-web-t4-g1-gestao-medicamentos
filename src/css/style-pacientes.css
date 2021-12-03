@@ -30,6 +30,11 @@ header > a img{
     background-color: #00B4D8;
     border-radius: 10px;
     box-shadow: 2px 2px 10px;
+    height: 84.8vh;
+}
+#barra-navegacao >span > img{
+ background-color: white;
+ border-radius: 15px;
 }
 #barra-navegacao img{
     width: 30%;
