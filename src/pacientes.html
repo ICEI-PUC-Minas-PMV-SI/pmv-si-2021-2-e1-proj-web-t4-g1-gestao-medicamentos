@@ -10,28 +10,28 @@
     </head>
 
     <body>
+
         <div id="wrapper">
             <header>
                 <a class="logo" href="home.html"><h1><img src="imagens/marca.png" alt=""></h1></a>
             </header>
             <main>
                 <header>
-                    <a class="voltar" href=""><</a>
+                    <a class="voltar" href="home.html"><</a>
                     <h1 class="titulo">Pacientes</h1>
                 </header>
                 
-                    <div id="menu">
-			<ul>
-                <a href="#"><li>Cadastros mais recentes</li></a>
-                <a href="#"><li>Ordem alfabética</li></a>
-                <a href="#"><i class="fas fa-sliders-h"></i><li> Filtros</li></a>
-      </ul>
-
-		    </div>
+                <div id="menu">
+                    <ul>
+                        <a href="#"><li>Cadastros mais recentes</li></a>
+                        <a href="#"><li>Ordem alfabética</li></a>
+                        <a href="#"><i class="fas fa-sliders-h"></i><li> Filtros</li></a>
+                    </ul>
+		        </div>
 
                 <div id="corpo">
 
-                  <div class="informacoes-paciente">
+		        <div class="informacoes-paciente">
                     <div class="esquerda">
                         <img src="imagens/perfil-masculino.png" alt="">
                     </div>
@@ -39,11 +39,10 @@
                         <h2 class="nome">Joaquim Cardoso</h2>
                         <span class="idade">46 anos</span><br>
                         <span class="lembrete">Medicações pendentes hoje:<span class="contador"> 1</span></span>
-                        <a href="" class="perfil">Ver perfil></a>
+                        <a href="perfil-paciente.html" class="perfil">Ver perfil></a>
                     </div>
                 </div><hr>
-      
-         <div class="informacoes-paciente">
+        <div class="informacoes-paciente">
                     <div class="esquerda">
                         <img src="imagens/perfil-feminino.jpg" alt="">
                     </div>
@@ -65,22 +64,22 @@
                         <a href="" class="perfil">Ver perfil></a>
                     </div>
                 </div><hr>
-                  
+
             </main>
 
             <div id="barra-navegacao">
-                <span><img src="imagens/perfil-feminino.jpg" alt=""></span><h3>Bem vinda, Adriana!</h3>
+                <span><img id="foto-perfil" src="" alt=""></span><h3><span id="nome-usuario"></span></h3>
                 <ul>
                     <a href="home.html"><li>Início</li></a>
-                   <a href=""><li class="ativo">Pacientes</li></a>
-                    <a href=""><li>Calendário</li></a>
-                    <a href=""><li>Notificações</li></a>
+                   <a href="#"><li class="ativo">Pacientes</li></a>
+                    <a href="calendario.html"><li>Calendário</li></a>
+                    <a href="notificacoes.html"><li>Notificações</li></a>
                 </ul>
-                <a href=""><img class="sair" src="imagens/icone-sair.png" alt=""></a>
+                <a href="login2.html" onclick="sair()"><img class="sair" src="imagens/icone-sair.png" alt=""></a>
             </div>
 
             <aside>
-<div class="calendario">
+                <div class="calendario">
                             
                     <div class="mes">
                         <i class="fas fa-angle-left prev"></i>
@@ -143,12 +142,12 @@
                     </div>
                 
             
-                    <script src="scripts-pacientes.js"></script>
+                    <script src="script-2.js"></script>
                 </div>
 
                 <div id="notificacoes-home">
                     <p>Notificações</p>
-                    <a class="ver-todos" href="">Ver todos</a>
+                    <a class="ver-todos" href="notificacoes.html">Ver todos</a>
                     <div class="notificacao-recente">
                         <p class="paciente-notificacao">Joaquim</p>
                         <a href="" class="opcoes">...</a>
@@ -158,10 +157,10 @@
                 </div>
 
                 <div class="adicionar-medicamento">
-                    <a href="">Adicionar medicamento</a>
+                    <a href="adicionar-paciente.html">Adicionar paciente</a>
                 </div>
             </aside>
-        </div>                           
-                  
+        </div>
+        <script src="script/scripts-geral.js"></script>
     </body>
 </html>
