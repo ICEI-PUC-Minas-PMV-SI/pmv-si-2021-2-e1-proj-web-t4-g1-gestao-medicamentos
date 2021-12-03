@@ -35,8 +35,8 @@ Resultado obtido: [falha] – A formatação da página apresenta falha no HTML 
 
 A interface da aplicação apresenta bom funcionamento, permitindo que o usuário navegue com facilidade entre suas seções. Por outro lado, foram observadas falhas cruciais na base da aplicação, citadas abaixo:
 
-    • Na home mostra notificações de exemplo, e não as cadastradas pelo usuário;
-    • O mesmo se aplica à aba pacientes, que mostra 3 perfis de exemplo e não perfis cadastrados pelo usuário, além de só permitir acesso ao primeiro perfil da lista;
-    • Na aba notificações também são mostrados apenas exemplos, ao invés das notificações cadastradas pelo usuário.
-      
-	Considera-se, portanto, que a aplicação não cumpre as funções ela solicitadas, sendo necessário, portanto, construir algumas funcionalidades e aprimorar outras, para que a aplicação passe a ser plenamente utilizável.
+    - Na home mostra notificações de exemplo, e não as cadastradas pelo usuário;
+    - O mesmo se aplica à aba pacientes, que mostra 3 perfis de exemplo e não perfis cadastrados pelo usuário, além de só permitir acesso ao primeiro perfil da lista;
+    - Na aba notificações também são mostrados apenas exemplos, ao invés das notificações cadastradas pelo usuário.      
+
+Considera-se, portanto, que a aplicação não cumpre as funções ela solicitadas, sendo necessário, portanto, construir algumas funcionalidades e aprimorar outras, para que a aplicação passe a ser plenamente utilizável.
