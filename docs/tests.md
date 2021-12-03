@@ -5,10 +5,12 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
  
 # Casos de Teste
 
-CT01 – Criar conta – parte 1
-Procedimento – Usuário informa dados pessoais e clica em continuar
-Resultado esperado – Aplicação direciona para a 2ª parte do cadastro
-Resultado obtido: [sucesso]
+**Caso de Teste** | **CT01 - Criar conta parte 1**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa os dados solicitados e clica<br>no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
+**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso.
 
 CT02 – Criar conta – parte 2
 Procedimento – Usuário informa se é cuidador ou usuário comum
@@ -23,7 +25,7 @@ Resultado obtido: [sucesso]
 CT 04 – Adicionar paciente (assistido)
 Procedimento – Usuário informa nome, sobrenome e idade do paciente
 Resultado esperado – Armazenar dados do paciente 
-Resultado obtido: [sucesso] –  
+Resultado obtido: [sucesso] 
 
 # Registro de Testes de Software
 
