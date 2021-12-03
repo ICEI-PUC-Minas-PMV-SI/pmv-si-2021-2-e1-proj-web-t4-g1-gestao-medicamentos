@@ -63,7 +63,11 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 
 ![CT 03 2](https://user-images.githubusercontent.com/90875153/144672714-b2fa9df1-107e-4e8d-9836-56be5def4c2f.jpg)
 
-**CT 03** - Imagem 03:
+**CT 04** - Imagem 01:
+
+![image](https://user-images.githubusercontent.com/90875153/144673013-30eba966-13fc-4d4b-8543-d65c30bac922.png)
+
+
 
 
 
