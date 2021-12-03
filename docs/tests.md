@@ -10,7 +10,6 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 **Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
 **Requisitos associados** | RF-001
 **Resultado esperado** | Prosseguir para a parte 2 do cadastro.
-**Backend** | (preencher)
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
@@ -19,7 +18,6 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 **Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
 **Requisitos associados** | RF-001
 **Resultado esperado** | Criação de cadastro
-**Backend** | (preencher)
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
@@ -28,7 +26,6 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 **Procedimento**  | 1) Usuário informa email, senha e clica em "entrar".<br>2) A aplicação verifica se os dados estão corretos informa ao usuário caso não sejam.<br> 3) A aplicação direciona o usuário para a sua página inicial.
 **Requisitos associados** | RF-001 e RF-002
 **Resultado esperado** | Realização de login e direcionamento para a home da aplicação.
-**Backend** | (preencher)
 **Dados de entrada** | Login e senha previamente armazenados.
 **Resultado obtido** | Sucesso.
 
@@ -37,7 +34,6 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 **Procedimento**  | 1) Usuário informa nome, sobrenome e idade do paciente. Em seguida clica em "cadastrar paciente".
 **Requisitos associados** | RF-003
 **Resultado esperado** | Armazenar dados do paciente.
-**Backend** | (preencher)
 **Dados de entrada** | Nome, sobrenome e idade do paciente.
 **Resultado obtido** | Sucesso.
 
