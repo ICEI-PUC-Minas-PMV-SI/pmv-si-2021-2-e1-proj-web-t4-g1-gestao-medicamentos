@@ -21,20 +21,21 @@ Este plano de testes tem como objetivo explicar os meios utilizados para assegur
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-CT02 – Criar conta – parte 2
-Procedimento – Usuário informa se é cuidador ou usuário comum
-Resultado esperado – Aplicação cria cadastro independente do tipo de usuário
-Resultado obtido: [sucesso]
+**Caso de Teste** | **CT03 - Fazer login**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa email, senha e clica em "entrar".<br>2) A aplicação verifica se os dados estão corretos informa ao usuário caso não sejam.<br> 3) A aplicação direciona o usuário para a sua página inicial.
+**Resultado esperado** | Realização de login e direcionamento para a home da aplicação.
+**Backend** | (preencher)
+**Dados de entrada** | Login e senha previamente armazenados.
+**Resultado obtido** | Sucesso.
 
-CT 03 – Fazer login
-Procedimento – Usuário informa e-mail e senha 
-Resultado esperado – Realização de login e direcionamento para a home da aplicação
-Resultado obtido: [sucesso]
-
-CT 04 – Adicionar paciente (assistido)
-Procedimento – Usuário informa nome, sobrenome e idade do paciente
-Resultado esperado – Armazenar dados do paciente 
-Resultado obtido: [sucesso] 
+**Caso de Teste** | **CT04 - Adicionar paciente (ou assistido)**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário informa nome, sobrenome e idade do paciente. Em seguida clica em "cadastrar paciente".
+**Resultado esperado** | Armazenar dados do paciente.
+**Backend** | (preencher)
+**Dados de entrada** | Nome, sobrenome e idade do paciente.
+**Resultado obtido** | Sucesso.
 
 # Registro de Testes de Software
 
