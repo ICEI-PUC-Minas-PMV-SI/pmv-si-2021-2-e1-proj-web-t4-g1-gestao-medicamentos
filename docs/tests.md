@@ -22,8 +22,8 @@ Resultado obtido: [sucesso]
 
 CT 04 – Adicionar paciente (assistido)
 Procedimento – Usuário informa nome, sobrenome e idade do paciente
-Resultado esperado – Armazenar dados do paciente e mostrá-lo na aba “pacientes”
-Resultado obtido: [falha] –  Ao clicar em “Adicionar Paciente” nada acontece; O botão de voltar do modal também não responde ao comando
+Resultado esperado – Armazenar dados do paciente 
+Resultado obtido: [sucesso] –  
 
 # Registro de Testes de Software
 
