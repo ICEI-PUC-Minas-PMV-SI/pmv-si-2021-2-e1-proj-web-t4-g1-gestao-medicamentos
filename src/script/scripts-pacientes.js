@@ -54,6 +54,24 @@ for (var i = 0; i < contador; i++){
     perfil.setAttribute('href', 'perfil-paciente.html');
     perfil.innerHTML = 'Ver perfil>';
 
+
+    //Cria um span com display none que carrega o i->contador
+    let cont = document.createElement('span');
+    cont.classList.add('cont');
+    cont.innerHTML = i;
+    cont.style.display = 'none';
+
+    //Acoplo o contador dentro do perfil
+    perfil.appendChild(cont);
+
+    //Pego o valor do contador
+    let numero = cont.innerText;
+    
+    perfil.addEventListener("click", function () {
+        //Adiciono o contador ao localStorage 
+        localStorage.setItem("verPerfil", numero);
+    })
+
     let hr = document.createElement('hr');
 
     //Acoplando as div's umas dentro das outras
