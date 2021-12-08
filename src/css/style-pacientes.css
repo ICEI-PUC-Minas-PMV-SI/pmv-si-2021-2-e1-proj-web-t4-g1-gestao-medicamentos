@@ -82,6 +82,11 @@ main{
     padding: 10px 20px;
     position: relative;
 }
+main .scroll{
+    height: 445px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
 main .informacoes-paciente{
     width: 100%;
     display: grid;
