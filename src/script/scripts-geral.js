@@ -15,7 +15,7 @@ nomeUsuario.innerHTML = userLogado.nome;
 fotoPerfil = document.querySelector('#foto-perfil')
 fotoMeuPerfil = document.querySelector('#foto-meu-perfil')
 
-if (userLogado.genero == 'femenino'){
+if (userLogado.genero == 'feminino'){
     fotoPerfil.setAttribute('src', 'imagens/perfil-feminino.jpg')
     fotoMeuPerfil.setAttribute('src', 'imagens/perfil-feminino.jpg')
 }
