@@ -1,0 +1,340 @@
+/*-------------------------------------------EDITAR-PERFIL---------------------------------------------------------*/
+
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container.mostrar{
+    display: flex;
+}
+@keyframes modal{
+    from {
+        opacity: 0;
+        transform: translate(0, -60, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+.mostrar .modal{
+    animation: modal .4s;
+}
+.editarPerfil{
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #b0daee;
+    text-align: center;
+    border-radius: 10px;
+    border : none;
+    padding: 2% 2%;
+}
+#fechar1{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #E81330;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37);
+    transition: 0.6s;
+}
+#fechar1:hover{
+    width: 52px;
+    height: 52px;
+}
+#voltar1{
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #011AD6;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(3, 0, 139, 0.37);
+    transition: 0.6s;
+}
+#voltar1:hover{
+    width: 52px;
+    height: 52px;
+}
+.legendconf02{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:#036494;
+    text-shadow: 1px 2px 4px #337381;
+    cursor: default;
+}
+
+.alterarDados{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  22px 15px;
+    width: 250px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.alterarDados:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+
+.alterarSenha{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  22px 15px;
+    width: 250px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.alterarSenha:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+
+.deletar{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  22px 15px;
+    width: 250px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.deletar:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+@media(max-width:1200px){
+    .alterarDados{
+        top: 60px;
+        left: 99px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 99px;
+    }
+    .deletar{
+        top: 220px;
+        left: 99px;
+    }
+
+
+}
+@media(max-width:1100px){
+    .alterarDados{
+        top: 60px;
+        left: 98px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 98px;
+    }
+    .deletar{
+        top: 220px;
+        left: 98px;
+    }
+
+}
+@media(max-width:1000px){
+    .alterarDados{
+        top: 60px;
+        left: 97px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 97px;
+    }
+    .deletar{
+        top: 220px;
+        left: 97px;
+    }
+
+}
+@media(max-width:900px){
+    .alterarDados{
+        top: 60px;
+        left: 96px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 96px;
+    }
+    .deletar{
+        top: 220px;
+        left: 96px;
+    }
+
+}
+@media(max-width:800px){
+    .alterarDados{
+        top: 60px;
+        left: 95px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 95px;
+    }
+    .deletar{
+        top: 220px;
+        left: 95px;
+    }
+
+}
+@media(max-width:700px){
+    .alterarDados{
+        top: 60px;
+        left: 94px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 94px;
+    }
+    .deletar{
+        top: 220px;
+        left: 94px;
+    }
+}
+@media(max-width:600px){
+    .alterarDados{
+        top: 60px;
+        left: 93px;
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 93px;
+    }
+    .deletar{
+        top: 220px;
+        left: 93px;
+    }
+}
+@media(max-width:500px){
+    .alterarDados{
+        top: 60px;
+        left: 92px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 92px;
+    }
+    .deletar{
+        top: 220px;
+        left: 92px;
+    }
+    #fechar1{
+        top: -5px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    #fechar1:hover{
+        width: 42px;
+        height: 42px;
+    }
+    #voltar1{
+        top: -5px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+
+    }
+    #voltar1:hover{
+        width: 42px;
+        height: 42px;
+    }
+    .legendconf02{
+        position: absolute;
+        left: 140px;
+        top: 5px;
+    }
+}
+@media(max-width:320px){
+    .alterarDados{
+        top: 60px;
+        left: 100px;
+
+    }
+    .alterarSenha{
+        top: 140px;
+        left: 100px;
+    }
+    .deletar{
+        top: 220px;
+        left: 100px;
+    }
+    .legendconf02{
+        left: 145px;
+    }
+    #voltar1{
+        left: 55px;
+    }
+} 
