@@ -1,0 +1,317 @@
+/*--------------------------COFIGURAÇÕES--------------------------------*/
+iframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+    border: hidden;
+    opacity: 15%;
+    pointer-events: none;
+}
+.configuracoes-aberto{
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #b0daee;
+    text-align: center;
+    border-radius: 10px;
+    border : none;
+    box-shadow: 0 5px 45px rgba(0, 0, 0,0.35);
+    padding: 2% 2%;
+    display: flex;
+}
+.cofiguracoes01{
+    height: 325px;
+    width: 365px;
+    border: 3px double #90c1d6;
+    border-radius: 10px; 
+}
+#fechar{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #E81330;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37);
+    transition: 0.6s;
+}
+#fechar:hover{
+    width: 52px;
+    height: 52px;
+}
+#voltar{
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #011AD6;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(3, 0, 139, 0.37);
+    transition: 0.6s;
+    display: none;
+}
+#voltar:hover{
+    width: 52px;
+    height: 52px;
+}
+.legendconf01{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:#036494;
+    text-shadow: 1px 2px 4px #337381;
+    cursor: default;
+}
+.editarPerfil01{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  15px 15px;
+    width: 250px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.editarPerfil01:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+.notificacoes01{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  15px 15px;
+    width: 250px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.notificacoes01:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+.ajuda01{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  15px 15px;
+    width: 250px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ajuda01:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+.sair{
+    background-color: #E81330;
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #E81330;
+    padding:  15px 15px;
+    width: 200px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sair:hover{
+    background: #b0daee;
+    border-color: #E81330;
+    color: #E81330;
+}
+@media(max-width:1200px){
+    #configuracoes-aberto{
+        width: 399px;
+        height: 349px;
+    }
+    .cofiguracoes01{
+        height: 324px;
+        width: 364px;
+    }
+    .editarPerfil01{
+        top: 40px;
+        left: 97px;
+    }
+    .notificacoes01{
+        top: 100px;
+        left: 97px;
+    }
+    .ajuda01{
+        top: 160px;
+        left: 97px;
+    }
+    .sair{
+        top: 250px;
+        left: 122px;
+    }
+}
+@media(max-width:1100px){
+    #configuracoes-aberto{
+        width: 398px;
+        height: 348px;
+    }
+    .cofiguracoes01{
+        height: 323px;
+        width: 363px;
+    }
+    .editarPerfil01{
+        top: 40px;
+        left: 97px;
+    }
+    .notificacoes01{
+        top: 100px;
+        left: 97px;
+    }
+    .ajuda01{
+        top: 160px;
+        left: 97px;
+    }
+    .sair{
+        top: 250px;
+        left: 122px;
+    }
+}
+@media(max-width:1000px){
+    #configuracoes-aberto{
+        width: 397px;
+        height: 347px;
+    }
+    .cofiguracoes01{
+        height: 322px;
+        width: 362px;
+    }
+
+}
+@media(max-width:900px){
+    #configuracoes-aberto{
+        width: 396px;
+        height: 346px;
+    }
+    .cofiguracoes01{
+        height: 321px;
+        width: 361px;
+    }
+
+}
+@media(max-width:800px){
+    #configuracoes-aberto{
+        width: 395px;
+        height: 345px;
+    }
+    .cofiguracoes01{
+        height: 320px;
+        width: 360px;
+    }
+
+}
+@media(max-width:700px){
+    #configuracoes-aberto{
+        width: 394px;
+        height: 344px;
+    }
+    .cofiguracoes01{
+        height: 319px;
+        width: 359px;
+    }
+
+}
+@media(max-width:600px){
+    #configuracoes-aberto{
+        width: 393px;
+        height: 343px;
+    }
+    .cofiguracoes01{
+        height: 318px;
+        width: 358px;
+    }
+
+}
+@media(max-width:500px){
+    #configuracoes-aberto{
+        width: 392px;
+        height: 342px;
+        box-shadow: 0 5px 45px rgba(0, 0, 0, 0);
+    }
+    .cofiguracoes01{
+        border: 3px double #90c1d600;
+    }
+    body {
+        background-color: #b0daee;
+    }
+    .legendconf01{
+        position: absolute;
+        left: 135px;
+        top: 5px;
+    }
+    #fechar{
+        top: -5px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    #fechar:hover{
+        width: 42px;
+        height: 42px;
+    }
+}
+@media(max-width:320px){
+    #configuracoes-aberto{
+        width: 391px;
+        height: 341px;
+    }
+}
