@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GestãoMed</title>
+        <link rel="stylesheet" href="css/style-configuracoes.css">
+        <link rel="stylesheet" href="css/style-editarPerfil_conf.css">
+        <link rel="stylesheet" href="css/style-notificacoes_conf.css">
+        <link rel="stylesheet" href="css/style-ajuda_conf.css">
+        <link rel="stylesheet" href="css/style-alterardados_conf.css">
+        <link rel="stylesheet" href="css/style-alterarsenha_conf,.css">
+        <link rel="stylesheet" href="css/style-deletar_conf.css">
+    </head>
+
+    <body>
+        <iframe scrolling="no" src="home-usuario-comum.html"></iframe> 
+<!-----------------------------------CONFIGURAÇÕES------------------------------------------------>
+    <div id="modal-promocao00" class="modal-container00">
+        <div class="modal00"> 
+            <div id="configuracoes-aberto" class="configuracoes-aberto">
+                <a id="li02" href="home-usuario-comum.html">
+                    <input type="button" id="fechar" class="fechar" name="" value="x">
+                 </a>
+
+                <button type="button" id="voltar" class="voltar"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                <fieldset class="cofiguracoes01">
+                    <legend id="leconf" class="legendconf01"><strong>Configurações</strong></legend>
+                    
+                    <input class="editarPerfil01" type="button" name="" value="Editar Perfil">
+                    <input class="notificacoes01" type="button" name="" value="Notificações">
+                    <input class="ajuda01" type="button" name="" value="Ajuda">
+                    <input class="sair" type="button" name="" value="Sair">
+                </fieldset>
+            </div>
+    <!-------------------------------------------EDITAR-PERFIL--------------------------------------------------------->
+        <div id="modal-promocao" class="modal-container">
+            <div class="modal"> 
+                <div id="configuracoes-aberto" class="editarPerfil">
+                    <a id="li02" href="home-usuario-comum.html">
+                        <input type="button" id="fechar1" class="fechar" name="" value="x">
+                     </a>
+                    <button type="button" id="voltar1" class="voltar"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <fieldset class="cofiguracoes01">
+                        <legend id="leconf" class="legendconf02"><strong>Editar Perfil</strong></legend>
+                        
+                        <input class="alterarDados" type="button" name="" value="Alterar Dados Pessoais">
+                        <input class="alterarSenha" type="button" name="" value="Alterar Senha">
+                        <input class="deletar" type="button" name="" value="Deletar Conta">
+                    </fieldset>
+                </div> 
+
+            <div id="modal-promocao011" class="modal-container011">
+                <div class="modal011"> 
+                    <div id="configuracoes-aberto" class="alterarDados01">
+                        <a id="li02" href="home-usuario-comum.html">
+                            <input type="button" id="fechar2" class="fechar" name="" value="x">
+                         </a>
+                        <button type="button" id="voltar2" class="voltar11"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <fieldset class="cofiguracoes01">
+                            <legend id="leconf" class="legendconf02-1"><strong>Alterar Dados Pessoais</strong></legend>
+                                        <!--------nome------->
+
+                                        <label class="labelNome" id="labelNome"></label>
+                                        <input class="text1"  type="text" name="" placeholder="Nome" maxlength="15" max="1" id="nome">
+                                        <img class="certificacao1" id="certificacao1" src="" alt="">
+                                        <!-------sobrenome------->
+            
+                                        <label class="labelSobrenome" id="labelSobrenome"></label>
+                                        <input class="text2" type="text" name="" placeholder="Sobrenome" required maxlength="25"  id="sobrenome">
+                                        <img class="certificacao2" id="certificacao2" src="" alt="">
+                                        <!---------email-------->
+            
+                                        <label class="labelEmail" id="labelEmail"></label>
+                                        <input type="email" class="email" name="" placeholder="Email"  required maxlength="50" id="email">
+                                        <img class="certificacao3" id="certificacao3" src="" alt="">                         
+                                        <!--------senha-------->
+            
+                                        <label class="labelSenha" id="labelSenha"></label>
+                                        <input type="password"  placeholder="Digite a sua senha para confirmar" id="password2" class="senha" required maxlength="20">
+                                        <img  class="olho2" id="eyeSvg2" onclick="eyeClick2()" src="imagens/view.png" alt="">
+                                        <img class="certificacao4" id="certificacao4" src="" alt="">  
+                                        <!---------estado--------->
+
+                                        <form name="esta" onsubmit="return validaa">
+                                            <label class="labelEstado" id="labelEstado"></label>
+                                            <select class="estado" id="estado"  onchange="getSelectValue()" name="estado" required >
+                                                <option id="est" value="est">Estado</option>
+                                                <option value="AC">Acre</option>
+                                                <option value="AL">Alagoas</option>
+                                                <option value="AP">Amapá</option>
+                                                <option value="AM">Amazonas</option>
+                                                <option value="BA">Bahia</option>
+                                                <option value="CE">Ceará</option>
+                                                <option value="DF">Distrito Federal</option>
+                                                <option value="ES">Espírito Santo</option>
+                                                <option value="GO">Goiás</option>
+                                                <option value="MA">Maranhão</option>
+                                                <option value="MT">Mato Grosso</option>
+                                                <option value="MS">Mato Grosso do Sul</option>
+                                                <option value="MG">Minas Gerais</option>
+                                                <option value="PA">Pará</option>
+                                                <option value="PB">Paraíba</option>
+                                                <option value="PR">Paraná</option>
+                                                <option value="PE">Pernambuco</option>
+                                                <option value="PI">Piauí</option>
+                                                <option value="RJ">Rio de Janeiro</option>
+                                                <option value="RN">Rio Grande do Norte</option>
+                                                <option value="RS">Rio Grande do Sul</option>
+                                                <option value="RO">Rondônia</option>
+                                                <option value="RR">Roraima</option>
+                                                <option value="SC">Santa Catarina</option>
+                                                <option value="SP">São Paulo</option>
+                                                <option value="SE">Sergipe</option>
+                                                <option value="TO">Tocantins</option>
+                                                <option value="EX">Estrangeiro</option>
+                                            </select>
+                                            <img class="certificacao6" id="certificacao6" src="" alt="">  
+                                        </form>
+                                        <!---------cidade-------->
+            
+                                        <label class="labelCidade" id="labelCidade"></label>
+                                        <input class="cidade" type="text" name="" placeholder="Cidade" required maxlength="35" id="cidade">
+                                        <img class="certificacao7" id="certificacao7" src="" alt="">  
+                                        <!--------------------botao------------>
+
+                                        <input type="button" value="Confirmar" class="confirmar" id="confirmar">
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal-promocao012" class="modal-container012">
+                <div class="modal012">
+                    <div id="configuracoes-aberto" class="alterarSenha01">
+                        <a id="li02" href="home-usuario-comum.html">
+                            <input type="button" id="fechar3" class="fechar" name="" value="x">
+                         </a>
+                        <button type="button" id="voltar3" class="voltar12"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <fieldset class="cofiguracoes01">
+                            <legend id="leconf" class="legendconf02-2"><strong>Alterar Senha</strong></legend>
+
+                            <label class="labelSenha" id="labelSenha"></label>
+                            <input type="password"  placeholder="Digite a sua senha atual" id="password1" class="senha1" required maxlength="20">
+                            <img  class="olho2" id="eyeSvg2" onclick="eyeClick2()" src="imagens/view.png" alt="">
+                            <img class="certificacao4" id="certificacao4" src="" alt="">
+
+                            <label class="labelSenha" id="labelSenha"></label>
+                            <input type="password"  placeholder="Digite a nova senha" id="password2" class="senha2" required maxlength="20">
+                            <img  class="olho2" id="eyeSvg2" onclick="eyeClick2()" src="imagens/view.png" alt="">
+                            <img class="certificacao4" id="certificacao4" src="" alt="">
+
+                            <label class="labelSenha" id="labelSenha"></label>
+                            <input type="password"  placeholder="Confirme a nova senha" id="password3" class="senha3" required maxlength="20">
+                            <img  class="olho2" id="eyeSvg2" onclick="eyeClick2()" src="imagens/view.png" alt="">
+                            <img class="certificacao4" id="certificacao4" src="" alt="">
+
+                            <input type="button" value="Confirmar" class="confirmar1" id="confirmar1">
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modal-promocao013" class="modal-container013">
+                <div class="modal013">
+                    <div id="configuracoes-aberto" class="deletarConta01">
+                        <a id="li02" href="home-usuario-comum.html">
+                            <input type="button" id="fechar4" class="fechar" name="" value="x">
+                         </a>
+                        <button type="button" id="voltar4" class="voltar13"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <fieldset class="cofiguracoes01">
+                            <legend id="leconf" class="legendconf02-3"><strong>Deletar Conta</strong></legend>
+                            <label class="labelEmail" id="labelEmail"></label>
+                            <input type="email" class="email02" name="" placeholder="Email"  required maxlength="50" id="email02">
+                            <img class="certificacao3" id="certificacao3" src="" alt=""> 
+
+                            <label class="labelSenha" id="labelSenha"></label>
+                            <input type="password"  placeholder="Digite sua senha atual" id="password4" class="senha4" required maxlength="20">
+                            <img  class="olho2" id="eyeSvg2" onclick="eyeClick2()" src="imagens/view.png" alt="">
+                            <img class="certificacao4" id="certificacao4" src="" alt="">
+                            <input type="button" value="Confirmar" class="confirmar2" id="confirmar2">
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------NOTIFICAÇÕES------------------------------------------------->
+            <div id="modal-promocao02" class="modal-container02">
+                <div class="modal02">
+                    <div id="configuracoes-aberto" class="notificacoes">
+                        <a id="li02" href="home-usuario-comum.html">
+                            <input type="button" id="fechar5" class="fechar" name="" value="x">
+                         </a>
+                        <button type="button" id="voltar5" class="voltar2"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <fieldset class="cofiguracoes01">
+                            <legend id="leconf" class="legendconf03"><strong>Notificações</strong></legend>
+
+                            <span class="estoque">Notificação de fim de estoque</span>
+                            <input checked class="btn-1" type="checkbox">
+                            <span class="quantidade">Quantidade mínima:</span>
+                            <input class="numero" type="number" value="10"> 
+                            <span class="ingestao">Confirmação de ingestão automática</span>
+                            <input class="btn-2" type="checkbox">
+                            <span class="pessoa">Alertar pessoa em caso de não ingestão</span>
+                            <input checked class="btn-3" type="checkbox">
+                            <form action="">
+                                <input required class="email01" type="email" placeholder="Email da pessoa">
+                                <input class="botao01" type="button" value="Adicionar">
+                            </form>
+                        </fieldset>     
+                    </div>   
+                </div>
+            </div>         
+    <!--------------------------------------------------AJUDA--------------------------------------------------------------->
+            <div id="modal-promocao03" class="modal-container03">
+                <div class="modal03">
+                    <div id="configuracoes-aberto" class="ajuda">
+                        <a id="li02" href="home-usuario-comum.html">
+                            <input type="button" id="fechar6" class="fechar" name="" value="x">
+                         </a>
+                        <button type="button" id="voltar6" class="voltar6"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                        <fieldset class="cofiguracoes01">
+                            <legend id="leconf" class="legendconf04"><strong>Ajuda</strong></legend>
+                            <textarea name="duvida" class="duvida" maxlength="250" id="duvida" cols="30" rows="5" placeholder="Digite sua dúvida ou problema..."></textarea>
+                            <input class="botao02" type="button" value="Enviar">      
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script src="script/scripts-configuracoes.js"></script>
+    </body>
+</html>
