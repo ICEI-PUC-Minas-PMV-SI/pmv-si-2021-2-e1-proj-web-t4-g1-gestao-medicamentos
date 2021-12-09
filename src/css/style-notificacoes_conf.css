@@ -1,0 +1,668 @@
+.modal-container02{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container02.mostrar02{
+    display: flex;
+}
+@keyframes modal02{
+    from {
+        opacity: 0;
+        transform: translate(0, -60, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+.mostrar02 .modal02{
+    animation: modal02 .4s;
+}
+.notificacoes{
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #b0daee;
+    text-align: center;
+    border-radius: 10px;
+    border : none;
+    padding: 2% 2%;
+}
+#fechar5{
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #E81330;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(134, 3, 3, 0.37);
+    transition: 0.6s;
+}
+#fechar5:hover{
+    width: 52px;
+    height: 52px;
+}
+#voltar5{
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #b0daee;
+    background: #011AD6;
+    color: #b0daee;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(3, 0, 139, 0.37);
+    transition: 0.6s;
+}
+#voltar5:hover{
+    width: 52px;
+    height: 52px;
+}
+.legendconf03{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:#036494;
+    text-shadow: 1px 2px 4px #337381;
+    cursor: default;
+}
+.estoque{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#2c5f5f;
+    background: #89bed6;
+    padding:  13px 41px;
+    border-radius: 15px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    cursor: default;
+}
+.quantidade{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#2c5f5f;
+    background: #89bed6;
+    padding:  13px 74px;
+    border-radius: 15px;
+    position: absolute;
+    top: 125px;
+    left: 50px;
+    cursor: default;
+}
+.ingestao{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#2c5f5f;
+    background: #89bed6;
+    padding:  13px 21px;
+    border-radius: 15px;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    cursor: default;
+}
+.pessoa{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#2c5f5f;
+    background: #89bed6;
+    padding:  13px 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 235px;
+    left: 50px;
+    cursor: default;
+}
+
+.btn-1{
+    position: absolute;
+    left: 220px;
+    top: 7px;
+}
+.btn-2{
+    position: absolute;
+    left: 145px;
+    top: 119px;
+}
+.btn-3{
+    position: absolute;
+    left: 69px;
+    top: 172px;
+}
+.numero{
+    position: absolute;
+    background-color: #b0daee;
+    border: 1px solid rgb(2, 132, 255);
+    color: #7c8081;
+    left: 340px;
+    top: 125px;
+    padding:  9px 22px;
+    width: 30px;
+    height: 25px;
+    border-radius: 15px;  
+    outline: none;
+}
+.numero:focus{
+    border: 1px solid #011AD6;
+    color: black;
+}
+input[type="checkbox"] {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    -webkit-appearance: none;
+    background-color: #89bed6; 
+    outline: none;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(85, 85, 85, 0.2);
+    transition: .2s; 
+    cursor: pointer;
+}
+
+input:checked[type="checkbox"] {
+    background-color: #2c5f5f;
+}
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    transform: scale(1.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+}
+input:checked[type="checkbox"]:before {
+    left: 30px;
+} 
+.email01{
+    border: 0;
+    background-color: #b0daee;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+    display: block;
+    margin: 30px auto;
+    text-align: left;
+    border: 1.75px solid rgb(2, 132, 255);
+    padding:  14px 20px;
+    width: 200px;
+    outline: none;
+    color: #7c8081;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+.email01:focus{
+    border: 1.75px solid #011AD6;
+    color: black;
+}
+.botao01{
+    background-color: #00B4D7;
+    display: block;
+    position: absolute;
+    top: 270px;
+    left: 310px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1.75px solid #00B4D7;
+    padding:  15px 15px;
+    width: 100px;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.botao01:hover{
+    background: #b0daee;
+    border-color: #00B7D5;
+    color: #00B7D5;
+}
+
+@media(max-width:1200px){
+    .numero{
+        left: 335px;
+    }
+    .btn-1{
+
+        left: 220px;
+        top: 8px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 120px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 173px;
+    }
+
+}
+@media(max-width:1100px){
+    .numero{
+        left: 333px;
+    }
+    .btn-1{
+
+        left: 220px;
+        top: 9px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 121px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 174px;
+    }
+
+}
+@media(max-width:1000px){
+    .estoque{
+        padding:  13px 41px;
+        top: 70px;
+        left: 40px;
+    }
+    .quantidade{
+        padding:  13px 74px;
+        top: 125px;
+        left: 40px;
+    }
+    .ingestao{
+        padding:  13px 21px;
+        top: 180px;
+        left: 40px;
+    }
+    .pessoa{
+        padding:  13px 10px;
+        top: 235px;
+        left: 40px;
+    }
+    .email01{
+        top: 270px;
+        left: 40px;
+    }
+    .numero{
+        left: 330px;
+    }
+    .btn-1{
+
+        left: 220px;
+        top: 12px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 123px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 177px;
+    }
+    .botao01{
+        top: 270px;
+        left: 300px;
+    }
+}
+@media(max-width:900px){
+    .estoque{
+        padding:  13px 41px;
+        top: 70px;
+        left: 40px;
+    }
+    .quantidade{
+        padding:  13px 74px;
+        top: 125px;
+        left: 40px;
+    }
+    .ingestao{
+        padding:  13px 21px;
+        top: 180px;
+        left: 40px;
+    }
+    .pessoa{
+        padding:  13px 10px;
+        top: 235px;
+        left: 40px;
+    }
+    .email01{
+        top: 270px;
+        left: 40px;
+    }
+    .numero{
+        left: 327px;
+    }
+    .btn-1{
+
+        left: 220px;
+        top: 13px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 124px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 178px;
+    }
+    .botao01{
+        top: 270px;
+        left: 300px;
+    }
+}
+@media(max-width:800px){
+    .estoque{
+        padding:  13px 41px;
+        top: 70px;
+        left: 40px;
+    }
+    .quantidade{
+        padding:  13px 74px;
+        top: 125px;
+        left: 40px;
+    }
+    .ingestao{
+        padding:  13px 21px;
+        top: 180px;
+        left: 40px;
+    }
+    .pessoa{
+        padding:  13px 10px;
+        top: 235px;
+        left: 40px;
+    }
+    .email01{
+        top: 265px;
+        left: 40px;
+    }
+    .numero{
+        left: 323px;
+    }
+    .btn-1{
+
+        left: 220px;
+        top: 15px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 126px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 180px;
+    }
+    .botao01{
+        top: 265px;
+        left: 300px;
+    }
+
+}
+@media(max-width:700px){
+    .estoque{
+        padding:  13px 41px;
+        top: 60px;
+        left: 35px;
+    }
+    .quantidade{
+        padding:  13px 74px;
+        top: 115px;
+        left: 35px;
+    }
+    .ingestao{
+        padding:  13px 21px;
+        top: 170px;
+        left: 35px;
+    }
+    .pessoa{
+        padding:  13px 10px;
+        top: 225px;
+        left: 35px;
+    }
+    .email01{
+        top: 255px;
+        left: 35px;
+    }
+    .numero{
+        top: 115px;
+        left: 319px;
+    }
+    .btn-1{
+        left: 220px;
+        top: 10px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 120px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 175px;
+    }
+    .botao01{
+        top: 255px;
+        left: 290px;
+    }
+}
+@media(max-width:600px){
+    .estoque{
+        padding:  13px 41px;
+        top: 60px;
+        left: 35px;
+    }
+    .quantidade{
+        padding:  13px 74px;
+        top: 115px;
+        left: 35px;
+    }
+    .ingestao{
+        padding:  13px 21px;
+        top: 170px;
+        left: 35px;
+    }
+    .pessoa{
+        padding:  13px 10px;
+        top: 225px;
+        left: 35px;
+    }
+    .email01{
+        top: 255px;
+        left: 35px;
+    }
+    .numero{
+        top: 115px;
+        left: 317px;
+    }
+    .btn-1{
+        left: 220px;
+        top: 10px;
+    }
+    .btn-2{
+
+        left: 145px;
+        top: 120px;
+    }
+    .btn-3{
+
+        left: 69px;
+        top: 175px;
+    }
+    .botao01{
+        top: 255px;
+        left: 290px;
+    }
+
+}
+@media(max-width:500px){
+    #fechar5{
+        top: -5px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    #fechar5:hover{
+        width: 42px;
+        height: 42px;
+    }
+    #voltar5{
+        top: -5px;
+        left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    #voltar5:hover{
+        width: 42px;
+        height: 42px;
+    }
+    .estoque{
+        padding:  13px 41px;
+        top: 60px;
+        left: 35px;
+    }
+    .quantidade{
+        padding:  13px 74px;
+        top: 115px;
+        left: 35px;
+    }
+    .ingestao{
+        padding:  13px 21px;
+        top: 170px;
+        left: 35px;
+    }
+    .pessoa{
+        padding:  13px 10px;
+        top: 225px;
+        left: 35px;
+    }
+    .email01{
+        top: 255px;
+        left: 35px;
+    }
+    .numero{
+        top: 115px;
+        left: 317px;
+    }
+    .btn-1{
+        left: 220px;
+        top: 13px;
+    }
+    .btn-2{
+        left: 145px;
+        top: 123px;
+    }
+    .btn-3{
+        left: 69px;
+        top: 178px;
+    }
+    .botao01{
+        top: 255px;
+        left: 290px;
+    }
+}
+@media(max-width:320px){
+    .legendconf03{
+        position: absolute;
+        left: 140px;
+        top: 5px;
+    }
+    #fechar5{
+        top: -5px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    #fechar5:hover{
+        width: 42px;
+        height: 42px;
+    }
+    #voltar5{
+        top: -5px;
+        left: 55px;
+        width: 40px;
+        height: 40px;
+    }
+    #voltar5:hover{
+        width: 42px;
+        height: 42px;
+    }
+    .estoque{
+        padding:  13px 35px;
+        top: 60px;
+        left: 45px;
+    }
+    .quantidade{
+        padding:  13px 68px;
+        top: 115px;
+        left: 45px;
+    }
+    .ingestao{
+        padding:  13px 15px;
+        top: 170px;
+        left: 45px;
+    }
+    .pessoa{
+        padding:  13px 4px;
+        top: 225px;
+        left: 45px;
+    }
+    .email01{
+        width: 190px;
+        top: 255px;
+        left: 45px;
+    }
+    .numero{
+        top: 115px;
+        left: 317px;
+    }
+    .btn-1{
+        left: 220px;
+        top: 43px;
+    }
+    .btn-2{
+        left: 145px;
+        top: 153px;
+    }
+    .btn-3{
+        left: 69px;
+        top: 208px;
+    }
+    .botao01{
+        top: 255px;
+        left: 290px;
+    }
+
+} 
