@@ -8,14 +8,15 @@
 
 Sistema de gerenciamento de medicamentos.
 
+<a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2021-2-e1-proj-web-t4-g1-gestao-medicamentos/src/login2.html" target="_blank">![Logo Gestão Med](src/imagens/marca.png)</a>
+
+
 ## Integrantes
 
-* Marcos Paulo Silva Costa
-* Pedro Henriques Ângelo Andrade Barros
-* Guilherme Lima de Freitas
-* Eduarda Cristina Ramos da Silva
-* Alysson Roberto Cordeiro
-* Matheus Henrique Novaes Braga
+* <a href="https://github.com/MarcosPaulo62">Marcos Paulo Silva Costa</a>
+* <a href="https://github.com/guifreitas27">Guilherme Lima de Freitas</a>
+* <a href="https://github.com/AlyRobCor-05">Alysson Roberto Cordeiro</a>
+* <a href="https://github.com/matheusnov">Matheus Henrique Novaes Braga</a>
 
 ## Orientador
 
@@ -23,13 +24,14 @@ Sistema de gerenciamento de medicamentos.
 
 # Planejamento
 
-| Etapa         | Período                   | Atividades |
-|  :----:   |  :----:               | ----------- |
-| ETAPA 1       | 16/08/2021 - 17/09/2021   |[Documentação de Contexto](docs/context.md) <br> [Especificação do Projeto](docs/especification.md) |
-| ETAPA 2       | 20/09/2021 - 08/10/2021   |[Projeto de Interface](docs/interface.md) <br> [Template Padrão](docs/template.md) |
-| ETAPA 3       | 11/10/2021 - 05/11/2021   |[Programação de Funcionalidades - HTML e CSS](docs/development.md) |
-| ETAPA 4       | 08/11/2021 - 03/12/2021   |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
-| ETAPA 5       | 06/12/2021 - 17/12/2021   | [Apresentação](presentation/README.md) |
+1. [Documentação de Contexto](docs/context.md)
+2. [Especificação do Projeto](docs/especification.md) 
+2. [Projeto de Interface](docs/interface.md)
+3. [Template Padrão](docs/template.md) 
+4. [Programação de Funcionalidades - HTML e CSS](docs/development.md) 
+5. [Programação de Funcionalidades - Javascript](docs/development.md)
+6. [Testes de Software ](docs/tests.md)
+7. [Apresentação](presentation/README.md)
 
 # Código
 
