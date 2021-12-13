@@ -1,6 +1,13 @@
 let lista = document.querySelector('.scroll');
 
-for (var i = 0; i < 7; i++){
+
+let listaMedCad = JSON.parse(localStorage.getItem('listaMedicamentos'));
+
+let contador = listaMedCad.length;
+
+for (var i = 0; i < contador; i++){
+    let semMed = document.querySelector('.sem-med');
+    semMed.style.display="none";
 
 
     let horaRemedio = document.createElement('div');
@@ -47,14 +54,14 @@ for (var i = 0; i < 7; i++){
 
 
 
-    hora.innerHTML = ( 10 + (i*2) ) + 'h';
+    hora.innerHTML = listaMedCad[i].horarioCad + 'h';
 
     horario.appendChild(hora);
     horario.appendChild(hr);
 
     tarefa.innerHTML = 'Tomar ';
 
-    remedio.innerHTML = 'Xarelto';
+    remedio.innerHTML = listaMedCad[i].nomeMedCad;
 
     expandir.src = 'imagens/expandir.png';
 
@@ -72,7 +79,7 @@ for (var i = 0; i < 7; i++){
 
     let tarefaAberta = document.createElement('div');
     tarefaAberta.classList.add('tarefa-aberta');
-    tarefaAberta.innerHTML = 'Tomar <span class="remedio">Xarelto</span><span><a class="retrair" ><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br><a href="" class="feito">Marcar como feito</a><a href="" class="opcoes">...</a>';
+    tarefaAberta.innerHTML = 'Tomar <span class="remedio">' + listaMedCad[i].nomeMedCad + '</span><span><a class="retrair" ><img class="expandido" src="imagens/expandido.png" alt=""></a></span><br><a href="" class="feito">Marcar como feito</a><a href="" class="opcoes">...</a>';
     horaRemedio.appendChild(tarefaAberta);
 
 
