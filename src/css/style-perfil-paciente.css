@@ -174,11 +174,11 @@ main .hora-remedio .horario{
     display: flex;
 }
 main .hora-remedio .horario .hora{
-    width: 35px;
+    width: 40px;
 }
 main .hora-remedio .horario hr{
     background-color: white;
-    width: 100%;
+    width: 80%;
 }
 main .hora-remedio .hora, main .hora-remedio hr{
     color: white;
@@ -343,6 +343,12 @@ aside{
     background-color: blue;
     color: white;
     border-radius: 25px;
+}
+
+.sem-med{
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 aside #notificacoes-home{
@@ -532,6 +538,9 @@ aside .adicionar-medicamento a{
     }
 }
 @media (max-width: 440px){
+    main .hora-remedio .horario .hora{
+        width: 45px;
+    }
     
     #barra-navegacao ul{
         margin: 10px auto 0;
