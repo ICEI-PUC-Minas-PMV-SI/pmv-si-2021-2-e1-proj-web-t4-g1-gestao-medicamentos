@@ -23,7 +23,8 @@ GestãoMed
 [Apresentação GestãoMed.pptx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-2-e1-proj-web-t4-g1-gestao-medicamentos/raw/main/presentation/Apresenta%C3%A7%C3%A3o%20Gest%C3%A3oMed.pptx)
 
 
-[![Watch the video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-2-e1-proj-web-t4-g1-gestao-medicamentos/blob/main/presentation/img/CapaVideo.png)](https://vimeo.com/657467075)
+[![Watch the video](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-2-e1-proj-web-t4-g1-gestao-medicamentos/blob/main/presentation/img/CapaVideo.png)](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2021-2-e1-proj-web-t4-g1-gestao-medicamentos/blob/main/presentation/Gest%C3%A3oMed.mp4?raw=true)
+
 <!--O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
  
 > **Links Úteis**:
